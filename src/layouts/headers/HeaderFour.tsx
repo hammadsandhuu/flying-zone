@@ -5,11 +5,9 @@ import Image from "next/image"
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 import Offcanvas from "./Menu/Offcanvas";
-import CartIcon from "@/svg/CartIcon";
+import Sidebar from "./Menu/Sidebar";
 import PhoneIcon from "@/svg/PhoneIcon";
 import UserIcon from "@/svg/UserIcon";
-import TotalCart from "./Menu/TotalCart";
-import HeaderCart from "./Menu/HeaderCart";
 
 import logo from "@/assets/img/logo/logo-green.png";
 
@@ -17,6 +15,7 @@ const HeaderFour = () => {
 
    const { sticky } = UseSticky();
    const [offCanvas, setOffCanvas] = useState<boolean>(false);
+   const [sidebar, setSidebar] = useState<boolean>(false);
 
    return (
       <>
@@ -41,15 +40,6 @@ const HeaderFour = () => {
                      </div>
                      <div className="col-xl-5 col-8">
                         <div className="tg-menu-right-action tg-menu-right-action-2 d-flex align-items-center justify-content-end">
-                           <div className="tg-header-cart p-relative d-none d-xl-block">
-                              <button className="cart-button">
-                                 <span>
-                                    <CartIcon />
-                                 </span>
-                                 <span className="tg-header-cart-count"><TotalCart /></span>
-                              </button>
-                              <HeaderCart />
-                           </div>
                            <div className="tg-header-contact-info ml-20 d-flex align-items-center">
                               <span className="tg-header-contact-icon mr-5 d-none d-xl-block">
                                  <PhoneIcon />
@@ -60,15 +50,28 @@ const HeaderFour = () => {
                               </div>
                            </div>
                            <div className="tg-header-btn ml-20 d-none d-sm-block">
-                              <Link className="tg-btn-header" href="/login">
+                              <Link className="tg-btn-header" href="/contact">
                                  <span>
                                     <UserIcon />
                                  </span>
-                                 Login
+                                 Get Quote
                               </Link>
                            </div>
-                           <div className="tg-header-menu-bar lh-1 p-relative pl-20 d-block d-xl-none">
-                              <button onClick={() => setOffCanvas(true)} style={{ cursor: "pointer" }} className="tgmenu-offcanvas-open-btn mobile-nav-toggler mobile-nav-black">
+                           <div className="tg-header-menu-bar lh-1 p-relative pl-20">
+                              <button
+                                 onClick={() => setSidebar(true)}
+                                 style={{ cursor: "pointer" }}
+                                 className="tgmenu-offcanvas-open-btn menu-tigger mobile-nav-black d-none d-xl-block"
+                              >
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </button>
+                              <button
+                                 onClick={() => setOffCanvas(true)}
+                                 style={{ cursor: "pointer" }}
+                                 className="tgmenu-offcanvas-open-btn mobile-nav-toggler mobile-nav-black d-block d-xl-none"
+                              >
                                  <span></span>
                                  <span></span>
                                  <span></span>
@@ -81,6 +84,7 @@ const HeaderFour = () => {
             </div>
          </header>
          <Offcanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas} />
+         <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       </>
    )
 }

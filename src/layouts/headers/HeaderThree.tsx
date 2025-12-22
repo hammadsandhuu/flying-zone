@@ -7,10 +7,7 @@ import UseSticky from "@/hooks/UseSticky";
 import Offcanvas from "./Menu/Offcanvas";
 import Sidebar from "./Menu/Sidebar";
 import PhoneIcon from "@/svg/PhoneIcon";
-import CartIcon from "@/svg/CartIcon";
 import UserIcon from "@/svg/UserIcon";
-import HeaderCart from "./Menu/HeaderCart";
-import TotalCart from "./Menu/TotalCart";
 
 import logo_1 from "@/assets/img/logo/logo-white.png";
 import logo_2 from "@/assets/img/logo/logo-green.png";
@@ -51,22 +48,12 @@ const HeaderThree = () => {
                                  <Link href="tel:+123595966">+123 5959 66</Link>
                               </div>
                            </div>
-                           <div className="tg-header-cart p-relative ml-20 pl-20 d-none d-xl-block">
-                              <span className="tg-header-border"></span>
-                              <button className="cart-button">
-                                 <span>
-                                    <CartIcon />
-                                 </span>
-                                 <span className="tg-header-cart-count"><TotalCart /></span>
-                              </button>
-                              <HeaderCart />
-                           </div>
                            <div className="tg-header-btn ml-20 d-none d-sm-block">
-                              <Link className="tg-btn-header" href="/login">
+                              <Link className="tg-btn-header" href="/contact">
                                  <span>
                                     <UserIcon />
                                  </span>
-                                 Login
+                                 Get Quote
                               </Link>
                            </div>
                            <div className="tg-header-menu-bar lh-1 p-relative ml-20 pl-20">

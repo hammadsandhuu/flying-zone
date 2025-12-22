@@ -1,7 +1,7 @@
 import HeaderThree from "@/layouts/headers/HeaderThree"
 import FeatureArea from "./FeatureArea"
 import BreadCrumb from "./BreadCrumb"
-import FooterSix from "@/layouts/footers/FooterSix"
+import FooterFour from "@/layouts/footers/FooterFour"
 
 const FeatureThree = () => {
    return (
@@ -11,7 +11,7 @@ const FeatureThree = () => {
             <BreadCrumb />
             <FeatureArea />
          </main>
-         <FooterSix />
+         <FooterFour />
       </>
    )
 }

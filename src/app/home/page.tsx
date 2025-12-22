@@ -1,13 +1,13 @@
-import BlogTwo from "@/components/blogs/blog-two/indesx";
+import Home from "@/components/homes/home";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Blog Two Flyingzone - Tour & Travel Booking React Next js Template",
+  title: "Home Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
   return (
     <Wrapper>
-      <BlogTwo />
+      <Home />
     </Wrapper>
   )
 }

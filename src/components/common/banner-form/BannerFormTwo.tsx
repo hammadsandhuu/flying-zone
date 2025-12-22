@@ -81,8 +81,7 @@ const BannerFormTwo = () => {
       <form onSubmit={(e) => e.preventDefault()}>
          <div className="tg-booking-form-input-group d-flex align-items-end justify-content-between">
             <div className="tg-booking-form-parent-inner tg-hero-quantity p-relative mr-15 mb-10">
-            <span className="tg-booking-form-title mb-5">Check in:</span>
-               {/* <span className="tg-booking-form-title mb-5">Destinations:</span> */}
+            <span className="tg-booking-form-title mb-5">Location:</span>
                <div ref={locationRef} onClick={() => setLocation((prev) => !prev)} className={`tg-booking-add-input-field tg-booking-quantity-toggle ${location ? "active" : ""} `}>
                   <span className="tg-booking-title-value">Where are you going . . .</span>
                   <span className="location">

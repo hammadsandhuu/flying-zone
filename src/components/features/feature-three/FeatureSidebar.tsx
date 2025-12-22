@@ -22,7 +22,8 @@ interface FeatureSidebarProps {
 const FeatureSidebar = ({ setProducts }: FeatureSidebarProps) => {
  
   const allProducts = useSelector(selectProducts);
-  const filterdProduct = allProducts.filter(product => product.page === 'shop_3');
+  // Use all products for travel agency - show all tours
+  const filterdProduct = allProducts;
 
   const [durationSelected, setDurationSelected] = useState('');
   const [amenitiesSelected, setAmenitiesSelected] = useState('');

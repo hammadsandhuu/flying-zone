@@ -1,12 +1,14 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
+import CtaTwo from "@/components/homes/home/CtaTwo"
 
 import logo from "@/assets/img/logo/logo-white.png"
 
 const FooterFour = () => {
    return (
       <footer>
+         <CtaTwo />
          <div className="tg-footer-area tg-footer-space include-bg" style={{ backgroundImage: `url(/assets/img/footer/footer.jpg)` }}>
             <div className="container">
                <div className="tg-footer-top mb-40">
@@ -102,7 +104,7 @@ const FooterFour = () => {
             </div>
             <div className="tg-footer-copyright text-center">
                <span>
-                  Copyright <Link href="#">©Tourex</Link> |  All Right Reserved
+                  Copyright <Link href="#">©Flyingzone</Link> |  All Right Reserved
                </span>
             </div>
          </div>

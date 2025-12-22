@@ -3,12 +3,12 @@ import ShopDetails from "@/components/pages/shops/shop-details";
 import ShopDetailsArea from "@/components/pages/shops/shop-details/ShopDetailsArea";
 import ShopDetailsTabArea from "@/components/pages/shops/shop-details/ShopDetailsTabArea";
 import shop_data from "@/data/ShopData";
-import FooterSix from "@/layouts/footers/FooterSix";
+import FooterFour from "@/layouts/footers/FooterFour";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Shop Details Tourex - Tour & Travel Booking React Next js Template",
+  title: "Shop Details Flyingzone - Tour & Travel Booking React Next js Template",
 };
 
 const page = async ({ params }: { params: Promise<{ id: string }> }) => {
@@ -24,7 +24,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
         <ShopDetailsArea single_product={single_product} />
         <ShopDetailsTabArea />
       </main>
-      <FooterSix />
+      <FooterFour />
       <ShopDetails />
     </Wrapper>
   )

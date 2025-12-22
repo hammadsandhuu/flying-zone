@@ -2,7 +2,7 @@ import BlogDetails from "@/components/blogs/blog-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Blog Details Tourex - Tour & Travel Booking React Next js Template",
+  title: "Blog Details Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
   return (

@@ -20,13 +20,14 @@ const FeatureArea = () => {
 
    const itemsPerPage = 12;
    const [itemOffset, setItemOffset] = useState(0);
-   const filteredProducts = products.filter((item) => item.page === "shop_3");
+   // Show all tours for travel agency website - no filter
+   const filteredProducts = products;
    const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
    const currentItems = filteredProducts.slice(itemOffset, itemOffset + itemsPerPage);
 
    const startOffset = itemOffset + 1;
-   const endOffset = Math.min(itemOffset + itemsPerPage, products.length);
-   const totalItems = products.length;
+   const endOffset = Math.min(itemOffset + itemsPerPage, filteredProducts.length);
+   const totalItems = filteredProducts.length;
 
    const handlePageClick = ({ selected }: { selected: number }) => {
       const newOffset = selected * itemsPerPage;
@@ -48,7 +49,7 @@ const FeatureArea = () => {
    };
 
    return (
-      <div className="tg-listing-grid-area mb-85 pt-80">
+      <div className="tg-listing-grid-area mb-120 pt-80">
          <div className="container">
             <div className="row">
                <FeatureSidebar setProducts={setProducts} />
@@ -67,9 +68,9 @@ const FeatureArea = () => {
                         <div className={`row list-card ${isListView ? 'list-card-open' : ''}`}>
                            {currentItems.map((item) => (
                               <div key={item.id} className="col-xxl-4 col-xl-6 col-lg-6 col-md-6 tg-grid-full">
-                                 <div className="tg-listing-card-item tg-listing-2-card-item mb-25">
+                                 <div className="tg-listing-card-item tg-listing-2-card-item mb-40">
                                     <div className="tg-listing-card-thumb tg-listing-2-card-thumb fix p-relative">
-                                       <Link href="/tour-details">
+                                       <Link href={`/tour-details-2/${item.id}`}>
                                           <Image className="tg-card-border w-100" src={item.thumb} alt="listing" />
                                           {item.tag && <span className="tg-listing-item-price-discount shape">{item.tag}</span>}
                                           {item.featured && <span className="tg-listing-item-price-discount shape-3">
@@ -99,7 +100,7 @@ const FeatureArea = () => {
                                              <span className="shift">/night</span>
                                           </div>
                                        </div>
-                                       <h4 className="tg-listing-card-title"><a href="tour-details.html">{item.title}</a></h4>
+                                       <h4 className="tg-listing-card-title"><Link href={`/tour-details-2/${item.id}`}>{item.title}</Link></h4>
                                        <div className="tg-listing-card-review mb-5">
                                           <Rating initialValue={item.review} size={16} readonly={true} />
                                           <span className="tg-listing-rating-icon"><i className="fa-sharp fa-solid fa-star"></i></span>
@@ -129,7 +130,7 @@ const FeatureArea = () => {
                               </div>
                            ))}
                         </div>
-                        <div className="tg-pagenation-wrap text-center mt-50 mb-30">
+                        <div className="tg-pagenation-wrap text-center mt-60 mb-50">
                            <nav>
                               <ReactPaginate
                                  breakLabel="..."

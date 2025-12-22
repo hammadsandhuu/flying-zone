@@ -2,7 +2,7 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Contact Tourex - Tour & Travel Booking React Next js Template",
+  title: "Contact Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "tourex",
+  "name": "flyingzone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,11 +15,12 @@
     "bootstrap": "^5.3.5",
     "flatpickr": "^4.6.13",
     "isotope-layout": "^3.0.6",
-    "next": "15.3.0",
-    "react": "^18.3.1",
+    "next": "16.0.7",
+    "react": "^19.2.3",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.2.3",
     "react-flatpickr": "^4.0.1",
+    "react-hook-form": "^7.69.0",
     "react-intersection-observer": "^9.16.0",
     "react-modal-video": "^2.0.2",
     "react-paginate": "^8.3.0",

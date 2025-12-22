@@ -2,7 +2,7 @@ import FeatureOne from "@/components/features/feature-one";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Feature One Tourex - Tour & Travel Booking React Next js Template",
+  title: "Feature One Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
   return (

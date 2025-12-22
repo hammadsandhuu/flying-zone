@@ -1,21 +1,25 @@
 import BreadCrumb from "./BreadCrumb"
 import TourDetailsArea from "./TourDetailsArea"
 import TourAboutDetails from "./TourAboutDetails"
-import HeaderSix from "@/layouts/headers/HeaderSix"
+import HeaderThree from "@/layouts/headers/HeaderThree"
 import Listing from "./Listing"
-import FooterFive from "@/layouts/footers/FooterFive"
+import FooterFour from "@/layouts/footers/FooterFour"
 
-const FeatureDetailsTwo = () => {
+interface FeatureDetailsTwoProps {
+   tour?: any;
+}
+
+const FeatureDetailsTwo = ({ tour }: FeatureDetailsTwoProps) => {
    return (
       <>
-         <HeaderSix />
+         <HeaderThree />
          <main>
-            <BreadCrumb />
-            <TourDetailsArea />
+            <BreadCrumb tour={tour} />
+            <TourDetailsArea tour={tour} />
             <TourAboutDetails />
             <Listing />
          </main>
-         <FooterFive />
+         <FooterFour />
       </>
    )
 }

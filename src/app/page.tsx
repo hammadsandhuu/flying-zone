@@ -1,15 +1,15 @@
-import HomeOne from "@/components/homes/home-one";
+import Home from "@/components/homes/home";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Tourex - Tour & Travel Booking React Next js Template",
+  title: "Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
   return (
     <Wrapper>
-      <HomeOne />
+      <Home />
     </Wrapper>
   )
 }
 
-export default page
+export default page 

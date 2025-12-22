@@ -2,7 +2,7 @@ import NotFound from "@/components/pages/error";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "404 || Tourex - Tour & Travel Booking React Next js Template",
+   title: "404 || Flyingzone - Tour & Travel Booking React Next js Template",
 };
 const page = () => {
    return (
