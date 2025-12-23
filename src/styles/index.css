@@ -6,3 +6,89 @@
 @import "../../public/assets/css/default.css";
 @import "../../public/assets/css/flatpicker.css";
 @import "../../public/assets/css/fontawesome-all.min.css";
+
+/* Fix horizontal scrollbar on mobile */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fix container-fluid and custom containers on mobile */
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Fix hero section on mobile */
+  .tg-hero-area {
+    overflow: hidden;
+  }
+  
+  .tg-hero-2-content {
+    border-radius: 20px !important;
+    padding: 150px 15px 150px 15px !important;
+    margin: 0 10px;
+  }
+  
+  .tg-hero-2-title {
+    font-size: 40px !important;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+  
+  /* Ensure no element exceeds viewport */
+  .container-1630,
+  .container-1545,
+  .container-1790,
+  .container-1860 {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Fix booking form - stack fields vertically on mobile */
+  .tg-booking-form-input-group {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  
+  .tg-booking-form-parent-inner {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .tg-booking-form-search-btn {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  
+  .tg-booking-form-search-btn .bk-search-button {
+    width: 100% !important;
+  }
+  
+  /* Fix row and col padding on mobile */
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .row > * {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
