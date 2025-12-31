@@ -1,0 +1,87 @@
+{
+  "globalVisa": [
+    {
+      "id": "global-1",
+      "question": "01. What is a Global Visa and which countries does it cover?",
+      "answer": "A Global Visa allows you to travel to multiple countries with a single visa application. Our Global Visa services cover popular destinations worldwide including Europe, Asia, Americas, and other regions. Each visa type has specific country coverage which is detailed in the visa description."
+    },
+    {
+      "id": "global-2",
+      "question": "02. How long does it take to process a Global Visa?",
+      "answer": "Processing times vary depending on the destination country and visa type. Typically, Global Visas take 7-10 working days for standard processing. Some countries may offer expedited processing for an additional fee. Exact processing times are mentioned in each visa package."
+    },
+    {
+      "id": "global-3",
+      "question": "03. What documents are required for Global Visa applications?",
+      "answer": "Common requirements include a valid passport (minimum 6 months validity), passport-sized photographs, completed application form, travel itinerary, proof of accommodation, bank statements, travel insurance, and invitation letters (if applicable). Specific requirements vary by destination."
+    },
+    {
+      "id": "global-4",
+      "question": "04. Can I apply for multiple countries with one Global Visa?",
+      "answer": "Some Global Visas, like Schengen visas, allow travel to multiple countries within a region. However, most visas are country-specific. Please check the visa description for multi-country coverage details. We can assist with applications for multiple countries if needed."
+    },
+    {
+      "id": "global-5",
+      "question": "05. What is the validity period of Global Visas?",
+      "answer": "Validity periods vary by visa type and destination country. Tourist visas typically range from 30 to 90 days, while business visas may have longer validity. The exact validity period is specified in each visa package description."
+    },
+    {
+      "id": "global-6",
+      "question": "06. Do I need travel insurance for Global Visa applications?",
+      "answer": "Yes, most countries require travel insurance as part of the visa application process. The insurance must meet specific coverage requirements (usually minimum coverage amounts). We can assist you in obtaining the appropriate travel insurance for your destination."
+    },
+    {
+      "id": "global-7",
+      "question": "07. Can I extend my Global Visa after arrival?",
+      "answer": "Visa extension policies vary by country. Some countries allow extensions, while others require you to leave and reapply. Extension eligibility depends on visa type, country regulations, and your specific circumstances. We recommend checking extension policies before travel."
+    },
+    {
+      "id": "global-8",
+      "question": "08. What happens if my Global Visa application is rejected?",
+      "answer": "If your visa is rejected, we will provide you with the rejection reasons. You may be able to reapply after addressing the issues, or appeal the decision depending on the country's policies. Refund policies vary - please check our terms and conditions for details."
+    }
+  ],
+  "uaeVisa": [
+    {
+      "id": "uae-1",
+      "question": "01. What types of UAE visas are available?",
+      "answer": "We offer various UAE visa types including Tourist Visa (30/60/90 days), Transit Visa (48 hours), Visit Visa, Business Visa, and Multiple Entry Visa. Each visa type has specific purposes, validity periods, and requirements. Choose the one that best fits your travel needs."
+    },
+    {
+      "id": "uae-2",
+      "question": "02. How long does UAE visa processing take?",
+      "answer": "UAE visa processing times vary by visa type. Transit visas typically take 1-2 working days, Tourist visas take 3-7 working days, and Visit/Business visas take 5-10 working days. Processing times are mentioned in each visa package description."
+    },
+    {
+      "id": "uae-3",
+      "question": "03. What documents do I need for UAE visa application?",
+      "answer": "Required documents include a valid passport (minimum 6 months validity), passport-sized photographs, completed application form, confirmed flight tickets, hotel booking confirmation, bank statements (last 3-6 months), and travel insurance. Additional documents may be required for business visas."
+    },
+    {
+      "id": "uae-4",
+      "question": "04. Can I extend my UAE visa?",
+      "answer": "Yes, UAE visas can often be extended, but this depends on the visa type and your current status. Tourist visas can typically be extended for an additional 30 days. Extension fees and processing times apply. We can assist with visa extension services."
+    },
+    {
+      "id": "uae-5",
+      "question": "05. Do I need a sponsor for UAE visa?",
+      "answer": "Tourist visas usually don't require a sponsor if you have confirmed hotel bookings. However, Visit Visas and some other visa types may require a sponsor (family member, friend, or company in UAE). Business visas typically require a company sponsor in the UAE."
+    },
+    {
+      "id": "uae-6",
+      "question": "06. What is the difference between UAE Tourist Visa and Visit Visa?",
+      "answer": "Tourist Visa is for short-term tourism purposes (typically 30-90 days) and doesn't require a sponsor if you have hotel bookings. Visit Visa is for visiting family/friends, usually requires a sponsor, and can have longer validity periods. Both are suitable for different travel purposes."
+    },
+    {
+      "id": "uae-7",
+      "question": "07. Can I enter UAE multiple times with one visa?",
+      "answer": "Regular tourist and visit visas are typically single-entry. However, we offer Multiple Entry Visas that allow you to enter and exit the UAE multiple times within the visa validity period. This is ideal for frequent travelers or business purposes."
+    },
+    {
+      "id": "uae-8",
+      "question": "08. What should I do if my UAE visa is about to expire?",
+      "answer": "If your visa is expiring soon, you have options: extend your visa (if eligible), leave the UAE before expiration, or apply for a new visa. Overstaying can result in fines and future entry restrictions. We recommend planning ahead and contacting us for extension or renewal assistance."
+    }
+  ]
+}
+

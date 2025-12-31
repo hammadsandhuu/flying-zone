@@ -1,0 +1,163 @@
+{
+  "globalVisa": [
+    {
+      "id": "1",
+      "slug": "electronic-visa-adult-with-fan-insurance",
+      "title": "Electronic Visa Adult with Fan with Insurance",
+      "country": "New York",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "60 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "3,860",
+      "img": "/assets/img/home4/package-card4-img1.jpg",
+      "type": "global"
+    },
+    {
+      "id": "2",
+      "slug": "grown-up-e-visa-cooling-assurance",
+      "title": "Grown-up E-visa with Cooling and Assurance",
+      "country": "Egypt",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "50 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "3,500",
+      "img": "/assets/img/home4/package-card4-img2.jpg",
+      "type": "global"
+    },
+    {
+      "id": "3",
+      "slug": "digital-visa-adults-admirer-insurance",
+      "title": "Digital Visa for Adults with Admirer and Insurance",
+      "country": "Australia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "60 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "4,500",
+      "img": "/assets/img/innerpage/visa-package-img1.jpg",
+      "type": "global"
+    },
+    {
+      "id": "4",
+      "slug": "electronic-visa-individuals-follower",
+      "title": "Electronic Visa for Individuals with Follower",
+      "country": "Spain",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "40 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "2,500",
+      "img": "/assets/img/innerpage/visa-package-img2.jpg",
+      "type": "global"
+    },
+    {
+      "id": "5",
+      "slug": "e-visa-grown-ups-devotee-assurance",
+      "title": "E-Visa for Grown-Ups with Devotee and Assurance",
+      "country": "Turkey",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "40 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "4,200",
+      "img": "/assets/img/innerpage/visa-package-img3.jpg",
+      "type": "global"
+    },
+    {
+      "id": "6",
+      "slug": "virtual-visa-adults-supporter-protection",
+      "title": "Virtual Visa for Adults with Supporter and Protection",
+      "country": "India",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "40 Days",
+      "processingTime": "7-10 Working Day",
+      "price": "2,500",
+      "img": "/assets/img/innerpage/visa-package-img4.jpg",
+      "type": "global"
+    }
+  ],
+  "uaeVisa": [
+    {
+      "id": "1",
+      "slug": "uae-tourist-visa-30-days",
+      "title": "UAE Tourist Visa - 30 Days",
+      "country": "United Arab Emirates",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "30 Days",
+      "processingTime": "3-5 Working Days",
+      "price": "1,200",
+      "img": "/assets/img/home4/package-card4-img1.jpg",
+      "type": "uae"
+    },
+    {
+      "id": "2",
+      "slug": "uae-tourist-visa-60-days",
+      "title": "UAE Tourist Visa - 60 Days",
+      "country": "United Arab Emirates",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "60 Days",
+      "processingTime": "5-7 Working Days",
+      "price": "2,000",
+      "img": "/assets/img/home4/package-card4-img2.jpg",
+      "type": "uae"
+    },
+    {
+      "id": "3",
+      "slug": "uae-transit-visa-48-hours",
+      "title": "UAE Transit Visa - 48 Hours",
+      "country": "United Arab Emirates",
+      "visaType": "Transit",
+      "visaMode": "Electronic",
+      "validity": "48 Hours",
+      "processingTime": "1-2 Working Days",
+      "price": "800",
+      "img": "/assets/img/innerpage/visa-package-img1.jpg",
+      "type": "uae"
+    },
+    {
+      "id": "4",
+      "slug": "uae-visit-visa-90-days",
+      "title": "UAE Visit Visa - 90 Days",
+      "country": "United Arab Emirates",
+      "visaType": "Visit",
+      "visaMode": "Electronic",
+      "validity": "90 Days",
+      "processingTime": "7-10 Working Days",
+      "price": "3,500",
+      "img": "/assets/img/innerpage/visa-package-img2.jpg",
+      "type": "uae"
+    },
+    {
+      "id": "5",
+      "slug": "uae-multiple-entry-visa",
+      "title": "UAE Multiple Entry Visa",
+      "country": "United Arab Emirates",
+      "visaType": "Tourist",
+      "visaMode": "Electronic",
+      "validity": "90 Days",
+      "processingTime": "7-10 Working Days",
+      "price": "4,500",
+      "img": "/assets/img/innerpage/visa-package-img3.jpg",
+      "type": "uae"
+    },
+    {
+      "id": "6",
+      "slug": "uae-business-visa",
+      "title": "UAE Business Visa",
+      "country": "United Arab Emirates",
+      "visaType": "Business",
+      "visaMode": "Electronic",
+      "validity": "30 Days",
+      "processingTime": "5-7 Working Days",
+      "price": "2,500",
+      "img": "/assets/img/innerpage/visa-package-img4.jpg",
+      "type": "uae"
+    }
+  ]
+}
+

@@ -1,0 +1,594 @@
+{
+  "tours": [
+    {
+      "id": "1",
+      "slug": "allure-italy-rich-culture-history-cuisine",
+      "title": "the Allure Italy's Rich Culture, History, and Cuisine.",
+      "img": "/assets/img/home1/package-card-img1.png",
+      "duration": "3 Days / 4 Night",
+      "batch": "3 Days / 4 Night",
+      "location_list": ["Nepal", "Indonesia Tour"],
+      "place_list": ["Alexandria", "Sharm El Sheikh", "Mansoura", "Karachi", "Lahore", "Islamabad"],
+      "price": "2,898",
+      "originalPrice": "3000",
+      "description": "Discover the enchanting beauty of Italy with our comprehensive tour package. Experience the rich cultural heritage, explore historic landmarks, and savor authentic Italian cuisine. This carefully curated journey takes you through the most iconic destinations, from ancient ruins to Renaissance art, providing an immersive experience of Italy's timeless charm.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Rome",
+          "description": "Arrive at Rome airport, transfer to hotel, and enjoy a welcome dinner. Evening at leisure to explore the local area."
+        },
+        {
+          "day": "Day 2",
+          "title": "Rome City Tour",
+          "description": "Full-day guided tour of Rome including the Colosseum, Roman Forum, Trevi Fountain, and Vatican City. Experience the grandeur of ancient Rome and Renaissance art."
+        },
+        {
+          "day": "Day 3",
+          "title": "Florence & Tuscany",
+          "description": "Travel to Florence, visit the Uffizi Gallery, Ponte Vecchio, and enjoy a wine tasting tour in the beautiful Tuscan countryside."
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure",
+          "description": "Final breakfast at hotel, last-minute shopping, and transfer to airport for departure with unforgettable memories."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "3-star hotel accommodation with breakfast",
+        "All ground transportation and transfers",
+        "Professional English-speaking guide",
+        "Entrance fees to monuments and museums",
+        "Welcome dinner on arrival",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses and shopping",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Explore iconic landmarks in Rome and Florence",
+        "Experience authentic Italian cuisine and culture",
+        "Visit world-renowned museums and art galleries",
+        "Enjoy scenic views of the Tuscan countryside",
+        "Professional guide services throughout the tour"
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "explore-travel-nyc-museums-diversity-energy",
+      "title": "Explore Travel NYC's Museums, Diversity, and Energy.",
+      "img": "/assets/img/home1/package-card-img2.png",
+      "duration": "7 Days / 8 Night",
+      "batch": "7 Days / 8 Night",
+      "location_list": ["Egypt", "Turkey Tour"],
+      "place_list": ["Mecca", "Medina", "Riyadh", "Doha", "Al Wakrah", "Al Rayyan"],
+      "price": "3,256",
+      "originalPrice": null,
+      "description": "Immerse yourself in the vibrant energy of New York City with our comprehensive tour package. Explore world-class museums, experience the city's incredible diversity, and feel the pulse of one of the world's most dynamic metropolises. From iconic landmarks to hidden gems, discover what makes NYC truly special.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in NYC",
+          "description": "Arrive at JFK Airport, transfer to hotel in Manhattan. Evening welcome dinner and orientation session."
+        },
+        {
+          "day": "Day 2",
+          "title": "Manhattan Highlights",
+          "description": "Full-day tour of Manhattan including Times Square, Central Park, Empire State Building, and Broadway district."
+        },
+        {
+          "day": "Day 3",
+          "title": "Museum Day",
+          "description": "Visit the Metropolitan Museum of Art, Museum of Modern Art (MoMA), and American Museum of Natural History."
+        },
+        {
+          "day": "Day 4",
+          "title": "Brooklyn & Statue of Liberty",
+          "description": "Explore Brooklyn Bridge, DUMBO, and take a ferry to Statue of Liberty and Ellis Island."
+        },
+        {
+          "day": "Day 5",
+          "title": "Cultural Neighborhoods",
+          "description": "Tour diverse neighborhoods including Chinatown, Little Italy, Greenwich Village, and SoHo."
+        },
+        {
+          "day": "Day 6",
+          "title": "Broadway & Entertainment",
+          "description": "Enjoy a Broadway show, explore the Theater District, and experience NYC's nightlife."
+        },
+        {
+          "day": "Day 7",
+          "title": "Free Day",
+          "description": "Free day for personal exploration, shopping on Fifth Avenue, or additional museum visits."
+        },
+        {
+          "day": "Day 8",
+          "title": "Departure",
+          "description": "Final breakfast, last-minute shopping, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "7-night hotel accommodation in Manhattan",
+        "All ground transportation and transfers",
+        "Professional English-speaking guide",
+        "Entrance fees to museums and attractions",
+        "Broadway show ticket",
+        "Welcome dinner",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses and shopping",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Visit world-renowned museums and cultural institutions",
+        "Experience the diversity of NYC neighborhoods",
+        "Enjoy a Broadway show in the Theater District",
+        "Explore iconic landmarks and hidden gems",
+        "Professional guide services throughout"
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "embark-tranquility-adventure-spiritual",
+      "title": "Embark Tranquility, Adventure, and Spiritual.",
+      "img": "/assets/img/home1/package-card-img3.png",
+      "duration": "5 Days / 6 Night",
+      "batch": "5 Days / 6 Night",
+      "location_list": ["France", "Spain Tour"],
+      "place_list": ["Alexandria", "Sharm El Sheikh", "Mansoura", "Karachi", "Lahore", "Islamabad"],
+      "price": "1,988",
+      "originalPrice": "2500",
+      "description": "Embark on a journey that combines tranquility, adventure, and spiritual enrichment. This unique tour package offers a perfect balance of peaceful moments, exciting adventures, and opportunities for personal reflection. Experience breathtaking landscapes, engage in thrilling activities, and find inner peace in serene settings.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & Welcome",
+          "description": "Arrive at destination, transfer to resort. Welcome ceremony and orientation. Evening meditation session."
+        },
+        {
+          "day": "Day 2",
+          "title": "Adventure Activities",
+          "description": "Full day of adventure activities including hiking, water sports, and nature exploration. Evening relaxation session."
+        },
+        {
+          "day": "Day 3",
+          "title": "Spiritual Retreat",
+          "description": "Visit sacred sites, participate in spiritual ceremonies, and enjoy peaceful meditation in natural settings."
+        },
+        {
+          "day": "Day 4",
+          "title": "Cultural Immersion",
+          "description": "Explore local culture, visit traditional villages, enjoy authentic cuisine, and interact with local communities."
+        },
+        {
+          "day": "Day 5",
+          "title": "Free Day & Reflection",
+          "description": "Free day for personal activities, optional spa treatments, or additional adventure activities. Evening farewell dinner."
+        },
+        {
+          "day": "Day 6",
+          "title": "Departure",
+          "description": "Final breakfast, reflection session, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Resort accommodation with breakfast",
+        "All ground transportation",
+        "Adventure activity equipment",
+        "Professional guide and spiritual mentor",
+        "All meals included",
+        "Meditation and yoga sessions",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Optional spa treatments",
+        "Tips and gratuities",
+        "Additional adventure activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Perfect balance of adventure and tranquility",
+        "Spiritual enrichment and meditation sessions",
+        "Breathtaking natural landscapes",
+        "Cultural immersion experiences",
+        "Professional guidance throughout"
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "embracing-city-lights-landm-iconic-culture",
+      "title": "Embracing City Lights, Landm, and Iconic Culture.",
+      "img": "/assets/img/home1/package-card-img4.png",
+      "duration": "8 Days / 9 Night",
+      "batch": "8 Days / 9 Night",
+      "location_list": ["India", "Japan Tour"],
+      "place_list": ["Bangalore", "Chennai", "New Delhi", "Dhaka", "Rangpur", "Sylhet"],
+      "price": "3,798",
+      "originalPrice": null,
+      "description": "Embrace the vibrant city lights, explore stunning landmarks, and immerse yourself in iconic cultures. This comprehensive tour takes you through bustling metropolises, ancient temples, modern architectural marvels, and cultural hotspots. Experience the perfect blend of tradition and modernity in these fascinating destinations.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival",
+          "description": "Arrive at destination, transfer to hotel. Welcome dinner and city orientation tour."
+        },
+        {
+          "day": "Day 2-3",
+          "title": "City Exploration",
+          "description": "Explore major city landmarks, visit iconic monuments, enjoy city lights tour, and experience local nightlife."
+        },
+        {
+          "day": "Day 4-5",
+          "title": "Cultural Heritage",
+          "description": "Visit ancient temples, historical sites, museums, and cultural centers. Experience traditional performances and ceremonies."
+        },
+        {
+          "day": "Day 6-7",
+          "title": "Modern Marvels",
+          "description": "Tour modern architectural wonders, visit technology hubs, enjoy shopping districts, and experience contemporary culture."
+        },
+        {
+          "day": "Day 8",
+          "title": "Free Day",
+          "description": "Free day for personal exploration, shopping, or additional cultural activities."
+        },
+        {
+          "day": "Day 9",
+          "title": "Departure",
+          "description": "Final breakfast, last-minute shopping, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "8-night hotel accommodation",
+        "All ground transportation",
+        "Professional English-speaking guide",
+        "Entrance fees to monuments and museums",
+        "Cultural performance tickets",
+        "Welcome and farewell dinners",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses and shopping",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Explore iconic landmarks and monuments",
+        "Experience vibrant city lights and nightlife",
+        "Immerse in rich cultural heritage",
+        "Visit modern architectural marvels",
+        "Professional guide services"
+      ]
+    },
+    {
+      "id": "5",
+      "slug": "journey-tour-beauty-inspiration",
+      "title": "A Journey of Tour Beauty and Inspiration.",
+      "img": "/assets/img/home1/package-card-img5.png",
+      "duration": "6 Days / 7 Night",
+      "batch": "6 Days / 7 Night",
+      "location_list": ["Brazil", "Hungary Tour"],
+      "place_list": ["Paris", "Marseille", "Bordeaux", "Madrid", "Barcelona", "Valencia"],
+      "price": "4,562",
+      "originalPrice": "5,000",
+      "description": "Embark on a journey of beauty and inspiration through some of the world's most stunning destinations. This carefully curated tour takes you through picturesque landscapes, charming cities, and inspiring cultural sites. Experience the beauty of art, architecture, nature, and local traditions that will leave you inspired and rejuvenated.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival",
+          "description": "Arrive at destination, transfer to hotel. Welcome reception and orientation."
+        },
+        {
+          "day": "Day 2",
+          "title": "Art & Architecture",
+          "description": "Visit renowned art galleries, museums, and architectural masterpieces. Experience the beauty of artistic expression."
+        },
+        {
+          "day": "Day 3",
+          "title": "Natural Beauty",
+          "description": "Explore stunning natural landscapes, scenic viewpoints, and beautiful gardens. Enjoy nature photography opportunities."
+        },
+        {
+          "day": "Day 4",
+          "title": "Cultural Inspiration",
+          "description": "Visit cultural centers, attend local performances, and experience traditional arts and crafts."
+        },
+        {
+          "day": "Day 5",
+          "title": "Historic Sites",
+          "description": "Tour historic landmarks, ancient ruins, and heritage sites that tell stories of the past."
+        },
+        {
+          "day": "Day 6",
+          "title": "Free Day",
+          "description": "Free day for personal exploration, additional museum visits, or relaxation."
+        },
+        {
+          "day": "Day 7",
+          "title": "Departure",
+          "description": "Final breakfast, reflection on the journey, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "6-night hotel accommodation",
+        "All ground transportation",
+        "Professional guide",
+        "Entrance fees to attractions",
+        "Cultural performance tickets",
+        "Welcome dinner",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Explore beautiful art galleries and museums",
+        "Experience stunning natural landscapes",
+        "Visit inspiring cultural and historic sites",
+        "Enjoy professional photography opportunities",
+        "Comprehensive guide services"
+      ]
+    },
+    {
+      "id": "6",
+      "slug": "adventure-art-architecture-mediterranean",
+      "title": "Adventure Art, Architecture, and Mediterranean.",
+      "img": "/assets/img/home1/package-card-img6.png",
+      "duration": "4 Days / 5 Night",
+      "batch": "4 Days / 5 Night",
+      "location_list": ["Nepal", "Indonesia Tour "],
+      "place_list": ["Kathmandu", "Pokhara", "Lalitpur", "Jakarta", "Surabaya", "Bandung"],
+      "price": "5,320",
+      "originalPrice": "5,500",
+      "description": "Experience the perfect blend of adventure, art, and architecture in the beautiful Mediterranean region. This exciting tour combines thrilling outdoor activities with cultural exploration, featuring stunning architectural marvels, world-class art collections, and the breathtaking beauty of the Mediterranean coastline.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & City Tour",
+          "description": "Arrive at destination, transfer to hotel. Afternoon city tour exploring architectural highlights and art districts."
+        },
+        {
+          "day": "Day 2",
+          "title": "Adventure Activities",
+          "description": "Full day of adventure including water sports, hiking, or cycling along the Mediterranean coast. Evening art gallery visit."
+        },
+        {
+          "day": "Day 3",
+          "title": "Architecture & History",
+          "description": "Tour historic architecture, visit ancient sites, and explore modern architectural wonders. Learn about the region's rich history."
+        },
+        {
+          "day": "Day 4",
+          "title": "Cultural Immersion",
+          "description": "Visit local markets, enjoy traditional cuisine, experience cultural performances, and explore artisan workshops."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Final breakfast, last-minute exploration, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "4-night hotel accommodation",
+        "All ground transportation",
+        "Adventure activity equipment",
+        "Professional guide",
+        "Entrance fees to attractions",
+        "Welcome dinner",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Thrilling adventure activities",
+        "Explore stunning architecture",
+        "Visit world-class art collections",
+        "Experience Mediterranean beauty",
+        "Professional guide services"
+      ]
+    },
+    {
+      "id": "7",
+      "slug": "exploring-ancient-ruins-historic-landmarks-cultural",
+      "title": "Exploring ancient ruins, histor landmarks, and cultural.",
+      "img": "/assets/img/home1/package-card-img7.png",
+      "duration": "2 Days / 3 Night",
+      "batch": "2 Days / 3 Night",
+      "location_list": ["Nepal", "Indonesia Tour "],
+      "place_list": ["Kathmandu", "Pokhara", "Lalitpur", "Jakarta", "Surabaya", "Bandung"],
+      "price": "5,320",
+      "originalPrice": "5,500",
+      "description": "Discover the mysteries of ancient civilizations by exploring historic ruins, iconic landmarks, and rich cultural heritage sites. This immersive tour takes you back in time to witness the grandeur of ancient empires, understand their architectural achievements, and experience the living traditions that continue to thrive today.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & Ancient Sites",
+          "description": "Arrive at destination, transfer to hotel. Afternoon tour of ancient ruins and historic landmarks with expert guide."
+        },
+        {
+          "day": "Day 2",
+          "title": "Cultural Exploration",
+          "description": "Full day exploring cultural sites, visiting museums, experiencing traditional ceremonies, and learning about local history."
+        },
+        {
+          "day": "Day 3",
+          "title": "Historic Landmarks",
+          "description": "Tour iconic historic landmarks, visit archaeological sites, and explore preserved ancient structures."
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure",
+          "description": "Final breakfast, last-minute cultural site visits, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "3-night hotel accommodation",
+        "All ground transportation",
+        "Professional archaeologist guide",
+        "Entrance fees to all sites",
+        "Cultural performance tickets",
+        "Welcome dinner",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Explore ancient ruins and archaeological sites",
+        "Visit iconic historic landmarks",
+        "Experience rich cultural heritage",
+        "Learn from expert guides",
+        "Comprehensive cultural immersion"
+      ]
+    },
+    {
+      "id": "8",
+      "slug": "immersive-cultural-expirees-local-cuisine",
+      "title": "Immersive cultural Expirees, local cuisine.",
+      "img": "/assets/img/home1/package-card-img8.png",
+      "duration": "3 Days / 4 Night",
+      "batch": "3 Days / 4 Night",
+      "location_list": ["Nepal", "Indonesia Tour "],
+      "place_list": ["Kathmandu", "Pokhara", "Lalitpur", "Jakarta", "Surabaya", "Bandung"],
+      "price": "5,320",
+      "originalPrice": "5,500",
+      "description": "Immerse yourself in authentic cultural experiences and savor the flavors of local cuisine. This unique tour package offers deep cultural immersion through hands-on experiences, traditional cooking classes, local market visits, and interactions with local communities. Discover the heart and soul of the destination through its food, traditions, and people.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & Cultural Welcome",
+          "description": "Arrive at destination, transfer to hotel. Welcome ceremony with traditional performances and introduction to local culture."
+        },
+        {
+          "day": "Day 2",
+          "title": "Culinary Adventure",
+          "description": "Visit local markets, participate in cooking classes, learn traditional recipes, and enjoy authentic meals with local families."
+        },
+        {
+          "day": "Day 3",
+          "title": "Cultural Immersion",
+          "description": "Experience traditional ceremonies, visit artisan workshops, learn local crafts, and interact with community members."
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure",
+          "description": "Final traditional breakfast, farewell ceremony, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "3-night hotel accommodation",
+        "All ground transportation",
+        "Cooking classes and culinary experiences",
+        "Cultural performance tickets",
+        "All meals included",
+        "Local guide services",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Tips and gratuities",
+        "Optional activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Hands-on cooking classes and culinary experiences",
+        "Deep cultural immersion activities",
+        "Interact with local communities",
+        "Learn traditional crafts and skills",
+        "Authentic local cuisine throughout"
+      ]
+    },
+    {
+      "id": "9",
+      "slug": "embracing-city-lights-landm-iconic-culture-2",
+      "title": "Embracing City Lights, Landm, and Iconic Culture.",
+      "img": "/assets/img/home1/package-card-img9.png",
+      "duration": "3 Days / 4 Night",
+      "batch": "3 Days / 4 Night",
+      "location_list": ["Nepal", "Indonesia Tour "],
+      "place_list": ["Kathmandu", "Pokhara", "Lalitpur", "Jakarta", "Surabaya", "Bandung"],
+      "price": "5,320",
+      "originalPrice": "5,500",
+      "description": "Embrace the vibrant energy of city lights, explore iconic landmarks, and immerse yourself in the rich cultural tapestry of these fascinating destinations. This comprehensive tour showcases the perfect blend of urban excitement, historic significance, and cultural richness that makes these cities truly special.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & City Lights",
+          "description": "Arrive at destination, transfer to hotel. Evening city lights tour showcasing the vibrant urban landscape and nightlife."
+        },
+        {
+          "day": "Day 2",
+          "title": "Iconic Landmarks",
+          "description": "Full-day tour of iconic landmarks, historic monuments, and architectural marvels. Learn about the city's rich history and culture."
+        },
+        {
+          "day": "Day 3",
+          "title": "Cultural Exploration",
+          "description": "Visit cultural centers, museums, traditional markets, and experience local arts, crafts, and performances."
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure",
+          "description": "Final breakfast, last-minute exploration, and transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "3-night hotel accommodation",
+        "All ground transportation",
+        "Professional guide",
+        "Entrance fees to attractions",
+        "City lights tour",
+        "Welcome dinner",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional activities",
+        "Visa fees (if applicable)"
+      ],
+      "highlights": [
+        "Experience vibrant city lights and nightlife",
+        "Explore iconic landmarks and monuments",
+        "Immerse in rich cultural heritage",
+        "Visit museums and cultural centers",
+        "Professional guide services"
+      ]
+    }
+  ]
+}
+

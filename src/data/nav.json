@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "label": "Home",
+        "link": "/",
+        "icon": false
+    },
+    {
+        "id": "2",
+        "label": "About",
+        "link": "/about",
+        "icon": false
+    },
+    {
+        "id": "5",
+        "label": "Visa",
+        "link": "/visas",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "GLOBAL VISA",
+                "link": "/visas/global"
+            },
+            {
+                "id": "2",
+                "label": "UAE VISA",
+                "link": "/visas/uae"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "label": "Umrah",
+        "link": "/umrah",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Umrah by Air",
+                "link": "/umrah/by-air"
+            },
+            {
+                "id": "2",
+                "label": "Umrah by Bus",
+                "link": "/umrah/by-bus"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "label": "Tours",
+        "link": "/tours",
+        "icon": false
+    },
+    {
+        "id": "4",
+        "label": "Destination",
+        "link": "/destination",
+        "icon": false
+    },
+    {
+        "id": "8",
+        "label": "Contact",
+        "link": "/contact",
+        "icon": false
+    }
+]
