@@ -8,10 +8,6 @@ import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import umrahData from "@/data/umrah.json";
 
@@ -30,8 +26,6 @@ const UmrahDetailPage = () => {
   if (!packageItem) {
     return (
       <>
-        <Topbar />
-        <Header />
         <Breadcrumb pagename="Package Not Found" pagetitle="Package Not Found" />
         <div className="package-details-area pt-120 mb-120">
           <div className="container">
@@ -46,8 +40,6 @@ const UmrahDetailPage = () => {
             </div>
           </div>
         </div>
-        <Newslatter />
-        <Footer />
       </>
     );
   }
@@ -93,8 +85,6 @@ const UmrahDetailPage = () => {
 
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename={packageItem.title} pagetitle="Umrah Package Details" />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
@@ -813,8 +803,6 @@ const UmrahDetailPage = () => {
           />
         </React.Fragment>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

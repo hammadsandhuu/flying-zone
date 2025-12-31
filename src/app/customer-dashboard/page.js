@@ -1,10 +1,8 @@
-import Header from '@/components/header/Header'
 import Link from 'next/link';
 import React from 'react';
 const page = () => {
   return (
     <>
-     <Header/>
      <div className="dashboard-wrapper">
   <div className="dashboard-sidebar-wrapper">
     <div className="dashboard-sidebar-menu">

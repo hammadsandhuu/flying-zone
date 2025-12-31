@@ -1,8 +1,4 @@
 "use client";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
@@ -56,8 +52,6 @@ const Page = () => {
   ];
   return (
     <>
-      <Topbar />
-      <Header />
       <div className="destination-gallery pt-120 mb-120">
         <div className="container">
           <div className="row g-4 mb-70">
@@ -188,8 +182,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
       <Lightbox
         className="img-fluid"
         open={isOpenimg.openingState}

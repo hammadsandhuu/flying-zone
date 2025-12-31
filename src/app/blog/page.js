@@ -1,10 +1,6 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import blogData from "../../data/blog.json";
 import Link from "next/link";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Topbar from "@/components/topbar/Topbar";
-import Header from "@/components/header/Header";
 
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
@@ -18,8 +14,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Blog Grid" pagetitle="Blog Grid" />
       <div className="blod-grid-section pt-120 mb-120">
         <div className="container">
@@ -143,8 +137,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

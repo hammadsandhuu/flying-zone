@@ -1,9 +1,3 @@
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
-
-
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
   description:
@@ -14,15 +8,7 @@ export const metadata = {
 };
 
 const layout = ({ children }) => {
-  return (
-    <>
-      <Topbar />
-      <Header />
-      {children}
-      <Newslatter />
-      <Footer />
-    </>
-  );
+  return <>{children}</>;
 };
 
 export default layout;

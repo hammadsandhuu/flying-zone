@@ -7,10 +7,6 @@ import Breadcrumb from '@/components/common/Breadcrumb'
 import QuantityCounter from "@/uitils/QuantityCounter";
 import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Topbar from "@/components/topbar/Topbar";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
-import Newslatter from "@/components/common/Newslatter";
 const Page = () => {
   const [isOpenModalVideo, setOpenModalVideo] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -45,8 +41,6 @@ const Page = () => {
   ];
   return (
     <>
-    <Topbar/>
-    <Header/>
     <Breadcrumb pagename="Activitis Details" pagetitle="Activitis Details"/>
      <div className="package-details-area pt-120 mb-120">
       <div className="container">
@@ -879,8 +873,6 @@ onClick={() => setOpenModalVideo(true)}><i className="bi bi-play-circle" /> Watc
         })}
       />
      </div>
-     <Newslatter/>
-    <Footer/>
     </>
   )
 }

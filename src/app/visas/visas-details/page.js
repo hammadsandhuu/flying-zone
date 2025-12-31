@@ -1,9 +1,5 @@
 
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import SelectComponent from "@/uitils/SelectComponent";
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
@@ -16,8 +12,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Visa Details" pagetitle="Visa Details" />
       <div className="visa-details-pages pt-120 mb-120">
         <div className="container">
@@ -464,8 +458,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

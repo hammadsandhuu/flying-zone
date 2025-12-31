@@ -1,8 +1,4 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 
 export const metadata = {
@@ -17,8 +13,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Blog Sidebar" pagetitle="Blog Sidebar" />
       <div className="blod-sidebar-section pt-120 mb-120">
         <div className="container">
@@ -632,8 +626,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

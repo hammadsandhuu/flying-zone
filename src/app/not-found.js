@@ -1,14 +1,9 @@
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import React from "react";
 
 const Not_found = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <div className="error-section">
         <div className="container">
           <div className="row justify-content-center align-items-center">
@@ -38,7 +33,6 @@ const Not_found = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

@@ -1,9 +1,5 @@
 "use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import React from "react";
 import visaData from "@/data/visa.json";
@@ -12,8 +8,6 @@ import faqData from "@/data/visa-faq.json";
 const GlobalVisaPage = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Global Visa" pagetitle="Global Visa Services" />
       
       <div className="visa-with-sidebar-section pt-120 mb-120">
@@ -156,9 +150,6 @@ const GlobalVisaPage = () => {
           </div>
         </div>
       </div>
-
-      <Newslatter />
-      <Footer />
     </>
   );
 };

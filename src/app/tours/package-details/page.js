@@ -8,10 +8,6 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -46,8 +42,6 @@ const Page = () => {
   ];
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Package Details" pagetitle="Package Details" />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
@@ -1665,8 +1659,6 @@ const Page = () => {
           />
         </React.Fragment>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

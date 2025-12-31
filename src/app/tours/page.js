@@ -5,17 +5,11 @@ import Link from "next/link";
 import TourCategoryDropdown from "@/components/banner/TourCategoryDropdown";
 import DestinationSearch from "@/components/banner/DestinationSearch";
 import GuestDropdown from "@/components/banner/GuestDropdown";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import toursData from "@/data/tours.json";
 
 const page = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb
         pagename="Package Top Search"
         pagetitle="Package Top Search"
@@ -234,8 +228,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

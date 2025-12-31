@@ -2,10 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Link from "next/link";
-import Topbar from "@/components/topbar/Topbar";
-import Header from "@/components/header/Header";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
 import visaData from "@/data/visa.json";
 
 const VisasPage = () => {
@@ -46,8 +42,6 @@ const VisasPage = () => {
 
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Visa" pagetitle="Visa" />
       
       <div className="visa-with-sidebar-section pt-120 mb-120">
@@ -542,8 +536,6 @@ const VisasPage = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
-      <Footer />
     </>
   );
 };

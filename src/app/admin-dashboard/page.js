@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
 import React, { useEffect } from "react";
 import "../../../public/assets/css/dashboard.css";
 import Link from "next/link";
@@ -56,7 +54,6 @@ const Page = () => {
 
   return (
     <>
-      <Header />
       <div className="dashboard-wrapper">
         <div className="dashboard-sidebar-wrapper">
           <div className="dashboard-sidebar-menu">
@@ -858,8 +855,6 @@ const Page = () => {
           </ul>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

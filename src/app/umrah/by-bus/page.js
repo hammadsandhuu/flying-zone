@@ -1,9 +1,5 @@
 "use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import React from "react";
 import umrahData from "@/data/umrah.json";
@@ -12,8 +8,6 @@ import faqData from "@/data/umrah-faq.json";
 const UmrahByBusPage = () => {
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Umrah by Bus" pagetitle="Umrah Packages by Bus" />
       
       <div className="package-grid-with-sidebar-section pt-120 mb-120">
@@ -179,9 +173,6 @@ const UmrahByBusPage = () => {
           </div>
         </div>
       </div>
-
-      <Newslatter />
-      <Footer />
     </>
   );
 };

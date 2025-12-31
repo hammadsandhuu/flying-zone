@@ -1,9 +1,5 @@
 "use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newslatter";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import umrahData from "@/data/umrah.json";
@@ -48,8 +44,6 @@ const UmrahPage = () => {
 
   return (
     <>
-      <Topbar />
-      <Header />
       <Breadcrumb pagename="Umrah" pagetitle="Umrah Packages" />
       
       {/* All Umrah Packages Section */}
@@ -443,9 +437,6 @@ const UmrahPage = () => {
           </div>
         </div>
       </div>
-
-      <Newslatter />
-      <Footer />
     </>
   );
 };

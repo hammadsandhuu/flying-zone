@@ -46,24 +46,20 @@ const HomeSection = () => {
                       className="home1-banner-wrapper"
                       style={{
                         backgroundImage: `linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(${slide.backgroundImage})`,
-                        minHeight: '600px',
-                        height: '68vh',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                       }}
                     >
                       <div className="container">
                         <div className="row">
-                          <div className="col-lg-12">
+                          <div className="col-12 col-lg-12">
                             <div className="home1-banner-content">
                               {slide.location && (
                                 <div className="eg-tag">
-
                                   <span>
                                     <LocationPinIcon width={18} height={18} />
                                     {slide.location}
                                   </span>
-
                                 </div>
                               )}
                               <HeadingTag>{slide.heading}</HeadingTag>
@@ -76,7 +72,7 @@ const HomeSection = () => {
                                   <div className="icon">
                                     <img
                                       src="/assets/img/home1/icon/tripadvisor-logo.svg"
-                                      alt=""
+                                      alt="Tripadvisor"
                                     />
                                   </div>
                                   <div className="content">
