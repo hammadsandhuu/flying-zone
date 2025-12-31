@@ -1,0 +1,60 @@
+{
+  "section": {
+    "vectorImage": "/assets/img/home1/section-vector2.png",
+    "subtitle": "Visa Services",
+    "title": "Visa Processing"
+  },
+  "visas": [
+    {
+      "id": 1,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "EGYPT",
+      "link": "/visas/visas-details",
+      "title": "E-Visa - Only Processing",
+      "price": "$5,978",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "NEPAL",
+      "link": "/visas/visas-details",
+      "title": "E-Visa - Only Processing",
+      "price": "$4,618",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "NEW YORK",
+      "link": "/visas/visas-details",
+      "title": "E-Visa - Only Processing",
+      "price": "$3,798",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "India",
+      "link": "/visas/visas-details",
+      "title": "E-Visa - Only Processing",
+      "price": "$3,618",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Brazil",
+      "link": "/visas/visas-details",
+      "title": "E-Visa - Only Processing",
+      "price": "$8,798",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    }
+  ]
+}
+

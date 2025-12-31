@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "backgroundImage": "assets/img/home/slider/flying-tickets.png",
+    "location": "Worldwide Destinations",
+    "heading": "Book Your Dream Flight Tickets",
+    "headingTag": "h1",
+    "description": "Discover unbeatable deals on flight tickets to destinations worldwide. Whether you're planning a business trip, family vacation, or romantic getaway, we offer competitive prices, flexible booking options, and 24/7 customer support. Experience seamless travel with our trusted airline partners and secure payment system.",
+    "buttonText": "Explore Flights",
+    "buttonUrl": "/flights",
+    "rating": "4.8/5.0"
+  },
+  {
+    "id": "2",
+    "backgroundImage": "assets/img/home/slider/hajj-and-umrah.png",
+    "location": "Makkah & Madinah, Saudi Arabia",
+    "heading": "Sacred Journey: Hajj & Umrah Packages",
+    "headingTag": "h1",
+    "description": "Embark on your spiritual journey with our comprehensive Hajj and Umrah packages. We provide fully guided tours, comfortable accommodations near the Holy Mosques, visa assistance, and round-the-clock support. Choose from budget-friendly to premium packages, all designed to make your pilgrimage a memorable and blessed experience.",
+    "buttonText": "View Packages",
+    "buttonUrl": "/umrah",
+    "rating": "4.9/5.0"
+  },
+  {
+    "id": "3",
+    "backgroundImage": "assets/img/home/slider/tours-and-travels.png",
+    "location": "Explore the World",
+    "heading": "Unforgettable Tours & Travel Experiences",
+    "headingTag": "h1",
+    "description": "Create lasting memories with our carefully curated tour packages to breathtaking destinations around the globe. From exotic beach getaways to cultural city tours, adventure expeditions to luxury escapes, we offer personalized itineraries, expert guides, and all-inclusive packages that cater to every traveler's dream.",
+    "buttonText": "Discover Tours",
+    "buttonUrl": "/tours",
+    "rating": "4.7/5.0"
+  }
+]
+

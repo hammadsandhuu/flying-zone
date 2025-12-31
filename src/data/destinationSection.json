@@ -1,0 +1,57 @@
+{
+  "section": {
+    "vectorImage": "/assets/img/home1/section-vector2.png",
+    "subtitle": "Journey to the",
+    "title": "Desired Vacation Spots"
+  },
+  "destinations": [
+    {
+      "id": 1,
+      "colSize": "col-lg-3 col-sm-6",
+      "image": "/assets/img/home1/destination-card-img1.jpg",
+      "title": "Brazil",
+      "link": "/destination/destination-details",
+      "tourCount": "50 Tour"
+    },
+    {
+      "id": 2,
+      "colSize": "col-lg-5 col-sm-6",
+      "image": "/assets/img/home1/destination-card-img2.jpg",
+      "title": "Italy",
+      "link": "/destination/destination-details",
+      "tourCount": "30 Tour"
+    },
+    {
+      "id": 3,
+      "colSize": "col-lg-4 col-sm-6",
+      "image": "/assets/img/home1/destination-card-img3.jpg",
+      "title": "New York",
+      "link": "/destination/destination-details",
+      "tourCount": "30 Tour"
+    },
+    {
+      "id": 4,
+      "colSize": "col-lg-5 col-sm-6",
+      "image": "/assets/img/home1/destination-card-img4.jpg",
+      "title": "Saudi Arab",
+      "link": "/destination/destination-details",
+      "tourCount": "30 Tour"
+    },
+    {
+      "id": 5,
+      "colSize": "col-lg-3 col-sm-6",
+      "image": "/assets/img/home1/destination-card-img5.jpg",
+      "title": "Europe",
+      "link": "/destination/destination-details",
+      "tourCount": "50 Tour"
+    }
+  ],
+  "banner": {
+    "colSize": "col-lg-4 col-sm-6",
+    "batchText": "Get 10% Off",
+    "heading": "Of Our All Destination",
+    "buttonText": "View All Destination",
+    "link": "/destination"
+  }
+}
+

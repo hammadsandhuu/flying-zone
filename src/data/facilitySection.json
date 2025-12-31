@@ -1,0 +1,21 @@
+{
+  "section": {
+    "subtitle": "Tour Experience",
+    "title": "Ultimate Travel Experience"
+  },
+  "filters": [
+    {
+      "id": "tour",
+      "label": "Tour Package",
+      "tabId": "Tour",
+      "ariaControls": "Tour"
+    },
+    {
+      "id": "hajj-umrah",
+      "label": "Hajj & Umrah",
+      "tabId": "HajjUmrah",
+      "ariaControls": "HajjUmrah"
+    }
+  ]
+}
+

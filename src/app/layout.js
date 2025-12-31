@@ -15,6 +15,10 @@ import "yet-another-react-lightbox/styles.css";
 import "../../public/assets/css/style.css";
 import "../../public/assets/css/dashboard.css";
 import { useEffect } from "react";
+import Topbar from "@/components/topbar/Topbar";
+import Header from "@/components/header/Header";
+import Newslatter from "@/components/common/Newslatter";
+import Footer from "@/components/footer/Footer";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -22,7 +26,13 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Topbar />
+        <Header />
+        {children}
+        <Newslatter />
+        <Footer />
+        </body>
     </html>
   );
 }

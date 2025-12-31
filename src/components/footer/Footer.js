@@ -9,15 +9,10 @@ const Footer = ({style}) => {
           <div className="row g-lg-4 gy-5 justify-content-center">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="footer-widget">
-                <div className="footer-logo">
-                  <Link href="/">
-                    <img src="/assets/img/logo2.svg" alt="" />
-                  </Link>
-                </div>
                 <h3>
                   Want
                   <span>
-                    to Take <br />
+                    {" "}to Take <br />
                   </span>
                   Tour Packages<span>?</span>
                 </h3>
@@ -190,7 +185,7 @@ const Footer = ({style}) => {
               </ul>
               <p>
                 ©Copyright 2023 Flying-Zone | Design By{" "}
-                <a href="https://www.egenslab.com/">Egens Lab</a>
+                <a href="https://www.xalvion.com/">Xalvion Technologies</a>
               </p>
               <div className="footer-right">
                 <ul>
