@@ -17,6 +17,7 @@
         "Jeddah"
       ],
       "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Experience a premium Umrah journey with our 7-day package by air. This comprehensive package includes comfortable flights, premium hotel accommodations near the Haram, guided tours, and all necessary arrangements for a spiritual and memorable pilgrimage.",
       "itinerary": [
         {
@@ -85,6 +86,7 @@
         "Riyadh"
       ],
       "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Experience a deluxe Umrah journey with our 10-day package by air. This extended package offers more time for spiritual reflection, premium accommodations, and visits to multiple holy cities including Jeddah and Riyadh.",
       "itinerary": [
         {
@@ -168,6 +170,7 @@
         "Taif"
       ],
       "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Indulge in a luxurious 14-day Umrah experience with our premium package by air. This comprehensive journey includes 5-star accommodations, visits to all major holy cities, and exclusive experiences for the ultimate spiritual pilgrimage.",
       "itinerary": [
         {
@@ -261,6 +264,7 @@
         "Medina"
       ],
       "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "An affordable and efficient 5-day Umrah package by air, perfect for those with limited time. This budget-friendly option includes all essential services for a complete Umrah experience.",
       "itinerary": [
         {
@@ -333,6 +337,7 @@
         "Jeddah"
       ],
       "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Experience a comfortable and affordable 10-day Umrah journey by bus. This standard package offers excellent value with comfortable bus travel, quality accommodations, and all essential services for a complete pilgrimage experience.",
       "itinerary": [
         {
@@ -416,6 +421,7 @@
         "Riyadh"
       ],
       "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Enjoy a comfortable and extended 14-day Umrah journey by bus. This comprehensive package offers more time for spiritual reflection, comfortable bus travel with premium amenities, and visits to multiple holy cities.",
       "itinerary": [
         {
@@ -508,6 +514,7 @@
         "Medina"
       ],
       "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "An economical 7-day Umrah package by bus, perfect for budget-conscious travelers. This affordable option includes all essential services for a complete and meaningful Umrah experience.",
       "itinerary": [
         {
@@ -592,6 +599,7 @@
         "Taif"
       ],
       "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
       "description": "Experience a premium 12-day Umrah journey by bus with luxury amenities. This comprehensive package includes premium bus travel, quality accommodations, and visits to all major holy cities for an unforgettable pilgrimage experience.",
       "itinerary": [
         {

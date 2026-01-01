@@ -1,11 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const TourCategoryDropdown = ({ data, labelType, style,noScroll }) => {
+const TourCategoryDropdown = ({ data, labelType, style, noScroll, onSelect, defaultValue }) => {
   const [isActive, setIsActive] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(
-    data.length > 0 ? data[0] : ""
+    defaultValue !== undefined ? defaultValue : (data.length > 0 ? data[0] : "")
   );
   const dropdownRef = useRef(null);
+
+  // Update selected category when defaultValue changes
+  useEffect(() => {
+    if (defaultValue !== undefined) {
+      setSelectedCategory(defaultValue);
+    }
+  }, [defaultValue]);
 
   const handleToggleActive = () => {
     setIsActive(!isActive);
@@ -14,6 +21,10 @@ const TourCategoryDropdown = ({ data, labelType, style,noScroll }) => {
   const handleSelectCategory = (category) => {
     setSelectedCategory(category);
     setIsActive(false);
+    // Call the onSelect callback if provided
+    if (onSelect) {
+      onSelect(category);
+    }
   };
 
   const handleClickOutside = (event) => {
