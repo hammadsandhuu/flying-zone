@@ -101,10 +101,6 @@ const VisaSection = () => {
                           <div className="title">
                             <h6>{visa.title}</h6>
                           </div>
-                          <div className="price-area">
-                            <span>{visa.price}</span>
-                            <p>{visa.priceLabel}</p>
-                          </div>
                         </div>
                       </div>
                     </SwiperSlide>

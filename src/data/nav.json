@@ -7,61 +7,136 @@
     },
     {
         "id": "2",
-        "label": "About",
+        "label": "About Us",
         "link": "/about",
         "icon": false
     },
     {
-        "id": "5",
+        "id": "3",
+        "label": "Hajj & Umrah",
+        "link": "/hajj-umrah",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Umrah By Bus",
+                "link": "/hajj-umrah/umrah-by-bus",
+                "icon": false
+            },
+            {
+                "id": "2",
+                "label": "Umrah By Air",
+                "link": "/hajj-umrah/umrah-by-air",
+                "icon": false
+            },
+            {
+                "id": "3",
+                "label": "Umrah By Air Premium",
+                "link": "/hajj-umrah/umrah-by-air-premium",
+                "icon": false
+            },
+            {
+                "id": "4",
+                "label": "Hajj Packages",
+                "link": "/hajj-umrah/hajj-packages",
+                "icon": false
+            }
+        ]
+    },
+    {
+        "id": "4",
         "label": "Visa",
         "link": "/visas",
         "icon": true,
         "subMenu": [
             {
                 "id": "1",
-                "label": "GLOBAL VISA",
-                "link": "/visas/global"
+                "label": "Global Visa",
+                "link": "/visas/global",
+                "icon": false
             },
             {
                 "id": "2",
-                "label": "UAE VISA",
-                "link": "/visas/uae"
+                "label": "UAE Visa",
+                "link": "/visas/uae",
+                "icon": false
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "label": "Other Services",
+        "link": "/services",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Flight Tickets",
+                "link": "/services/flight-tickets",
+                "icon": false
+            },
+            {
+                "id": "2",
+                "label": "Tour Packages",
+                "link": "/services/tour-packages",
+                "icon": false
+            },
+            {
+                "id": "3",
+                "label": "Travel Insurance",
+                "link": "/services/travel-insurance",
+                "icon": false
+            },
+            {
+                "id": "4",
+                "label": "Hotel Reservations",
+                "link": "/services/hotel-reservations",
+                "icon": false
+            },
+            {
+                "id": "5",
+                "label": "Holidays by Fly Dubai",
+                "link": "/services/holidays-fly-dubai",
+                "icon": false
+            },
+            {
+                "id": "6",
+                "label": "Dubai Local Excursions",
+                "link": "/services/dubai-excursions",
+                "icon": true,
+                "subMenu": [
+                    {
+                        "id": "1",
+                        "label": "Cruise Dinners",
+                        "link": "/services/dubai-excursions/cruise-dinners"
+                    },
+                    {
+                        "id": "2",
+                        "label": "City Tours",
+                        "link": "/services/dubai-excursions/city-tours"
+                    },
+                    {
+                        "id": "3",
+                        "label": "Desert Safari",
+                        "link": "/services/dubai-excursions/desert-safari"
+                    },
+                    {
+                        "id": "4",
+                        "label": "Arabian Night",
+                        "link": "/services/dubai-excursions/arabian-night"
+                    },
+                    {
+                        "id": "5",
+                        "label": "All Other Attractions",
+                        "link": "/services/dubai-excursions/all-attractions"
+                    }
+                ]
             }
         ]
     },
     {
         "id": "6",
-        "label": "Umrah",
-        "link": "/umrah",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "Umrah by Air",
-                "link": "/umrah/by-air"
-            },
-            {
-                "id": "2",
-                "label": "Umrah by Bus",
-                "link": "/umrah/by-bus"
-            }
-        ]
-    },
-    {
-        "id": "3",
-        "label": "Tours",
-        "link": "/tours",
-        "icon": false
-    },
-    {
-        "id": "4",
-        "label": "Destination",
-        "link": "/destination",
-        "icon": false
-    },
-    {
-        "id": "8",
-        "label": "Contact",
+        "label": "Contact Us",
         "link": "/contact",
         "icon": false
     }

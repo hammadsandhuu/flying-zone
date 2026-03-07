@@ -25,8 +25,9 @@ export default function Home() {
       <HomeSection />
       <BookingForm />
       <AboutSection />
-      <DestinationSection />
       <VisaSection />
+      <DestinationSection />
+     
       <FacilitySection />
       <Home1FacilitySlide />
       {/* <Home1TourPackage /> */}

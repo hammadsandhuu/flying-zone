@@ -13,10 +13,15 @@ SwiperCore.use([Autoplay, EffectFade, Pagination]);
 const DestinationSection = () => {
   const { section, destinations, banner } = destinationSectionData;
 
-  // Combine destinations and banner for slider
+  // Only show first five destinations on home section
+  const topDestinations = useMemo(() => {
+    return destinations.slice(0, 5);
+  }, [destinations]);
+
+  // Combine top destinations and banner for mobile slider
   const allItems = useMemo(() => {
-    return [...destinations, { ...banner, id: 'banner', isBanner: true }];
-  }, [destinations, banner]);
+    return [...topDestinations, { ...banner, id: "banner", isBanner: true }];
+  }, [topDestinations, banner]);
 
   // Swiper settings for mobile slider
   const swiperSettings = useMemo(() => {
@@ -141,7 +146,7 @@ const DestinationSection = () => {
                           <Link href={item.link}>{item.title}</Link>
                         </h4>
                         <div className="eg-tag">
-                          <span>{item.tourCount}</span>
+                          <span>{item.title}</span>
                         </div>
                       </div>
                     </div>
@@ -154,7 +159,7 @@ const DestinationSection = () => {
           {/* Desktop Grid */}
           <div className="d-none d-md-block">
             <div className="row g-4">
-              {destinations.map((destination) => (
+              {topDestinations.map((destination) => (
                 <div key={destination.id} className={destination.colSize}>
                   <div className="destination-card">
                     <img src={destination.image} alt={destination.title} />
@@ -167,7 +172,7 @@ const DestinationSection = () => {
                         <Link href={destination.link}>{destination.title}</Link>
                       </h4>
                       <div className="eg-tag">
-                        <span>{destination.tourCount}</span>
+                        <span>{destination.title}</span>
                       </div>
                     </div>
                   </div>
