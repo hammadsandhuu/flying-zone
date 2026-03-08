@@ -8,7 +8,7 @@ import SwiperCore, {
 } from "swiper";
 import Link from "next/link";
 import visaSectionData from "../../data/visaSection.json";
-import DecorativeIcon from "../icons/DecorativeIcon";
+import DecorativeIcon from "../svg/DecorativeIcon";
 SwiperCore.use([Autoplay, EffectFade, Pagination]);
 
 const VisaSection = () => {

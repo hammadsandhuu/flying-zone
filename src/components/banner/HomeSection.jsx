@@ -9,8 +9,8 @@ import SwiperCore, {
 } from "swiper";
 import Link from "next/link";
 import banner1Data from "../../data/homeSlider.json";
-import LocationPinIcon from "../icons/LocationPinIcon";
-import TripadvisorLogoIcon from "../icons/TripadvisorLogoIcon";
+import LocationPinIcon from "../svg/LocationPinIcon";
+import TripadvisorLogoIcon from "../svg/TripadvisorLogoIcon";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const HomeSection = () => {

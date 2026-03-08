@@ -1,8 +1,8 @@
 import React from "react";
 
 const CalendarIcon = ({
-  width = 27,
-  height = 27,
+  width = 54,
+  height = 54,
   className = "",
   fill = "currentColor",
 }) => {

@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         {children}
         <Newslatter />
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

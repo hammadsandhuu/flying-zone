@@ -1,6 +1,6 @@
 import React from "react";
 
-const TourIcon = ({ width = 23, height = 23, className = "", fill = "currentColor" }) => {
+const TourIcon = ({ width = 54, height = 54, className = "", fill = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

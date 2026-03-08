@@ -8,16 +8,16 @@ import TourCategoryDropdown from './TourCategoryDropdown'
 import GuestDropdown from './GuestDropdown'
 import DateRange from './DateRange'
 import PackageDatePicker from './PackageDatePicker'
-import TourIcon from '../icons/TourIcon'
-import HotelIcon from '../icons/HotelIcon'
-import VisaIcon from '../icons/VisaIcon'
-import HajjIcon from '../icons/HajjIcon'
-import UmrahIcon from '../icons/UmrahIcon'
-import LocationIcon from '../icons/LocationIcon'
-import CalendarIcon from '../icons/CalendarIcon'
-import ClockIcon from '../icons/ClockIcon'
-import RoomIcon from '../icons/RoomIcon'
-import GuestIcon from '../icons/GuestIcon'
+import TourIcon from '../svg/TourIcon'
+import HotelIcon from '../svg/HotelIcon'
+import VisaIcon from '../svg/VisaIcon'
+import HajjIcon from '../svg/HajjIcon'
+import UmrahIcon from '../svg/UmrahIcon'
+import LocationIcon from '../svg/LocationIcon'
+import CalendarIcon from '../svg/CalendarIcon'
+import ClockIcon from '../svg/ClockIcon'
+import RoomIcon from '../svg/RoomIcon'
+import GuestIcon from '../svg/GuestIcon'
 import umrahData from '@/data/umrah.json'
 import hajjData from '@/data/hajj.json'
 
@@ -127,14 +127,14 @@ const BookingForm = () => {
           <div className="nav-buttons">
             <ul className="nav nav-pills" id="pills-tab2" role="tablist">
               <li className="nav-item" role="presentation">
-                <button 
-                  className="nav-link active" 
-                  id="hajj-tab" 
-                  data-bs-toggle="pill" 
-                  data-bs-target="#hajj" 
-                  type="button" 
-                  role="tab" 
-                  aria-controls="hajj" 
+                <button
+                  className="nav-link active"
+                  id="hajj-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#hajj"
+                  type="button"
+                  role="tab"
+                  aria-controls="hajj"
                   aria-selected="true"
                 >
                   <HajjIcon />
@@ -142,14 +142,14 @@ const BookingForm = () => {
                 </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button 
-                  className="nav-link" 
-                  id="umrah-tab" 
-                  data-bs-toggle="pill" 
-                  data-bs-target="#umrah" 
-                  type="button" 
-                  role="tab" 
-                  aria-controls="umrah" 
+                <button
+                  className="nav-link"
+                  id="umrah-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#umrah"
+                  type="button"
+                  role="tab"
+                  aria-controls="umrah"
                   aria-selected="false"
                 >
                   <UmrahIcon />
@@ -157,14 +157,14 @@ const BookingForm = () => {
                 </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button 
-                  className="nav-link" 
-                  id="tour-tab" 
-                  data-bs-toggle="pill" 
-                  data-bs-target="#tour" 
-                  type="button" 
-                  role="tab" 
-                  aria-controls="tour" 
+                <button
+                  className="nav-link"
+                  id="tour-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tour"
+                  type="button"
+                  role="tab"
+                  aria-controls="tour"
                   aria-selected="false"
                 >
                   <TourIcon />
@@ -172,14 +172,14 @@ const BookingForm = () => {
                 </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button 
-                  className="nav-link" 
-                  id="visa-tab" 
-                  data-bs-toggle="pill" 
-                  data-bs-target="#visa" 
-                  type="button" 
-                  role="tab" 
-                  aria-controls="visa" 
+                <button
+                  className="nav-link"
+                  id="visa-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#visa"
+                  type="button"
+                  role="tab"
+                  aria-controls="visa"
                   aria-selected="false"
                 >
                   <VisaIcon />
@@ -187,14 +187,14 @@ const BookingForm = () => {
                 </button>
               </li>
               <li className="nav-item" role="presentation">
-                <button 
-                  className="nav-link" 
-                  id="hotel-tab" 
-                  data-bs-toggle="pill" 
-                  data-bs-target="#hotel" 
-                  type="button" 
-                  role="tab" 
-                  aria-controls="hotel" 
+                <button
+                  className="nav-link"
+                  id="hotel-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#hotel"
+                  type="button"
+                  role="tab"
+                  aria-controls="hotel"
                   aria-selected="false"
                 >
                   <HotelIcon />
@@ -215,8 +215,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <ClockIcon width={27} height={27} />
                           </div>
-                          <TourCategoryDropdown 
-                            data={hajjPackageTitles.length > 0 ? hajjPackageTitles : []} 
+                          <TourCategoryDropdown
+                            data={hajjPackageTitles.length > 0 ? hajjPackageTitles : []}
                             labelType="Select Package"
                             onSelect={(title) => setSelectedHajjPackage(title)}
                             defaultValue={selectedHajjPackage || (hajjPackageTitles.length > 0 ? hajjPackageTitles[0] : "")}
@@ -228,8 +228,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <CalendarIcon width={23} height={23} />
                           </div>
-                          <PackageDatePicker 
-                            label="Departure Date" 
+                          <PackageDatePicker
+                            label="Departure Date"
                             availableDates={selectedHajjDetails?.departureDates || (hajjPackages[0]?.departureDates || [])}
                           />
                         </div>
@@ -243,10 +243,10 @@ const BookingForm = () => {
                             <label>Duration</label>
                             <div className="custom-select-dropdown">
                               <div className="select-input">
-                                <input 
-                                  type="text" 
-                                  readOnly 
-                                  value={selectedHajjDetails ? getDuration(selectedHajjDetails.batch) : (hajjPackages[0] ? getDuration(hajjPackages[0].batch) : '')} 
+                                <input
+                                  type="text"
+                                  readOnly
+                                  value={selectedHajjDetails ? getDuration(selectedHajjDetails.batch) : (hajjPackages[0] ? getDuration(hajjPackages[0].batch) : '')}
                                 />
                               </div>
                             </div>
@@ -280,8 +280,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <ClockIcon width={27} height={27} />
                           </div>
-                          <TourCategoryDropdown 
-                            data={umrahPackageTitles.length > 0 ? umrahPackageTitles : []} 
+                          <TourCategoryDropdown
+                            data={umrahPackageTitles.length > 0 ? umrahPackageTitles : []}
                             labelType="Select Package"
                             onSelect={(title) => setSelectedUmrahPackage(title)}
                             defaultValue={selectedUmrahPackage || (umrahPackageTitles.length > 0 ? umrahPackageTitles[0] : "")}
@@ -293,8 +293,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <CalendarIcon width={23} height={23} />
                           </div>
-                          <PackageDatePicker 
-                            label="Departure Date" 
+                          <PackageDatePicker
+                            label="Departure Date"
                             availableDates={selectedUmrahDetails?.departureDates || (umrahPackages[0]?.departureDates || [])}
                           />
                         </div>
@@ -308,10 +308,10 @@ const BookingForm = () => {
                             <label>Duration</label>
                             <div className="custom-select-dropdown">
                               <div className="select-input">
-                                <input 
-                                  type="text" 
-                                  readOnly 
-                                  value={selectedUmrahDetails ? getDuration(selectedUmrahDetails.batch) : (umrahPackages[0] ? getDuration(umrahPackages[0].batch) : '')} 
+                                <input
+                                  type="text"
+                                  readOnly
+                                  value={selectedUmrahDetails ? getDuration(selectedUmrahDetails.batch) : (umrahPackages[0] ? getDuration(umrahPackages[0].batch) : '')}
                                 />
                               </div>
                             </div>
@@ -369,8 +369,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <ClockIcon width={27} height={27} />
                           </div>
-                          <TourCategoryDropdown 
-                            data={['Economy', 'Luxury', 'Deluxe', 'Premium']} 
+                          <TourCategoryDropdown
+                            data={['Economy', 'Luxury', 'Deluxe', 'Premium']}
                             labelType="Tour Category"
                           />
                         </div>
@@ -399,8 +399,8 @@ const BookingForm = () => {
                           <div className="icon">
                             <ClockIcon width={27} height={27} />
                           </div>
-                          <TourCategoryDropdown 
-                            data={["Tourist", "Medical", "Diplomat", "Business", "Transit"]} 
+                          <TourCategoryDropdown
+                            data={["Tourist", "Medical", "Diplomat", "Business", "Transit"]}
                             labelType="Visa Type"
                           />
                         </div>
@@ -410,9 +410,9 @@ const BookingForm = () => {
                           <div className="icon">
                             <CalendarIcon width={23} height={23} />
                           </div>
-                          <TourCategoryDropdown 
-                            data={["Bangladeshi", "Indian", "Pakistani", "Brazilian", "Australian", "American", "British"]} 
-                            labelType="Nationality" 
+                          <TourCategoryDropdown
+                            data={["Bangladeshi", "Indian", "Pakistani", "Brazilian", "Australian", "American", "British"]}
+                            labelType="Nationality"
                           />
                         </div>
                       </div>

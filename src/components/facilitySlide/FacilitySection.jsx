@@ -11,9 +11,9 @@ import facilitySectionData from "../../data/facilitySection.json";
 import toursData from "../../data/tours.json";
 import umrahData from "../../data/umrah.json";
 import PackageCard from "./PackageCard";
-import TourIcon from "../icons/TourIcon";
-import HotelIcon from "../icons/HotelIcon";
-import DecorativeIcon from "../icons/DecorativeIcon";
+import TourIcon from "../svg/TourIcon";
+import HotelIcon from "../svg/HotelIcon";
+import DecorativeIcon from "../svg/DecorativeIcon";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const FacilitySection = () => {

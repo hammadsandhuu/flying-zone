@@ -1,5 +1,6 @@
 import React from "react";
-import { EmailIcon, TwitterXIcon, TikTokIcon } from "@/components/common/SvgIcons";
+import EmailIcon from "../svg/EmailIcon";
+import TikTokIcon from "../svg/TikTokIcon";
 
 const Topbar = () => {
   return (

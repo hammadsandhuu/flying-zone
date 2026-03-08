@@ -1,8 +1,8 @@
 import React from "react";
 
 const ActivitiesIcon = ({
-  width = 23,
-  height = 23,
+  width = 54,
+  height = 54,
   className = "",
   fill = "currentColor",
 }) => {

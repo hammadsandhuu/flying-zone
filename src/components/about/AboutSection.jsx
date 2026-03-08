@@ -1,12 +1,9 @@
 "use client";
 import Link from "next/link";
 import CountUp from "react-countup";
-import {
-  AboutDecorativeIconLeft,
-  AboutDecorativeIconRight,
-  MissionVisionIcon,
-  FocusOnCustomerIcon,
-} from "../common/SvgIcons";
+import DecorativeIcon from "../svg/DecorativeIcon";
+import MissionVisionIcon from "../svg/MissionVisionIcon";
+import FocusOnCustomerIcon from "../svg/FocusOnCustomerIcon";
 
 const AboutSection = () => {
   return (
@@ -23,9 +20,9 @@ const AboutSection = () => {
               <div className="about-content">
                 <div className="section-title mb-40">
                   <span>
-                    <AboutDecorativeIconLeft width={15} height={16} />
+                    <DecorativeIcon type="left" />
                     About Us
-                    <AboutDecorativeIconRight width={15} height={16} />
+                    <DecorativeIcon type="right" />
                   </span>
                   <h2>Let's know About Our Journey For Flying-Zone.</h2>
                 </div>
@@ -41,7 +38,7 @@ const AboutSection = () => {
                       aria-controls="mission"
                       aria-selected="true"
                     >
-                      <MissionVisionIcon width={30} height={30} />
+                      <MissionVisionIcon />
                       Mission &amp; Vision
                     </button>
                   </li>
@@ -56,7 +53,7 @@ const AboutSection = () => {
                       aria-controls="focus-customer"
                       aria-selected="false"
                     >
-                      <FocusOnCustomerIcon width={30} height={30} />
+                      <FocusOnCustomerIcon />
                       Focus On Customer
                     </button>
                   </li>
