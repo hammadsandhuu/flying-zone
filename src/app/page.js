@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <HomeSection />
-      <BookingForm />
+      {/* <BookingForm /> */}
       <AboutSection />
       <VisaSection />
       <DestinationSection />

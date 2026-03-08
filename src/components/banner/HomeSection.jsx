@@ -21,10 +21,10 @@ const HomeSection = () => {
       spaceBetween: 25,
       effect: "fade",
       fadeEffect: {
-        crossFade: true, 
+        crossFade: true,
       },
       autoplay: {
-        delay: 3000, 
+        delay: 3000,
         disableOnInteraction: false,
       },
       navigation: {
@@ -35,7 +35,7 @@ const HomeSection = () => {
   }, []);
   return (
     <>
-      <div className="home1-banner-area">
+      <div className="home1-banner-area mb-120">
         <div className="container-fluid">
           <Swiper {...settings} className="swiper home1-banner-slider" >
             <div className="swiper-wrapper">
