@@ -25,6 +25,9 @@ import Home2Team from "@/components/team/Home2Team";
 import Home3DestinationSlide from "@/components/destinationSlider/Home3DestinationSlide";
 import Home3Team from "@/components/team/Home3Team";
 import Home3Blog from "@/components/blog/Home3Blog";
+import Home2Banner from "@/components/banner/Home2Banner";
+import Home3Banner from "@/components/banner/Home3Banner";
+import Home3Destination from "@/components/destination/Home3Destination";
 
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
@@ -37,10 +40,13 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HomeSection />
+      <Home3Banner />
+      {/* <Home2Banner /> */}
+      {/* <HomeSection /> */}
       <Home6About />
       <Home2Destinationslide />
       <Home4Vissa />
+      <Home3Destination />
       <Home6Feature />
       <Home3Features />
       <Home3DestinationSlide />
@@ -48,7 +54,7 @@ export default function Home() {
       <Home4Testimonail />
       <Home1Banner2 />
       <Home3Team />
-      <Home3Blog />
+      {/* <Home3Blog /> */}
       {/* <Home3Banner3 /> */}
       {/* <DestinationSection /> */}
       {/* <VisaSection /> */}
