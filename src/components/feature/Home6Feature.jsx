@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 const Home6Feature = () => {
   return (
     <>
-      <div className="home6-feature-section mb-120">
+      <div className="home6-feature-section mb-120 mt-120">
         <div className="container one">
           <div className="row">
             <div className="col-xl-6">
@@ -216,14 +216,15 @@ const Home6Feature = () => {
             <div className="col-xl-6">
               <div className="feature-img-wrap">
                 <div className="row g-0">
-                  <div className="col-xl-8">
-                    <div className="feature-top-img">
-                      <img src="/assets/img/home6/feature-img1.jpg" alt="" />
-                    </div>
-                  </div>
+
                   <div className="col-xl-4">
                     <div className="feature-bottom-img">
                       <img src="/assets/img/home6/feature-img2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-xl-8">
+                    <div className="feature-top-img">
+                      <img src="/assets/img/home6/feature-img1.jpg" alt="" />
                     </div>
                   </div>
                 </div>

@@ -53,7 +53,7 @@ const Home4Vissa = () => {
   return (
     <>
       <div className="home4-visa-application-section mb-120">
-        <div className="container">
+        <div className="container one">
           <div className="row mb-50">
             <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3">
               <div className="section-title3">
@@ -87,8 +87,8 @@ const Home4Vissa = () => {
             </div>
           </div>
         </div>
-        <div className="package-card4-slider-wrapper">
-          <div className="container-fluid">
+        <div className="">
+          <div className="container one">
             <div className="row mb-50">
               <div className="col-lg-12">
                 <Swiper {...settings} className="swiper package-card4-slider">

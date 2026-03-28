@@ -10,7 +10,7 @@ const Home1Banner2 = () => {
   return (
     <>
       <div className="banner2-section mb-120">
-        <div className="container">
+        <div className="container one">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title text-center mb-60">

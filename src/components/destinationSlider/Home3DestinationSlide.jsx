@@ -64,7 +64,7 @@ const Home3DestinationSlide = () => {
           alt=""
           className="section-vector2"
         />
-        <div className="container">
+        <div className="container one">
           <div className="row mb-50">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="section-title2 two text-center">
@@ -373,7 +373,7 @@ const Home3DestinationSlide = () => {
                       </SwiperSlide>
                     </div>
                   </Swiper>
-                  <div className="slider-btn-grp4">
+                  {/* <div className="slider-btn-grp4">
                     <div className="slider-btn tour-tab-slider-prev">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -394,7 +394,7 @@ const Home3DestinationSlide = () => {
                         <path d="M0.0488516 19.1304C2.40275 12.6531 2.45814 7.01538 0.159624 0.867897C0.0488521 0.598007 0.159624 0.268143 0.381167 0.118204C0.602711 -0.0617224 0.907334 -0.0317344 1.10118 0.17818C5.86437 5.21612 10.7106 8.27486 15.5292 9.32443C15.8061 9.38441 16 9.6543 16 9.92419C16 10.2241 15.8061 10.494 15.5292 10.5539C10.7383 11.6335 5.83668 14.7522 0.990413 19.8201C0.879641 19.9401 0.741176 20.0001 0.575018 20.0001C0.464247 20.0001 0.353474 19.9701 0.242703 19.8801C0.0211589 19.7302 -0.0619202 19.4303 0.0488516 19.1304Z" />
                       </svg>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ const Newslatter = () => {
   return (
     <>
       <div className="banner3-section">
-        <div className="container">
+        <div className="container one">
           <div className="row">
             <div className="col-lg-12">
               <div className="banner3-content">

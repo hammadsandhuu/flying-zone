@@ -26053,7 +26053,10 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   position: relative;
   border-radius: 340px;
   margin-left: -200px;
-  transform: translateY(170px);
+  /* transform: translateY(170px); */
+  transform: translateX(250px);
+  margin-top: 210px;
+  z-index: 10;
 }
 
 .home6-feature-section .feature-img-wrap .feature-bottom-img img {

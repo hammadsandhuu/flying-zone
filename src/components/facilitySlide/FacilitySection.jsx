@@ -3,24 +3,41 @@ import React, { useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Autoplay,
-  EffectFade,
-  Navigation,
   Pagination,
 } from "swiper";
-import facilitySectionData from "../../data/facilitySection.json";
+
 import toursData from "../../data/tours.json";
 import umrahData from "../../data/umrah.json";
 import PackageCard from "./PackageCard";
 import TourIcon from "../svg/TourIcon";
 import HotelIcon from "../svg/HotelIcon";
 import DecorativeIcon from "../svg/DecorativeIcon";
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+SwiperCore.use([Autoplay, Pagination]);
 
 const FacilitySection = () => {
+  const facilitySectionData = {
+    section: {
+      subtitle: "Tour Experience",
+      title: "Ultimate Travel Experience"
+    },
+    filters: [
+      {
+        id: "tour",
+        label: "Tour Package",
+        tabId: "Tour",
+        ariaControls: "Tour"
+      },
+      {
+        id: "hajj-umrah",
+        label: "Hajj & Umrah",
+        tabId: "HajjUmrah",
+        ariaControls: "HajjUmrah"
+      }
+    ]
+  };
   const { section, filters } = facilitySectionData;
   const [activeFilter, setActiveFilter] = useState("tour");
 
-  // Combine all Umrah packages (both Air and Bus)
   const allUmrahPackages = useMemo(() => {
     return [
       ...umrahData.umrahByAir.map((pkg) => ({ ...pkg, type: "air" })),
@@ -28,12 +45,9 @@ const FacilitySection = () => {
     ];
   }, []);
 
-  // Get data for a specific filter
   const getDataForFilter = (filterId) => {
-    return filterId === "tour" ? toursData.tours : allUmrahPackages;
+    return (filterId === "tour" ? toursData.tours : allUmrahPackages).slice(0, 6);
   };
-
-  // Swiper settings for mobile slider
   const getSwiperSettings = (filterId) => {
     return {
       slidesPerView: "auto",
@@ -95,9 +109,8 @@ const FacilitySection = () => {
                 {filters.map((filter) => (
                   <li key={filter.id} className="nav-item" role="presentation">
                     <button
-                      className={`nav-link ${
-                        activeFilter === filter.id ? "active" : ""
-                      }`}
+                      className={`nav-link ${activeFilter === filter.id ? "active" : ""
+                        }`}
                       id={`${filter.tabId}-tab`}
                       data-bs-toggle="tab"
                       data-bs-target={`#${filter.tabId}`}
@@ -107,7 +120,7 @@ const FacilitySection = () => {
                       aria-selected={activeFilter === filter.id}
                       onClick={() => setActiveFilter(filter.id)}
                     >
-                      {filter.id === "tour" ? <TourIcon /> : <HotelIcon />}
+                      {filter.id === "tour" ? <TourIcon width={30} height={30} /> : <HotelIcon width={30} height={30} />}
                       {filter.label}
                     </button>
                   </li>
@@ -121,9 +134,8 @@ const FacilitySection = () => {
                 {filters.map((filter) => (
                   <div
                     key={filter.id}
-                    className={`tab-pane fade ${
-                      activeFilter === filter.id ? "show active" : ""
-                    }`}
+                    className={`tab-pane fade ${activeFilter === filter.id ? "show active" : ""
+                      }`}
                     id={filter.tabId}
                     role="tabpanel"
                     aria-labelledby={`${filter.tabId}-tab`}

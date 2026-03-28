@@ -14,7 +14,7 @@
     {
         "id": "3",
         "label": "Hajj & Umrah",
-        "link": "/hajj-umrah",
+        "link": "/",
         "icon": true,
         "subMenu": [
             {
@@ -90,7 +90,7 @@
             {
                 "id": "4",
                 "label": "Hotel Reservations",
-                "link": "/services/hotel-reservations",
+                "link": "/services/hotel-suits",
                 "icon": false
             },
             {

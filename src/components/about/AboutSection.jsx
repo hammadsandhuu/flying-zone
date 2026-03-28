@@ -38,7 +38,7 @@ const AboutSection = () => {
                       aria-controls="mission"
                       aria-selected="true"
                     >
-                      <MissionVisionIcon />
+                      <MissionVisionIcon width={30} height={30} />
                       Mission &amp; Vision
                     </button>
                   </li>
@@ -53,7 +53,7 @@ const AboutSection = () => {
                       aria-controls="focus-customer"
                       aria-selected="false"
                     >
-                      <FocusOnCustomerIcon />
+                      <FocusOnCustomerIcon width={30} height={30} />
                       Focus On Customer
                     </button>
                   </li>
@@ -99,9 +99,9 @@ const AboutSection = () => {
                     <div className="content">
                       <div className="number">
                         <h6 className="counter">
-                          <CountUp delay={2} end={500} />
+                          <CountUp delay={2} end={5} />
                         </h6>
-                        <span>+</span>
+                        <span>k+</span>
                       </div>
                       <p>Customer</p>
                     </div>

@@ -4,14 +4,14 @@ import CountUp from "react-countup";
 const Home3Features = () => {
   return (
     <>
-      <div className="feature-with-content-section mb-120">
+      <div className="feature-with-content-section mb-120 pt-120">
         <img
           src="/assets/img/home3/vector/book-tour-vector.svg"
           alt=""
           className="section-vector"
         />
-        <div className="container">
-          <div className="row mb-50">
+        <div className="container one">
+          {/* <div className="row mb-50">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="section-title2 two text-center">
                 <h2>Why Book Your Tour</h2>
@@ -19,10 +19,11 @@ const Home3Features = () => {
                   Etiam ac tortor id purus commodo vulputate. Vestibulum
                   porttitor erat felis and sed vehicula tortor malesuada
                   gravida. Mauris volutpat enim quis.
+
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="feature-with-content-wrapper">
             <div className="row g-lg-4 gy-5">
               <div className="col-lg-6">
@@ -127,6 +128,10 @@ const Home3Features = () => {
                   </div>
                   <h2>We Are The Best For Providing The Travel Arrangement.</h2>
                   <p>
+                    Nunc volutpat sagittis cursus. Praesent sed dolor
+                    pellentesque, consectetur velit sit amet, pharetra ipsum.
+                    Fusce eu ultrices tortor. Praesent vehicula commodo purus at
+                    vulputate.
                     Nunc volutpat sagittis cursus. Praesent sed dolor
                     pellentesque, consectetur velit sit amet, pharetra ipsum.
                     Fusce eu ultrices tortor. Praesent vehicula commodo purus at

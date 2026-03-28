@@ -22,7 +22,7 @@ const Footer3 = () => {
   return (
     <>
       <footer className="footer-section style-3">
-        <div className="container">
+        <div className="container one">
           <div className="footer-top">
             <div className="row g-lg-4 gy-5 justify-content-center">
               <div className="col-lg-3 col-md-6 col-sm-6">

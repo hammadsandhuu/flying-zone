@@ -34,7 +34,7 @@ const Home1Activities = () => {
         alt=""
         className="section-vector1"
       />
-      <div className="container">
+      <div className="container one">
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title text-center mb-60">

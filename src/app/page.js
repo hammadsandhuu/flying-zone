@@ -10,6 +10,22 @@ import FacilitySection from "@/components/facilitySlide/FacilitySection";
 import Home1Testimonail from "@/components/testimonial/Home1Testimonail";
 import VisaSection from "@/components/visaComponents/VisaSection";
 import Home1WhyChoose from "@/components/whyChoose/Home1WhyChoose";
+import Home3About from "@/components/about/Home3About";
+import Home3Banner3 from "@/components/banner/Home3Banner3";
+import Home3Features from "@/components/feature/Home3Features";
+import Home4Vissa from "@/components/visaComponents/Home4Vissa";
+import Home4Testimonail from "@/components/testimonial/Home4Testimonail";
+import Home4Banner2 from "@/components/banner/Home4Banner2";
+import Home5WhyChoose from "@/components/whyChoose/Home5WhyChoose";
+import Home6About from "@/components/about/Home6About";
+import Home6Feature from "@/components/feature/Home6Feature";
+import Home2Destinationslide from "@/components/destinationSlider/Home2Destinationslide";
+import Home2VideoSection from "@/components/videoSection/Home2VideoSection";
+import Home2Team from "@/components/team/Home2Team";
+import Home3DestinationSlide from "@/components/destinationSlider/Home3DestinationSlide";
+import Home3Team from "@/components/team/Home3Team";
+import Home3Blog from "@/components/blog/Home3Blog";
+
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
   description:
@@ -22,17 +38,36 @@ export default function Home() {
   return (
     <>
       <HomeSection />
-      {/* <BookingForm /> */}
-      <AboutSection />
-      <VisaSection />
-      <DestinationSection />
-      <FacilitySection />
-      <Home1FacilitySlide />
-      <Home1WhyChoose />
+      <Home6About />
+      <Home2Destinationslide />
+      <Home4Vissa />
+      <Home6Feature />
+      <Home3Features />
+      <Home3DestinationSlide />
       <Home1Activities />
+      <Home4Testimonail />
       <Home1Banner2 />
-      <Home1Testimonail />
-      <Home1Blog />
+      <Home3Team />
+      <Home3Blog />
+      {/* <Home3Banner3 /> */}
+      {/* <DestinationSection /> */}
+      {/* <VisaSection /> */}
+      {/* <DestinationSection /> */}
+      {/* <FacilitySection /> */}
+      {/* <Home1FacilitySlide /> */}
+      {/* <Home1WhyChoose /> */}
+      {/* <Home5WhyChoose /> */}
+      {/* <Home6Feature /> */}
+      {/* <Home1Activities /> */}
+      {/* <Home1Banner2 /> */}
+      {/* <Home3Features /> */}
+      {/* <Home4Vissa /> */}
+
+      {/* <Home3Banner3 /> */}
+      {/* <Home1Blog /> */}
+      {/* <Home2Team /> */}
+      {/* <Home2VideoSection /> */}
+
     </>
   );
 }

@@ -53,7 +53,7 @@ const Home2Destinationslide = () => {
   return (
     <>
       <div className="destination-card2-slider-section mb-120">
-        <div className="container">
+        <div className="container one">
           <div className="row mb-50">
             <div className="col-lg-12">
               <div className="section-title2 text-center">

@@ -5,7 +5,7 @@ const Home3Blog = () => {
   return (
     <>
       <div className="home3-blog-section mb-120">
-        <div className="container">
+        <div className="container one">
           <div className="row mb-50">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="section-title2 two text-center">
