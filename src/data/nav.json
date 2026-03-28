@@ -14,34 +14,8 @@
     {
         "id": "3",
         "label": "Hajj & Umrah",
-        "link": "/",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "Umrah By Bus",
-                "link": "/umrah/by-bus",
-                "icon": false
-            },
-            {
-                "id": "2",
-                "label": "Umrah By Air",
-                "link": "/umrah/by-air",
-                "icon": false
-            },
-            {
-                "id": "3",
-                "label": "Umrah By Air Premium",
-                "link": "/umrah/by-air-premium",
-                "icon": false
-            },
-            {
-                "id": "4",
-                "label": "Hajj Packages",
-                "link": "/hajj-packages",
-                "icon": false
-            }
-        ]
+        "link": "/hajj-umrah",
+        "icon": false
     },
     {
         "id": "4",
