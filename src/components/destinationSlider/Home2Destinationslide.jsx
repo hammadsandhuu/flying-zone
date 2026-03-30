@@ -3,12 +3,14 @@ import React, { useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Autoplay,
-  EffectFade,
   Navigation,
   Pagination,
 } from "swiper";
 import Link from "next/link";
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+import { destinationSliderData } from "@/data/destination-slider-data";
+import PlaneIcon from "@/components/svg/PlaneIcon";
+
+SwiperCore.use([Autoplay, Navigation, Pagination]);
 
 const Home2Destinationslide = () => {
   const settings = useMemo(() => {
@@ -20,36 +22,23 @@ const Home2Destinationslide = () => {
         nextEl: ".destination-card2-next",
         prevEl: ".destination-card2-prev",
       },
-
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
       breakpoints: {
-        280: {
-          slidesPerView: 1,
-        },
-        386: {
-          slidesPerView: 1,
-        },
-        576: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 15,
-        },
-        992: {
-          slidesPerView: 4,
-          spaceBetween: 15,
-        },
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 15,
-        },
-        1400: {
-          slidesPerView: 4,
-        },
+        280: { slidesPerView: 1 },
+        386: { slidesPerView: 1 },
+        576: { slidesPerView: 2, spaceBetween: 15 },
+        768: { slidesPerView: 3, spaceBetween: 15 },
+        992: { slidesPerView: 4, spaceBetween: 15 },
+        1200: { slidesPerView: 4, spaceBetween: 15 },
+        1400: { slidesPerView: 4 },
       },
     };
   }, []);
+
   return (
     <>
       <div className="destination-card2-slider-section mb-120">
@@ -57,28 +46,9 @@ const Home2Destinationslide = () => {
           <div className="section-title5 mb-40 text-center">
             <span>
               Journey Flying-Zone
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={20}
-                height={20}
-                viewBox="0 0 20 20"
-              >
-                <g opacity="0.8">
-                  <path d="M9.06226 11.3626L8.55838 13.7263L6.22997 20.0004L7.61194 19.7701L14.0678 11.3277C14.979 11.296 15.8626 11.2471 16.6304 11.1713C20.1826 10.82 19.9984 10.0002 19.9984 10.0002C19.9984 10.0002 20.1826 9.18031 16.6304 8.829C15.8626 8.7529 14.9789 8.70407 14.0678 8.67261L7.61197 0.229974L6.22997 -6.01907e-07L8.55838 6.27416L9.06226 8.6378C7.87942 8.6555 7.07898 8.68244 7.07898 8.68244C7.07898 8.68244 5.44724 8.7201 2.92253 9.28895L0.864093 6.43364L-0.000128074 6.43364L0.615287 9.90529C0.504522 9.93924 0.504522 10.0611 0.615287 10.0951L-0.000128385 13.5667L0.864093 13.5667L2.92253 10.7117C5.44724 11.2806 7.07898 11.3177 7.07898 11.3177C7.07898 11.3177 7.87942 11.3449 9.06226 11.3626Z" />
-                  <path d="M13.4102 13.2575L13.4102 14.1895L9.96575 14.1895L9.96575 13.2575L13.4102 13.2575ZM13.4102 5.81414L13.4102 6.7458L9.96595 6.7458L9.96595 5.81414L13.4102 5.81414ZM11.0863 16.385L11.0863 17.3167L7.90291 17.3167L7.90291 16.385L11.0863 16.385ZM11.0863 2.68689L11.0863 3.61885L7.90291 3.61885L7.90291 2.68689L11.0863 2.68689Z" />
-                </g>
-              </svg>
+              <PlaneIcon className="ms-1" style={{ width: 20, height: 20, opacity: 0.8 }} />
             </span>
             <h2>Trendy Travel Locations</h2>
-            {/* <p>
-              Etiam ac tortor id purus commodo vulputate. Vestibulum
-              porttitor erat felis and sed vehiculant tortor malesuada
-              gravida. Mauris volutpat enim quis pulv gont congue.
-              Suspendisse ullamcor. In this luxurious getaway, no expense
-              has been spared. You will be captivated by fine a ghosa
-              cuisines, the naivety of local people and top notched
-              services.
-            </p> */}
           </div>
           <div className="row">
             <div className="col-lg-12">
@@ -87,198 +57,21 @@ const Home2Destinationslide = () => {
                 className="swiper destination-card2-slider mb-50"
               >
                 <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img1.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>5 Tour</span>
+                  {destinationSliderData.map((item) => (
+                    <SwiperSlide key={item.id} className="swiper-slide">
+                      <div className="destination-card2">
+                        <Link href={item.link} className="destination-card-img">
+                          <img src={item.image} alt={item.name} />
+                        </Link>
+                        <div className="destination-card2-content">
+                          <span>{item.locations}</span>
+                          <h4>
+                            <Link href={item.link}>{item.name}</Link>
+                          </h4>
+                        </div>
                       </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            New York
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img2.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>8 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Switzerland
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img3.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>4 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Saudi Arab
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img4.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>6 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Indonesia
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img5.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>7 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Brazil
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img6.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>8 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Japan
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img7.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>3 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Australia
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="destination-card2">
-                      <Link
-                        href="/destination/destination-details"
-                        className="destination-card-img"
-                      >
-                        <img
-                          src="/assets/img/home2/destination-card2-img4.jpg"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="batch">
-                        <span>6 Tour</span>
-                      </div>
-                      <div className="destination-card2-content">
-                        <span>Travel To</span>
-                        <h4>
-                          <Link href="/destination/destination-details">
-                            Indonesia
-                          </Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </SwiperSlide>
+                    </SwiperSlide>
+                  ))}
                 </div>
               </Swiper>
               <div className="slide-and-view-btn-grp">

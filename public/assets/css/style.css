@@ -1192,7 +1192,7 @@ ul {
   font-family: var(--font-rubik);
   font-weight: 600;
   font-size: 16px;
-  color: var(--title-color);
+  color: white;
   letter-spacing: 0.48px;
   text-transform: capitalize;
   line-height: 1;
