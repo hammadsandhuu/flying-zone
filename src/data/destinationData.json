@@ -1,52 +1,322 @@
 [
   {
+    "id": 1,
     "name": "Afghanistan",
-    "locations": "Kabul, Herat, Mazar-i-Sharif",
-    "tourCount": 25
+    "slug": "afghanistan",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=S02S91S1V-M",
+    "description": "Afghanistan is a landlocked country at the crossroads of Central and South Asia. It is bordered by Pakistan to the east and south, Iran to the west, Turkmenistan, Uzbekistan, and Tajikistan to the north, and China to the northeast.",
+    "population": "40.1 million",
+    "capital": "Kabul",
+    "language": "Pashto, Dari",
+    "currency": "Afghan afghani",
+    "subDescription": "Afghanistan offers a unique blend of culture, history, and natural beauty. Explore the bustling streets of Kabul or the serene landscapes beyond.",
+    "highlights": [
+      "Visit the historic Babur Gardens",
+      "Explore the majestic Blue Mosque in Mazar-i-Sharif",
+      "Wander through the ancient Citadel of Herat",
+      "Experience local hospitality and cuisine"
+    ],
+    "details": [
+      "Afghanistan is home to an incredible array of ancient ruins and historical landmarks that tell the story of its rich and complex past. From the stunning blue tiles of the Mazar-i-Sharif Mosque to the ancient citadels in Herat, every corner of the country offers a glimpse into a history that spanned across empires and civilizations.",
+      "The immersive cultural experiences available here are truly unique. Visitors can engage with local people who are known for their legendary hospitality, learning about their traditions, languages, and the resilient spirit that defines the Afghan identity. Whether it's sharing a cup of tea in a local bazaar or attending a traditional ceremony, the human connection is what makes a visit to Afghanistan so memorable.",
+      "For those who seek adventure, the rugged terrain of Afghanistan provides endless opportunities for hiking, trekking, and outdoor exploration. The Bamyan Valley, with its dramatic cliffs and hidden caves, and the snow-capped peaks of the Hindu Kush offer some of the most breathtaking landscapes in Central Asia, perfect for travelers looking to get off the beaten path.",
+      "No journey through Afghanistan would be complete without experiencing its gourmet local cuisine. Afghan food is a delightful fusion of flavors from across Asia, featuring fragrant rice dishes like Kabuli Pulao, savory kebabs, and a variety of freshly baked breads that are a staple at every meal."
+    ]
   },
   {
+    "id": 2,
     "name": "Albania",
-    "locations": "Tirana, Durres, Vlore",
-    "tourCount": 45
+    "slug": "albania",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=F02F91F1V-M",
+    "description": "Albania, on Southeastern Europe's Balkan Peninsula, is a small country with Adriatic and Ionian coastlines and an interior crossed by the Albanian Alps.",
+    "population": "2.8 million",
+    "capital": "Tirana",
+    "language": "Albanian",
+    "currency": "Albanian lek",
+    "subDescription": "Albania is a hidden gem in the Balkans, offering stunning coastlines and rugged mountains. Experience the bridge between Eastern and Western cultures.",
+    "highlights": [
+      "Sunbathe on the pristine beaches of the Albanian Riviera",
+      "Hike the majestic Albanian Alps",
+      "Explore the colorful streets of Tirana",
+      "Visit ancient Roman ruins in Butrint"
+    ],
+    "details": [
+      "Albania's coastline along the Adriatic and Ionian seas is truly spectacular, featuring pristine beaches and crystal-clear waters that rival the most famous Mediterranean resorts. From the bustling beaches of Durres to the hidden coves of the Albanian Riviera, the country offers a diverse range of coastal experiences for every type of traveler.",
+      "The capital city, Tirana, is a vibrant hub of Ottoman architecture and modern street life. Its colorful buildings, lively cafes, and historical landmarks like Skanderbeg Square reflect the country's dynamic history and its ongoing transformation into a modern European destination.",
+      "The majestic Albanian Alps in the north offer some of the most dramatic mountain scenery in Europe. Hiking enthusiasts can explore remote mountain villages like Theth and Valbona, where traditional hospitality is still very much alive and the natural beauty remains largely untouched by large-scale tourism.",
+      "Traditional Balkan cuisine is a highlight of any trip to Albania. Visitors can enjoy local specialties like byrek, farges, and fresh seafood along the coast, all while experiencing the warm and welcoming spirit of the Albanian people."
+    ]
   },
   {
+    "id": 3,
     "name": "Algeria",
-    "locations": "Algiers, Oran, Constantine",
-    "tourCount": 15
+    "slug": "algeria",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=G02G91G1V-M",
+    "description": "Algeria is a North African country with a Mediterranean coastline and a Saharan desert interior. Many empires have left legacies here, such as the ancient Roman ruins in Tipaza.",
+    "population": "44.1 million",
+    "capital": "Algiers",
+    "language": "Arabic, Berber",
+    "currency": "Algerian dinar",
+    "subDescription": "Algeria boasts a rich tapestry of history, from Roman ruins to Saharan landscapes. Discover the architectural wonders of Algiers and the vastness of the desert.",
+    "highlights": [
+      "Wander the UNESCO-listed Casbah of Algiers",
+      "Trek through the Tassili n'Ajjer National Park",
+      "Visit the remarkably preserved Roman city of Timgad",
+      "Witness the sunset over the Sahara dunes"
+    ],
+    "details": [
+      "Algeria is home to some of the best-preserved Roman ruins in the world. Sites like Tipaza, Timgad, and Djemila offer an incredible look into the ancient world, with stunning amphitheaters, temples, and mosaics that have stood the test of time against the backdrop of the Mediterranean coast.",
+      "The capital city, Algiers, often referred to as 'Algiers the White,' is a masterpiece of colonial and Islamic architecture. Its Casbah, a UNESCO World Heritage site, is a labyrinth of narrow streets and historic palaces that capture the essence of the city's storied past.",
+      "The vast Sahara Desert makes up much of Algeria's interior, offering an otherworldly landscape of golden sand dunes, dramatic mountain ranges like the Hoggar, and ancient rock art. Guided treks into the desert provide a unique opportunity to witness the nomadic life and the profound silence of the dunes.",
+      "Algerian culture is a fascinating blend of Arabic and Berber traditions. From the vibrant music of Oran to the traditional festivals in the mountain regions, visitors can immerse themselves in a culture that is both ancient and deeply welcoming."
+    ]
   },
   {
+    "id": 4,
     "name": "Andorra",
-    "locations": "Andorra la Vella",
-    "tourCount": 10
+    "slug": "andorra",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=H02H91H1V-M",
+    "description": "Andorra is a tiny, independent principality situated between France and Spain in the Pyrenees mountains. It's known for its ski resorts and a tax-haven status that encourages duty-free shopping.",
+    "population": "77,265",
+    "capital": "Andorra la Vella",
+    "language": "Catalan",
+    "currency": "Euro",
+    "subDescription": "Nestled in the Pyrenees, Andorra is a paradise for mountain lovers. From world-class skiing to duty-free shopping, it offers a unique European escape.",
+    "highlights": [
+      "Ski at Grandvalira, the largest resort in the Pyrenees",
+      "Duty-free luxury shopping in the capital",
+      "Relax at the Caldea Thermal Spa",
+      "Hike the UNESCO-listed Madriu-Perafita-Claror Valley"
+    ],
+    "details": [
+      "Andorra is a premier destination for winter sports, boasting world-class ski resorts like Grandvalira and Vallnord. With perfectly groomed slopes and modern facilities, it attracts skiers and snowboarders from around the world who seek both adventure and the luxury of high-end mountain life.",
+      "Beyond the slopes, Andorra is famous for its duty-free shopping. The capital, Andorra la Vella, is lined with shops offering everything from luxury goods to electronics, making it a favorite destination for those looking to combine a mountain getaway with some serious shopping therapy.",
+      "The principality is also home to some of the best wellness centers in Europe, such as Caldea, a massive thermal spa that utilizes the region's natural hot springs. It's the perfect place to relax after a day of skiing or hiking in the crisp mountain air.",
+      "During the summer, the mountains transform into a lush landscape for hiking and cycling. Well-marked trails lead through picturesque valleys and past high-altitude lakes, providing a peaceful escape for nature lovers and families alike."
+    ]
   },
   {
+    "id": 5,
     "name": "Angola",
-    "locations": "Luanda, Huambo, Lobito",
-    "tourCount": 30
+    "slug": "angola",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=I02I91I1V-M",
+    "description": "Angola is a Southern African nation whose varied terrain encompasses tropical Atlantic beaches, a labyrinthine system of rivers and Sub-Saharan desert that extends across the border into Namibia.",
+    "population": "32.8 million",
+    "capital": "Luanda",
+    "language": "Portuguese",
+    "currency": "Angolan kwanza",
+    "subDescription": "Angola's diverse landscape offers everything from tropical beaches to dramatic river systems. Explore the vibrant culture and natural wonders of this Southern African nation.",
+    "highlights": [
+      "Marvel at the Kalandula Falls",
+      "Relax on the beaches of Lobito and Benguela",
+      "Safari in the Kissama National Park",
+      "Discover the lively music scene in Luanda"
+    ],
+    "details": [
+      "Angola's Atlantic coastline is dotted with beautiful tropical beaches that offer a peaceful retreat from the bustling cities. From the famous Ilha do Cabo in Luanda to the pristine sands of Lobito, the coast is a place where visitors can enjoy fresh seafood and the warm African sun.",
+      "One of Angola's most iconic natural wonders is the Kalandula Falls, one of the largest waterfalls in Africa. The sheer power and beauty of the falls are a testament to the country's diverse and dramatic geography, which also includes the dramatic cliffs of Tundavala.",
+      " wildlife enthusiasts can explore several national parks that are slowly being restored. Parks like Kissama offer a chance to see elephants, giraffes, and other African wildlife in a setting that remains largely untouched by mass tourism, providing a true wilderness experience.",
+      "The local culture is a vibrant blend of traditional African customs and Portuguese influences. From the lively music of Luanda to the traditional basics found in regional markets, Angola's cultural heritage is as diverse and welcoming as its landscape."
+    ]
   },
   {
+    "id": 6,
     "name": "Antigua and Barbuda",
-    "locations": "St. John's",
-    "tourCount": 5
+    "slug": "antigua-and-barbuda",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=J02J91J1V-M",
+    "description": "Antigua and Barbuda is an independent Commonwealth country comprising its 2 namesake islands and several smaller ones. Situated where the Atlantic and Caribbean meet, it's known for reef-fringed beaches, rainforests and resorts.",
+    "population": "97,929",
+    "capital": "St. John's",
+    "language": "English",
+    "currency": "Eastern Caribbean dollar",
+    "subDescription": "Where the Atlantic and Caribbean meet, Antigua and Barbuda beckon with reef-fringed beaches and lush rainforests. A true Caribbean paradise for every traveler.",
+    "highlights": [
+      "Visit 365 beaches - one for every day of the year",
+      "Sail the crystal clear Caribbean waters",
+      "Explore Nelson's Dockyard UNESCO site",
+      "Zipline through the tropical rainforest"
+    ],
+    "details": [
+      "Antigua is a world-renowned destination for sailing and yachting, host to some of the most prestigious regattas in the Caribbean. The clear, turquoise waters and steady trade winds create the perfect environment for exploring the many hidden coves and smaller islands from the deck of a boat.",
+      "The island is famous for having 365 beaches, one for every day of the year. From the expansive sands of Dickenson Bay to the quiet, secluded shores of Half Moon Bay, there is a perfect spot for every visitor to relax and soak in the Caribbean sun.",
+      "Historical sites like Nelson's Dockyard in English Harbour offer a fascinating look into the island's naval past. This beautifully restored Georgian dockyard, now a UNESCO World Heritage site, is filled with historic buildings, museums, and lively restaurants.",
+      "For those who enjoy eco-adventures, the interior of Antigua is covered in lush tropical rainforests. Hiking trails through the forest lead to hidden viewpoints and offer a chance to see the island's diverse flora and fauna up close."
+    ]
   },
   {
+    "id": 7,
     "name": "Argentina",
-    "locations": "Buenos Aires, Cordoba, Rosario",
-    "tourCount": 40
+    "slug": "argentina",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=K02K91K1V-M",
+    "description": "Argentina is a big South American nation with terrain encompassing Andes mountains, glacial lakes and Pampas grassland, the traditional grazing ground of its famed beef cattle.",
+    "population": "45.1 million",
+    "capital": "Buenos Aires",
+    "language": "Spanish",
+    "currency": "Argentine peso",
+    "subDescription": "From the passion of Tango to the grandeur of Patagonia, Argentina is a land of extremes. Enjoy world-class dining and breathtaking natural scenery.",
+    "highlights": [
+      "Witness the Perito Moreno Glacier",
+      "Attend a live Tango show in Buenos Aires",
+      "Visit the Iguazu Falls",
+      "Wine tasting in Mendoza's vineyards"
+    ],
+    "details": [
+      "Buenos Aires is a city that lives and breathes Tango. From the colorful streets of La Boca to the grand milongas in the city center, the passion and drama of this traditional dance are everywhere. Visitors can take lessons or simply enjoy a performance in one of the many cafes or theaters.",
+      "Patagonia, in the south of the country, is a land of breathtaking natural wonders. Glaciers like Perito Moreno and the dramatic peaks of Mount Fitz Roy provide an incredible backdrop for hiking and photography, attracting nature lovers from across the globe.",
+      "Argentina is famous for its culinary scene, especially its world-class steaks. Beef is a central part of the local diet, and dining at a traditional parrillada is an essential experience for any visitor, often accompanied by the country's excellent Malbec wines.",
+      "The vast Pampas grasslands are the traditional home of the gauchos, Argentina's legendary cowboys. Exploring this region provides a look into the country's rural traditions and the rugged lifestyle that has shaped the national identity."
+    ]
   },
   {
+    "id": 8,
     "name": "Armenia",
-    "locations": "Yerevan, Gyumri",
-    "tourCount": 18
+    "slug": "armenia",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=L02L91L1V-M",
+    "description": "Armenia is a nation and former Soviet republic in the mountainous Caucasus region between Asia and Europe. Among the earliest Christian civilizations, it's defined by religious sites including the Greco-Roman Temple of Garni.",
+    "population": "2.9 million",
+    "capital": "Yerevan",
+    "language": "Armenian",
+    "currency": "Armenian dram",
+    "subDescription": "One of the world's oldest civilizations, Armenia is a land of ancient churches and mountainous beauty. Discover the spiritual heart of the Caucasus.",
+    "highlights": [
+      "Visit the mountaintop Tatev Monastery",
+      "Behold the view of Mt. Ararat",
+      "Stay in the 'Little Switzerland' of Dilijan",
+      "Taste some of the world's oldest wines"
+    ],
+    "details": [
+      "Armenia is often called an open-air museum, filled with ancient monasteries and historical churches that date back to the earliest days of Christianity. Sites like Khor Virap and Geghard are not only architectural wonders but also offer profoundly spiritual experiences set against dramatic mountain backdrops.",
+      "The capital, Yerevan, provides some of the most beautiful views of Mount Ararat, the national symbol of Armenia. The city itself is a vibrant mix of historical rose-colored buildings and modern cafes, reflecting the resilience and spirit of the Armenian people.",
+      "The Greco-Roman Temple of Garni and the nearby medieval monastery of Geghard are must-visit sites for anyone interested in ancient history. The temple, built in the 1st century, is a stunning reminder of the diverse influences that have shaped the region over the millennia.",
+      "Armenian cuisine is rich and varied, with a focus on fresh, local ingredients. Tasting traditional lavash bread, succulent khorovats (kebabs), and local fruits like apricots and pomegranates is a highlight of any visit, especially when shared with the incredibly welcoming local people."
+    ]
   },
   {
+    "id": 9,
     "name": "Australia",
-    "locations": "Sydney, Melbourne, Brisbane",
-    "tourCount": 50
+    "slug": "australia",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=M02M91M1V-M",
+    "description": "Australia is a country and continent surrounded by the Indian and Pacific oceans. Its major cities – Sydney, Brisbane, Melbourne, Perth, Adelaide – are coastal.",
+    "population": "25.6 million",
+    "capital": "Canberra",
+    "language": "English",
+    "currency": "Australian dollar",
+    "subDescription": "Australia offers a unique blend of vibrant coastal cities and prehistoric wilderness. Experience everything from the Great Barrier Reef to the outback.",
+    "highlights": [
+      "Dive the Great Barrier Reef",
+      "Tour the Sydney Opera House",
+      "Drive the Great Ocean Road",
+      "Spot kangaroos in the outback"
+    ],
+    "details": [
+      "The Great Barrier Reef is one of the world's most incredible natural wonders, offering unparalleled opportunities for snorkeling and diving. Stretching along the Queensland coast, it is home to thousands of species of fish, coral, and other marine life, providing an unforgettable underwater experience.",
+      "Sydney is famous for its spectacular harbor and the iconic Sydney Opera House. A walk around the harbor or a performance at the Opera House is a highlight for any visitor, capturing the vibrant and modern spirit of Australia's largest coastal city.",
+      "The Australian Outback is a land of prehistoric wilderness and profound silence. Adventurous safaris through the Red Centre, with sites like Uluru, provide a look into the ancient culture of the Aboriginal people and the dramatic beauty of the desert landscape.",
+      "Australia's coastline is lined with world-famous beaches that are a paradise for surfers and beach lovers alike. From the iconic Bondi Beach in Sydney to the remote shores of Western Australia, the surf culture is a central part of the Australian lifestyle."
+    ]
   },
   {
+    "id": 10,
     "name": "Austria",
-    "locations": "Vienna, Graz, Linz",
-    "tourCount": 38
+    "slug": "austria",
+    "image": "/assets/img/home1/package-card-img1.png",
+    "img2": "/assets/img/home2/destination-card2-img2.jpg",
+    "gallery": [
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png",
+      "/assets/img/home1/package-card-img1.png"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=N02N91N1V-M",
+    "description": "Austria is a landlocked East Alpine country in the southern part of Central Europe. It is composed of nine federated states, one of which is Vienna, Austria's capital and largest city.",
+    "population": "8.9 million",
+    "capital": "Vienna",
+    "language": "German",
+    "currency": "Euro",
+    "subDescription": "Austria is where classical music meets Alpine splendor. Explore the historic streets of Vienna or the snowy peaks of the Alps.",
+    "highlights": [
+      "Attend an opera in Vienna",
+      "Visit the Sound of Music sites in Salzburg",
+      "Ski the Alps in Kitzbuhel",
+      "Lakeside retreat in Hallstatt"
+    ],
+    "details": [
+      "Austria has a long and storied history as a center of classical music, a tradition that continues today with world-famous festivals in cities like Vienna and Salzburg. The legacy of composers like Mozart and Beethoven is celebrated in grand opera houses and historic venues across the country.",
+      "The Austrian Alps offer world-class skiing and winter sports adventures. Resorts like Kitzbühel and St. Anton provide some of the best-groomed slopes and alpine hospitality in the world, attracting winter enthusiasts from every corner of the globe.",
+      "Vienna's traditional coffee house culture is an experience like no other. These historic establishments are more than just places to drink coffee; they are centers of social and intellectual life, where visitors can enjoy traditional cakes and pastries in a grand, historical atmosphere.",
+      "The picturesque village of Hallstatt, nestled between the Dachstein mountains and Lake Hallstatt, is often cited as one of the most beautiful villages in the world. Its colorful houses and narrow streets capture the timeless charm of the Austrian countryside."
+    ]
   }
 ]

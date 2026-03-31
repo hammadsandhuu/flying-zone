@@ -7,12 +7,12 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
-import { destinationSliderData } from "@/data/destination-slider-data";
+import destinationData from "@/data/destinationData.json";
 import PlaneIcon from "@/components/svg/PlaneIcon";
 
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 
-const Home2Destinationslide = () => {
+const Destinations = () => {
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -48,7 +48,7 @@ const Home2Destinationslide = () => {
               Journey Flying-Zone
               <PlaneIcon className="ms-1" style={{ width: 20, height: 20, opacity: 0.8 }} />
             </span>
-            <h2>Trendy Travel Locations</h2>
+            <h2>Popular Travel Locations</h2>
           </div>
           <div className="row">
             <div className="col-lg-12">
@@ -57,16 +57,16 @@ const Home2Destinationslide = () => {
                 className="swiper destination-card2-slider mb-50"
               >
                 <div className="swiper-wrapper">
-                  {destinationSliderData.map((item) => (
+                  {destinationData.map((item) => (
                     <SwiperSlide key={item.id} className="swiper-slide">
                       <div className="destination-card2">
-                        <Link href={item.link} className="destination-card-img">
-                          <img src={item.image} alt={item.name} />
+                        <Link href={`/destination/${item.slug}`} className="destination-card-img">
+                          <img src={item.img2} alt={item.name} />
                         </Link>
                         <div className="destination-card2-content">
-                          <span>{item.locations}</span>
+                          <span>{item.capital}</span>
                           <h4>
-                            <Link href={item.link}>{item.name}</Link>
+                            <Link href={`/destination/${item.slug}`}>{item.name}</Link>
                           </h4>
                         </div>
                       </div>
@@ -85,7 +85,7 @@ const Home2Destinationslide = () => {
                     <i className="bi bi-arrow-right" />
                   </div>
                 </div>
-                <Link href="/destination/style2" className="secondary-btn2">
+                <Link href="/destination" className="secondary-btn2">
                   View All Destination
                 </Link>
               </div>
@@ -97,4 +97,4 @@ const Home2Destinationslide = () => {
   );
 };
 
-export default Home2Destinationslide;
+export default Destinations;

@@ -30707,10 +30707,10 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .package-details-area .package-img-group {
-  border-radius: 10px;
-  background: #FFF;
+  /* border-radius: 10px;
+  background: var(--white-color);
   padding: 10px;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08); */
 }
 
 .package-details-area .package-img-group .gallery-img-wrap {
@@ -30756,7 +30756,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .package-details-area .package-img-group .gallery-img-wrap a i {
-  color: var(--primary-color2);
+  color: var(--white-color);
   font-size: 35px;
 }
 
@@ -30784,7 +30784,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 
 .package-details-area .package-img-group .gallery-img-wrap button i {
-  color: var(--primary-color2);
+  color: var(--white-color);
   font-size: 20px;
 }
 

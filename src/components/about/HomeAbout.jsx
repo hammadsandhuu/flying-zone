@@ -7,7 +7,7 @@ import PlaneIcon from "@/components/svg/PlaneIcon";
 import SparkleIcon from "@/components/svg/SparkleIcon";
 import VideoIcon from "@/components/svg/VideoIcon";
 
-const Home6About = () => {
+const HomeAbout = () => {
   const [isOpen, setOpen] = useState(false);
   useEffect(() => {
     const elements = document.querySelectorAll(".badge__char");
@@ -125,4 +125,4 @@ const Home6About = () => {
   );
 };
 
-export default Home6About;
+export default HomeAbout;

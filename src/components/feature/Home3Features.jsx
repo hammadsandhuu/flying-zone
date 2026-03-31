@@ -110,7 +110,7 @@ const Home3Features = () => {
               </div>
               <div className="col-lg-6">
                 <div className="feature-content-wrap">
-                  <div className="section-title5 mb-40">
+                  <div className="section-title5">
                     <span>
                       Our Experience
                       <svg
@@ -125,8 +125,8 @@ const Home3Features = () => {
                         </g>
                       </svg>
                     </span>
-                    <h2>We Are The Best For Providing The Travel Arrangement.</h2>
-                    <p>
+                    <h2 className="mb-0">We Are The Best For Providing The Travel Arrangement.</h2>
+                    <p className="mt-0">
                       With a legacy starting in 2007, Flying Zone has become a
                       trusted name in international travel and tourism. Our
                       presence in the UAE since 2023, combined with our

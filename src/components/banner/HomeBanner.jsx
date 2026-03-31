@@ -15,7 +15,7 @@ import VideoIcon from "@/components/svg/VideoIcon";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const Home3Banner = () => {
+const HomeBanner = () => {
     const [isOpen, setOpen] = useState(false);
     const settings = useMemo(() => {
         return {
@@ -118,4 +118,4 @@ const Home3Banner = () => {
     );
 };
 
-export default Home3Banner;
+export default HomeBanner;

@@ -83,11 +83,13 @@ const DestinationSearch = ({ destination, style, }) => {
                     <h6>{destination.name}</h6>
                     <p>{destination.locations}</p>
                   </div>
-                  <div className="tour">
-                    <span>
-                      {destination.tourCount} <br /> Tour
-                    </span>
-                  </div>
+                  {destination.tourCount && (
+                    <div className="tour">
+                      <span>
+                        {destination.tourCount} <br /> Tour
+                      </span>
+                    </div>
+                  )}
                 </li>
               ))
             ) : (

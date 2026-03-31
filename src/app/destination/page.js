@@ -1,16 +1,14 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Link from "next/link";
 import React from "react";
-import destinationSectionData from "@/data/destinationSection.json";
+import destinations from "@/data/destinationData.json";
 
 const page = () => {
-  const { destinations } = destinationSectionData;
-
   return (
     <>
       <Breadcrumb pagename="destination" pagetitle="Destination" />
       <div className="destination-gallery-section pt-120 mb-120">
-        <div className="container">
+        <div className="container one">
           <div className="row g-lg-4 gy-5 mb-70">
             {destinations.map((destination) => (
               <div
@@ -18,17 +16,17 @@ const page = () => {
                 className="col-lg-4 col-sm-6"
               >
                 <div className="destination-card">
-                  <img src={destination.image} alt={destination.title} />
+                  <img src={destination.image} alt={destination.name} />
                   <div className="overlay" />
                   <div className="card-title">
-                    <h4>{destination.title}</h4>
+                    <h4>{destination.name}</h4>
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href={destination.link}>{destination.title}</Link>
+                      <Link href={`/destination/${destination.slug}`}>{destination.name}</Link>
                     </h4>
                     <div className="eg-tag">
-                      <span>{destination.title}</span>
+                      <span>{destination.capital} - {destination.population}</span>
                     </div>
                   </div>
                 </div>

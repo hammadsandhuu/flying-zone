@@ -3,7 +3,6 @@ import Breadcrumb from "@/components/common/Breadcrumb";
 import Link from "next/link";
 import React from "react";
 import visaData from "@/data/visa.json";
-import faqData from "@/data/visa-faq.json";
 
 const GlobalVisaPage = () => {
   return (
@@ -90,7 +89,7 @@ const GlobalVisaPage = () => {
                 </h5>
                 <div className="faq-content mb-50">
                   <div className="accordion" id="accordionGlobalVisa">
-                    {faqData.globalVisa.map((faq, index) => (
+                    {visaData.faqs.globalVisa.map((faq, index) => (
                       <div key={faq.id} className="accordion-item">
                         <h2 className="accordion-header" id={`globalVisaheading${index + 1}`}>
                           <button

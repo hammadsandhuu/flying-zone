@@ -20,7 +20,7 @@
     {
         "id": "4",
         "label": "Visa",
-        "link": "/visas",
+        "link": "/",
         "icon": true,
         "subMenu": [
             {

@@ -101,7 +101,7 @@ const Home1Activities = () => {
                             </li>
                           ))}
                         </ul>
-                        <div className="content-bottom-area">
+                        {/* <div className="content-bottom-area">
                           <Link
                             href="/activities/activities-details"
                             className="primary-btn1"
@@ -119,7 +119,7 @@ const Home1Activities = () => {
                             </div>
                             <h6>Watch Adventure</h6>
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="verticle-tab-img">
                         <div className="verticle-tab-img1 mb-25">
