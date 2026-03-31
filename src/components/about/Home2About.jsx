@@ -16,12 +16,9 @@ const Home2About = () => {
                   <div className="eg-section-tag">
                     <span>About Us</span>
                   </div>
-                  <h2>We provide the best tour facilities.</h2>
+                  <h2>We Provide Unforgettable Travel Experiences</h2>
                   <p>
-                    Etiam ac tortor id purus commodo vulputate. Vestibulum
-                    porttitor erat felis and sed vehicula tortor malesuada
-                    gravida. Mauris volutpat enim quis pulv gont congue.
-                    Suspendisse ullamcorper.
+                    At Flying Zone UAE, we are dedicated to making every journey seamless, memorable, and worry-free. Backed by 19+ years of industry experience and a strong presence in the UAE since 2023, we combine global knowledge with local expertise to craft travel solutions that truly matter.
                   </p>
                 </div>
                 <div className="row g-4 mb-50">
@@ -35,8 +32,8 @@ const Home2About = () => {
                       </div>
                       <div className="content">
                         <h6>
-                          Safety first <br />
-                          always
+                          Safety First, <br />
+                          Always
                         </h6>
                       </div>
                     </div>
@@ -51,8 +48,8 @@ const Home2About = () => {
                       </div>
                       <div className="content">
                         <h6>
-                          Trusted travel <br />
-                          guide
+                          Trusted Travel <br />
+                          Guide
                         </h6>
                       </div>
                     </div>
@@ -82,7 +79,7 @@ const Home2About = () => {
                       </div>
                       <div className="content">
                         <h6>
-                          Expertise and <br /> Experience
+                          Personalized <br /> Service
                         </h6>
                       </div>
                     </div>
@@ -147,7 +144,7 @@ const Home2About = () => {
                   />
                 </div>
                 <div className="experience">
-                  <h3>05</h3>
+                  <h3>19+</h3>
                   <p>Years of experience</p>
                 </div>
                 <img

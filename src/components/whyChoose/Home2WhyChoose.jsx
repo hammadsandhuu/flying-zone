@@ -35,7 +35,7 @@ const Home2WhyChoose = () => {
                 <div className="eg-section-tag">
                   <span>Who We Are</span>
                 </div>
-                <h2>Why Flying-Zone Is Best</h2>
+                <h2>Why Choose Flying Zone</h2>
               </div>
             </div>
           </div>
@@ -55,7 +55,12 @@ const Home2WhyChoose = () => {
                 </div>
                 <div className="feature-card-content">
                   <h6>Worldwide Coverage</h6>
-                  <p>Curabitur convallis enim atnora ullamcorper sagittis.</p>
+                  <p>
+                    Travel confidently with our global network and trusted
+                    partnerships. We offer seamless travel solutions across
+                    multiple destinations, ensuring reliability and convenience
+                    wherever you go.
+                  </p>
                 </div>
               </div>
             </div>
@@ -75,8 +80,9 @@ const Home2WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Competitive Pricing</h6>
                   <p>
-                    Burabitur convallis enim atnora. Morbi nug scelerisque for
-                    thana.
+                    Get the best value for your money with carefully designed
+                    packages. We combine affordability with quality services, so
+                    you never have to compromise on your travel experience.
                   </p>
                 </div>
               </div>
@@ -100,7 +106,9 @@ const Home2WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Fast Booking</h6>
                   <p>
-                    Fermentum eitorx quis maximum Etiam urnan posuere convallis.
+                    Enjoy quick and hassle-free booking with our efficient
+                    system. From flights to visas and tours, everything is
+                    processed smoothly to save you time and effort.
                   </p>
                 </div>
               </div>
@@ -122,8 +130,9 @@ const Home2WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Guided Tours</h6>
                   <p>
-                    Pellentesque venenatis egestasoi diam Proin velgorat elit
-                    porttitor metus convallis.
+                    Experience destinations like never before with our
+                    expert-guided tours. Our team ensures you explore every
+                    place with comfort, insight, and complete peace of mind.
                   </p>
                 </div>
               </div>
@@ -148,8 +157,9 @@ const Home2WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Best Support 24/7</h6>
                   <p>
-                    Sed venenatis mauris nec nulla euismod, accounv varius
-                    lectus viverra oncen.
+                    Our dedicated support team is always available to assist
+                    you. From planning to your return, we are here to make your
+                    journey stress-free and well-managed.
                   </p>
                 </div>
               </div>
@@ -174,10 +184,11 @@ const Home2WhyChoose = () => {
                   </svg>
                 </div>
                 <div className="feature-card-content">
-                  <h6>Ultimate flexibility</h6>
+                  <h6>Experienced</h6>
                   <p>
-                    Duis leo sapien, lacinia utorrent efficitur utom suscipit
-                    quis nulla Sed auctor eu
+                    With over 18 years of expertise and multiple locations
+                    across UAE and Pakistan, we bring knowledge, trust, and
+                    professionalism to every journey we plan.
                   </p>
                 </div>
               </div>

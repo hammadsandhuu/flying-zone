@@ -21,7 +21,6 @@ const page = () => {
       <Home2WhyChoose />
       <Home2Activities />
       <Home2Team />
-      <Home2Blog />
     </>
   );
 };

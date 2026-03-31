@@ -31,7 +31,7 @@ const Home3Features = () => {
                       <div className="feature-card-content">
                         <h6>Worldwide Coverage</h6>
                         <p>
-                          Curabitur convallis enimatnora ullamcorper sagittis.
+                          Access over 100+ countries with our global visa and hotel network.
                         </p>
                       </div>
                     </div>
@@ -52,7 +52,7 @@ const Home3Features = () => {
                       <div className="feature-card-content">
                         <h6>Competitive Pricing</h6>
                         <p>
-                          Curabitur convallis enimatnora ullamcorper sagittis.
+                          Benefit from exclusive B2B rates for air tickets and Umrah packages.
                         </p>
                       </div>
                     </div>
@@ -76,7 +76,7 @@ const Home3Features = () => {
                       <div className="feature-card-content">
                         <h6>Fast Booking</h6>
                         <p>
-                          Curabitur convallis enimatnora ullamcorper sagittis.
+                          Get instant confirmations on flights and holidays through our 4 locations.
                         </p>
                       </div>
                     </div>
@@ -101,7 +101,7 @@ const Home3Features = () => {
                       <div className="feature-card-content">
                         <h6>Best Support 24/7</h6>
                         <p>
-                          Curabitur convallis enimatnora ullamcorper sagittis.
+                          Our expert team in Dubai and Pakistan is always ready to assist you.
                         </p>
                       </div>
                     </div>
@@ -127,13 +127,15 @@ const Home3Features = () => {
                     </span>
                     <h2>We Are The Best For Providing The Travel Arrangement.</h2>
                     <p>
-                      Etiam ac tortor id purus commodo vulputate. Vestibulum
-                      porttitor erat felis and sed vehiculant tortor malesuada
-                      gravida. Mauris volutpat enim quis pulv gont congue.
-                      Suspendisse ullamcor. In this luxurious getaway, no expense
-                      has been spared. You will be captivated by fine a ghosa
-                      cuisines, the naivety of local people and top notched
-                      services.
+                      With a legacy starting in 2007, Flying Zone has become a
+                      trusted name in international travel and tourism. Our
+                      presence in the UAE since 2023, combined with our
+                      established head office in Faisalabad and branches in
+                      Lahore and Karachi, allows us to serve both B2B and B2C
+                      clients with unmatched expertise. Whether you are planning
+                      a spiritual journey for Umrah or a global holiday, we
+                      ensure every detail is handled with professional precision
+                      and care.
                     </p>
                   </div>
                   <div className="activities-counter two">
@@ -160,7 +162,7 @@ const Home3Features = () => {
                               </h5>
                               <span>K+</span>
                             </div>
-                            <p>Happy Traveler</p>
+                            <p>Happy Travelers</p>
                           </div>
                         </div>
                       </div>
@@ -181,11 +183,11 @@ const Home3Features = () => {
                           <div className="content">
                             <div className="number">
                               <h5 className="counter">
-                                <CountUp delay={2} end={6} />
+                                <CountUp delay={2} end={17} />
                               </h5>
-                              <span>K+</span>
+                              <span>+</span>
                             </div>
-                            <p>Tours Success</p>
+                            <p>Years of Excellence</p>
                           </div>
                         </div>
                       </div>
@@ -213,7 +215,7 @@ const Home3Features = () => {
                           <div className="content">
                             <div className="number">
                               <h5 className="counter">
-                                <CountUp delay={2} end={60} />
+                                <CountUp delay={2} end={98} />
                               </h5>
                               <span>%</span>
                             </div>

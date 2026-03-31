@@ -61,9 +61,9 @@ const Home2Team = () => {
             <div className="col-lg-12">
               <div className="section-title2 text-center">
                 <div className="eg-section-tag">
-                  <span>Tour Guide</span>
+                  <span>Our Team</span>
                 </div>
-                <h2>Our Travel Guide </h2>
+                <h2>Meet Our Team</h2>
               </div>
             </div>
           </div>
@@ -82,8 +82,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Landry Palmer</h4>
-                          <span>Tour Guide</span>
+                          <h4>Muhammad Naveed Naz</h4>
+                          <span>Group Chairman</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -128,8 +128,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Jackson Mason</h4>
-                          <span>Tour Guide</span>
+                          <h4>Muhammad Ahmed</h4>
+                          <span>Chief Executive Officer (CEO)</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -174,8 +174,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Joseph David</h4>
-                          <span>Tour Guide</span>
+                          <h4>Muhammad Yaseen</h4>
+                          <span>Managing Director</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -220,8 +220,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Josiah Caleb</h4>
-                          <span>Tour Guide</span>
+                          <h4>Wasim Sajjad</h4>
+                          <span>Managing Director</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -266,8 +266,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>David Luis</h4>
-                          <span>Tour Guide</span>
+                          <h4>Malik Asad</h4>
+                          <span>Sales Officer</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -312,8 +312,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Alison Bekkar</h4>
-                          <span>Tour Guide</span>
+                          <h4>Asad</h4>
+                          <span>Umrah Operations Officer</span>
                         </div>
                         <ul className="social-list">
                           <li>
@@ -358,8 +358,8 @@ const Home2Team = () => {
                           />
                         </div>
                         <div className="teams-content">
-                          <h4>Arthor Morgan</h4>
-                          <span>Tour Guide</span>
+                          <h4>Rimsha Naeem</h4>
+                          <span>Customer Service Executive</span>
                         </div>
                         <ul className="social-list">
                           <li>

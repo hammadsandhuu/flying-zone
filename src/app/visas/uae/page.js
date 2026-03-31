@@ -60,13 +60,7 @@ const UAEVisaPage = () => {
                             </ul>
                           </div>
                           <div className="card-content-bottom">
-                            <div className="price-area">
-                              <span>Starting Form:</span>
-                              <h6>
-                                <strong>$</strong>{visa.price} <span>Per Person</span>
-                              </h6>
-                            </div>
-                            <Link href="/visas/visas-details" className="apply-btn">
+                            <Link href="/visas/visas-details" className="apply-btn w-100 justify-content-center">
                               Apply Now
                               <div className="arrow">
                                 <i className="bi bi-arrow-right" />

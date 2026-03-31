@@ -8,9 +8,12 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
+import visaData from "@/data/visa.json";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const Home4Vissa = () => {
+  const allVisas = [...visaData.uaeVisa, ...visaData.globalVisa];
+  
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -56,14 +59,6 @@ const Home4Vissa = () => {
         <div className="container one">
           <div className="row">
             <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3">
-              {/* <div className="section-title3">
-                <h2>Visa Processing</h2>
-                <p>
-                  Etiam ac tortor id purus commodo vulputate. Vestibulum
-                  porttitor erat felis and sed vehicula tortor malesuada
-                  gravida. Mauris volutpat enim.
-                </p>
-              </div> */}
               <div className="section-title5 mb-40">
                 <span>
                   Visa Processing
@@ -81,7 +76,7 @@ const Home4Vissa = () => {
                 </span>
                 <h2>Visa Processing</h2>
               </div>
-              <Link href="/visa" className="view-btn">
+              <Link href="/visas/uae" className="view-btn">
                 View All Visa
                 <div className="arrow">
                   <svg
@@ -110,218 +105,54 @@ const Home4Vissa = () => {
               <div className="col-lg-12">
                 <Swiper {...settings} className="swiper package-card4-slider">
                   <div className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                      <div className="package-card4">
-                        <Link
-                          href="/visas/visas-details"
-                          className="package-card-img"
-                        >
-                          <img
-                            src="/assets/img/home4/package-card4-img1.jpg"
-                            alt=""
-                          />
-                        </Link>
-                        <div className="package-card-content">
-                          <div className="card-content-top">
-                            <h5>
-                              Electronic Visa Adult with Fan with Insurance.
-                            </h5>
-                            <ul>
-                              <li>
-                                <span>Country :</span> New York
-                              </li>
-                              <li>
-                                <span>Visa Type :</span> Tourist
-                              </li>
-                              <li>
-                                <span>Visa Mode :</span> Electronic
-                              </li>
-                              <li>
-                                <span>Validity :</span> 60 Days
-                              </li>
-                              <li>
-                                <span>Processing Time :</span> 7-10 Working Day
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="card-content-bottom">
-                            <div className="price-area">
-                              <span>Starting Form:</span>
-                              <h6>
-                                <strong>$</strong>3860 <span>Per Person</span>
-                              </h6>
+                    {allVisas.map((visa) => (
+                      <SwiperSlide key={visa.id} className="swiper-slide">
+                        <div className="package-card4">
+                          <Link
+                            href="/visas/visas-details"
+                            className="package-card-img"
+                          >
+                            <img
+                              src={visa.img}
+                              alt={visa.title}
+                            />
+                          </Link>
+                          <div className="package-card-content">
+                            <div className="card-content-top">
+                              <h5>{visa.title}</h5>
+                              <ul>
+                                <li>
+                                  <span>Country :</span> {visa.country}
+                                </li>
+                                <li>
+                                  <span>Visa Type :</span> {visa.visaType}
+                                </li>
+                                <li>
+                                  <span>Visa Mode :</span> {visa.visaMode}
+                                </li>
+                                <li>
+                                  <span>Validity :</span> {visa.validity}
+                                </li>
+                                <li>
+                                  <span>Processing Time :</span> {visa.processingTime}
+                                </li>
+                              </ul>
                             </div>
-                            <Link
-                              href="/visas/visas-details"
-                              className="apply-btn"
-                            >
-                              Apply Now
-                              <div className="arrow">
-                                <i className="bi bi-arrow-right" />
-                              </div>
-                            </Link>
+                             <div className="card-content-bottom">
+                              <Link
+                                href="/visas/visas-details"
+                                className="apply-btn w-100 justify-content-center"
+                              >
+                                Apply Now
+                                <div className="arrow">
+                                  <i className="bi bi-arrow-right" />
+                                </div>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="package-card4">
-                        <Link
-                          href="/visas/visas-details"
-                          className="package-card-img"
-                        >
-                          <img
-                            src="/assets/img/home4/package-card4-img2.jpg"
-                            alt=""
-                          />
-                        </Link>
-                        <div className="package-card-content">
-                          <div className="card-content-top">
-                            <h5>Grown-up E-visa with Cooling and Assurance.</h5>
-                            <ul>
-                              <li>
-                                <span>Country :</span> New York
-                              </li>
-                              <li>
-                                <span>Visa Type :</span> Tourist
-                              </li>
-                              <li>
-                                <span>Visa Mode :</span> Electronic
-                              </li>
-                              <li>
-                                <span>Validity :</span> 60 Days
-                              </li>
-                              <li>
-                                <span>Processing Time :</span> 7-10 Working Day
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="card-content-bottom">
-                            <div className="price-area">
-                              <span>Starting Form:</span>
-                              <h6>
-                                <strong>$</strong>3860 <span>Per Person</span>
-                              </h6>
-                            </div>
-                            <Link
-                              href="/visas/visas-details"
-                              className="apply-btn"
-                            >
-                              Apply Now
-                              <div className="arrow">
-                                <i className="bi bi-arrow-right" />
-                              </div>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="package-card4">
-                        <Link
-                          href="/visas/visas-details"
-                          className="package-card-img"
-                        >
-                          <img
-                            src="/assets/img/home4/package-card4-img1.jpg"
-                            alt=""
-                          />
-                        </Link>
-                        <div className="package-card-content">
-                          <div className="card-content-top">
-                            <h5>
-                              Electronic Visa Adult with Fan with Insurance.
-                            </h5>
-                            <ul>
-                              <li>
-                                <span>Country :</span> New York
-                              </li>
-                              <li>
-                                <span>Visa Type :</span> Tourist
-                              </li>
-                              <li>
-                                <span>Visa Mode :</span> Electronic
-                              </li>
-                              <li>
-                                <span>Validity :</span> 60 Days
-                              </li>
-                              <li>
-                                <span>Processing Time :</span> 7-10 Working Day
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="card-content-bottom">
-                            <div className="price-area">
-                              <span>Starting Form:</span>
-                              <h6>
-                                <strong>$</strong>3860 <span>Per Person</span>
-                              </h6>
-                            </div>
-                            <Link
-                              href="/visas/visas-details"
-                              className="apply-btn"
-                            >
-                              Apply Now
-                              <div className="arrow">
-                                <i className="bi bi-arrow-right" />
-                              </div>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="package-card4">
-                        <Link
-                          href="/visas/visas-details"
-                          className="package-card-img"
-                        >
-                          <img
-                            src="/assets/img/home4/package-card4-img2.jpg"
-                            alt=""
-                          />
-                        </Link>
-                        <div className="package-card-content">
-                          <div className="card-content-top">
-                            <h5>Grown-up E-visa with Cooling and Assurance.</h5>
-                            <ul>
-                              <li>
-                                <span>Country :</span> New York
-                              </li>
-                              <li>
-                                <span>Visa Type :</span> Tourist
-                              </li>
-                              <li>
-                                <span>Visa Mode :</span> Electronic
-                              </li>
-                              <li>
-                                <span>Validity :</span> 60 Days
-                              </li>
-                              <li>
-                                <span>Processing Time :</span> 7-10 Working Day
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="card-content-bottom">
-                            <div className="price-area">
-                              <span>Starting Form:</span>
-                              <h6>
-                                <strong>$</strong>3860 <span>Per Person</span>
-                              </h6>
-                            </div>
-                            <Link
-                              href="/visas/visas-details"
-                              className="apply-btn"
-                            >
-                              Apply Now
-                              <div className="arrow">
-                                <i className="bi bi-arrow-right" />
-                              </div>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
+                      </SwiperSlide>
+                    ))}
                   </div>
                 </Swiper>
               </div>
