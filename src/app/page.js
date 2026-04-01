@@ -9,7 +9,7 @@ import Destinations from "@/components/destinationSlider/Destinations";
 import Home3DestinationSlide from "@/components/destinationSlider/Home3DestinationSlide";
 import Home3Team from "@/components/team/Home3Team";
 import HomeBanner from "@/components/banner/HomeBanner";
-import Home3Destination from "@/components/destination/Home3Destination";
+import Home2Team from "@/components/team/Home2Team";
 
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
@@ -26,14 +26,13 @@ export default function Home() {
       <HomeAbout />
       <Destinations />
       <HomeVissa />
-      {/* <Home3Destination /> */}
       <Home6Feature />
       <Home3Features />
       <Home3DestinationSlide />
       <Home1Activities />
       <Home4Testimonail />
       <Home1Banner2 />
-      <Home3Team />
+      <Home2Team />
     </>
   );
 }

@@ -411,15 +411,7 @@ const Home2Activities = () => {
                               Complete Peace of Mind
                             </li>
                           </ul>
-                          <div className="content-bottom-area">
-                            <Link
-                              href="/activities/activities-details"
-                              className="primary-btn3"
-                            >
-                              Check Availability
-                            </Link>
 
-                          </div>
                         </div>
                       </div>
                       <div
@@ -482,15 +474,7 @@ const Home2Activities = () => {
                               Convenient Options
                             </li>
                           </ul>
-                          <div className="content-bottom-area">
-                            <Link
-                              href="/activities/activities-details"
-                              className="primary-btn3"
-                            >
-                              Check Availability
-                            </Link>
 
-                          </div>
                         </div>
                       </div>
                       <div
@@ -553,15 +537,7 @@ const Home2Activities = () => {
                               Stress-Free Experience
                             </li>
                           </ul>
-                          <div className="content-bottom-area">
-                            <Link
-                              href="/activities/activities-details"
-                              className="primary-btn3"
-                            >
-                              Check Availability
-                            </Link>
 
-                          </div>
                         </div>
                       </div>
                       <div
@@ -624,15 +600,7 @@ const Home2Activities = () => {
                               Adventure & Relaxation
                             </li>
                           </ul>
-                          <div className="content-bottom-area">
-                            <Link
-                              href="/activities/activities-details"
-                              className="primary-btn3"
-                            >
-                              Check Availability
-                            </Link>
 
-                          </div>
                         </div>
                       </div>
                       <div
@@ -696,15 +664,7 @@ const Home2Activities = () => {
                               Family & Group Friendly
                             </li>
                           </ul>
-                          <div className="content-bottom-area">
-                            <Link
-                              href="/activities/activities-details"
-                              className="primary-btn3"
-                            >
-                              Check Availability
-                            </Link>
 
-                          </div>
                         </div>
                       </div>
                     </div>

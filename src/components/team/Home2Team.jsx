@@ -7,6 +7,8 @@ import SwiperCore, {
   Navigation,
   Pagination,
 } from "swiper";
+import HurryUpLeftIcon from "../icons/HurryUpLeftIcon";
+import HurryUpRightIcon from "../icons/HurryUpRightIcon";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const Home2Team = () => {
@@ -59,14 +61,17 @@ const Home2Team = () => {
         <div className="container">
           <div className="row mb-50">
             <div className="col-lg-12">
-              <div className="section-title2 text-center">
-                <div className="eg-section-tag">
-                  <span>Our Team</span>
-                </div>
+              <div className="section-title text-center mb-60">
+                <span>
+                  <HurryUpLeftIcon />
+                  Our Team
+                  <HurryUpRightIcon />
+                </span>
                 <h2>Meet Our Team</h2>
               </div>
             </div>
           </div>
+
           <div className="teams-slider-area">
             <div className="row mb-60">
               <div className="col-lg-12">
