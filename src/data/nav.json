@@ -77,34 +77,7 @@
                 "id": "6",
                 "label": "Dubai Local Excursions",
                 "link": "/services/dubai-excursions",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Cruise Dinners",
-                        "link": "/services/dubai-excursions/cruise-dinners"
-                    },
-                    {
-                        "id": "2",
-                        "label": "City Tours",
-                        "link": "/services/dubai-excursions/city-tours"
-                    },
-                    {
-                        "id": "3",
-                        "label": "Desert Safari",
-                        "link": "/services/dubai-excursions/desert-safari"
-                    },
-                    {
-                        "id": "4",
-                        "label": "Arabian Night",
-                        "link": "/services/dubai-excursions/arabian-night"
-                    },
-                    {
-                        "id": "5",
-                        "label": "All Other Attractions",
-                        "link": "/services/dubai-excursions/all-attractions"
-                    }
-                ]
+                "icon": false
             }
         ]
     },

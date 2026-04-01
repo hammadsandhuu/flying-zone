@@ -9,9 +9,10 @@ import SwiperCore, {
 } from "swiper";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 import Breadcrumb from "@/components/common/Breadcrumb";
+import Link from "next/link";
 
-import { holidaysFlyDubaiData } from "@/data/holidaysFlyDubaiData";
-import HolidayCard from "@/components/holidayComponents/HolidayCard";
+import { dubaiExcursionData } from "@/data/dubaiExcursionData";
+import ExcursionCard from "@/components/excursionComponents/ExcursionCard";
 
 const Page = () => {
     const settings = useMemo(() => {
@@ -37,13 +38,13 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Holidays Fly Dubai" pagetitle="Holidays Fly Dubai" />
+            <Breadcrumb pagename="Dubai Excursions" pagetitle="Dubai Excursions" />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">
                     <div className="row g-lg-4 gy-5">
-                        {holidaysFlyDubaiData.map((holiday) => (
-                            <div key={holiday.id} className="col-lg-4 col-md-6 col-12">
-                                <HolidayCard holiday={holiday} settings={settings} />
+                        {dubaiExcursionData.map((excursion) => (
+                            <div key={excursion.id} className="col-lg-4 col-md-6 col-12">
+                                <ExcursionCard excursion={excursion} settings={settings} />
                             </div>
                         ))}
                     </div>

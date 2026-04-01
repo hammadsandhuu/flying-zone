@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 
-const PackageItinerary = ({ itinerary }) => {
+const PackageItinerary = ({ itinerary, title="Journey Itinerary" }) => {
   if (!itinerary || itinerary.length === 0) return null;
 
   return (
     <>
-      <h4>Journey Itinerary</h4>
+      <h4>{title}</h4>
       <div className="accordion tour-plan" id="tourPlan">
         {itinerary.map((item, index) => (
           <div key={index} className="accordion-item">
