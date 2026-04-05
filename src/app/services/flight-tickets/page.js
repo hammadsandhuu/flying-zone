@@ -12,6 +12,7 @@ import Breadcrumb from "@/components/common/Breadcrumb";
 
 import { flightTicketsData } from "@/data/flightTicketsData";
 import FlightTicketCard from "@/components/flightTicketComponents/FlightTicketCard";
+import InquiryForms from "@/components/common/InquiryForms";
 
 const Page = () => {
     const settings = useMemo(() => {
@@ -40,6 +41,7 @@ const Page = () => {
             <Breadcrumb pagename="Flight Tickets" pagetitle="Flight Tickets" />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">
+                    <InquiryForms defaultTab="flight" showTabs={false} />
                     <div className="row g-lg-4 gy-5">
                         {flightTicketsData.map((flight) => (
                             <div key={flight.id} className="col-lg-4 col-md-6 col-12">
