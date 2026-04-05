@@ -1,10 +1,6 @@
 "use client";
 import React from "react";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Link from "next/link";
-import TourCategoryDropdown from "@/components/banner/TourCategoryDropdown";
-import DestinationSearch from "@/components/banner/DestinationSearch";
-import GuestDropdown from "@/components/banner/GuestDropdown";
 import toursData from "@/data/tours.json";
 import PackageCard from "@/components/packageComponents/PackageCard";
 

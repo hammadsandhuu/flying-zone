@@ -43,7 +43,7 @@ const Page = () => {
                 <div className="container one">
                     <div className="row g-lg-4 gy-5">
                         {dubaiExcursionData.map((excursion) => (
-                            <div key={excursion.id} className="col-lg-4 col-md-6 col-12">
+                            <div key={excursion.id} className="col-lg-4 col-md-6 col-12 d-flex">
                                 <ExcursionCard excursion={excursion} settings={settings} />
                             </div>
                         ))}

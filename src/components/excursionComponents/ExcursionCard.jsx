@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const ExcursionCard = ({ excursion, settings }) => {
   return (
-    <div className="room-suits-card mb-30">
-      <div className="row g-0">
+    <div className="room-suits-card mb-30 w-100 h-100 d-flex flex-column">
+      <div className="row g-0 flex-grow-1 d-flex flex-column">
         <div className="col-12">
           {excursion.images.length > 1 ? (
             <Swiper {...settings} className="swiper hotel-img-slider">
@@ -28,9 +28,9 @@ const ExcursionCard = ({ excursion, settings }) => {
             </div>
           )}
         </div>
-        <div className="col-12 mt-4 mt-md-0">
-          <div className="room-content">
-            <div className="content-top">
+        <div className="col-12 mt-4 mt-md-0 d-flex flex-column flex-grow-1">
+          <div className="room-content h-100 d-flex flex-column flex-grow-1">
+            <div className="content-top flex-grow-1">
               <div className="reviews">
                 <ul>
                   <li><i className="bi bi-star-fill" /></li>
