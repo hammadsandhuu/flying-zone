@@ -3,8 +3,11 @@ import ContactPhoneIcon from "@/components/svg/ContactPhoneIcon";
 import ContactEmailIcon from "@/components/svg/ContactEmailIcon";
 import ContactLocationIcon from "@/components/svg/ContactLocationIcon";
 import ContactOpeningIcon from "@/components/svg/ContactOpeningIcon";
+import { APP_SETTINGS } from "@/constants/app-setting";
 
 const page = () => {
+  const { contact } = APP_SETTINGS;
+  
   return (
     <>
       <div className="contact-page pt-120 mb-120">
@@ -20,10 +23,10 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="tel:">+971 56 722 1458</a>
+                    <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                   </h6>
                   <h6>
-                    <a href="tel:">+971 56 722 1458</a>
+                    <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                   </h6>
                 </div>
               </div>
@@ -36,11 +39,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="mailto:info@flyingzone.ae">info@flyingzone.ae</a>
+                    <a href={`mailto:${contact.email}`}>{contact.email}</a>
                   </h6>
-                  <h6>
-                    <a href="mailto:example@example.com">example@example.com</a>
-                  </h6>
+                  {/* Removing placeholder second email or making it generic if needed */}
                 </div>
               </div>
               <div className="single-contact mb-40">
@@ -53,8 +54,7 @@ const page = () => {
                 <div className="content">
                   <h6>
                     <a href="#">
-                      168/170, Avenue 01, Old York Drive Rich Mirpur DOHS,
-                      Bangladesh
+                      {contact.location}
                     </a>
                   </h6>
                 </div>
@@ -68,7 +68,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="#">8:00Am - 10:Pm, Friday Close</a>
+                    <a href="#">{contact.openingTime}</a>
                   </h6>
                 </div>
               </div>

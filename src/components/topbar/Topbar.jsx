@@ -1,8 +1,11 @@
 import React from "react";
 import EmailIcon from "../svg/EmailIcon";
 import TikTokIcon from "../svg/TikTokIcon";
+import { APP_SETTINGS } from "@/constants/app-setting";
 
 const Topbar = () => {
+  const { contact, socialLinks } = APP_SETTINGS;
+  
   return (
     <>
       <div className="top-bar style-2">
@@ -12,7 +15,7 @@ const Topbar = () => {
           </div>
           <div className="content">
             <span>Email:</span>
-            <a href="mailto:ifo@example.com">info@flyingzone.ae</a>
+            <a href={`mailto:${contact.email}`}>{contact.email}</a>
           </div>
         </div>
         <p>
@@ -23,17 +26,17 @@ const Topbar = () => {
           <div className="social-icon-area">
             <ul>
               <li>
-                <a href="https://www.facebook.com/flyingzonetraveluae">
+                <a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer">
                   <i className="bx bxl-facebook" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/flyingzonellcuae">
+                <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer">
                   <i className="bx bxl-instagram" />
                 </a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/@flyingzonellc">
+                <a href={socialLinks.tiktok} target="_blank" rel="noopener noreferrer">
                   <TikTokIcon
                     width={10}
                     height={10}

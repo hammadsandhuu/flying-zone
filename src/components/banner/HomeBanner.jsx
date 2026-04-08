@@ -107,7 +107,7 @@ const HomeBanner = () => {
                     <ModalVideo
                         channel="youtube"
                         isOpen={isOpen}
-                        animationSpeed="350"
+                        animationSpeed={350}
                         videoId="r4KpWiK08vM"
                         ratio="16:9"
                         onClose={() => setOpen(false)}

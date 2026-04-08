@@ -6,19 +6,43 @@ import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
 import TabbyIcon from "../icons/TabbyIcon";
 import TamaraIcon from "../icons/TamaraIcon";
 
+import { APP_SETTINGS } from "@/constants/app-setting";
+
 const Footer = ({ style }) => {
   const {
     cta,
     quickLinks,
     hajjUmrahLinks,
     serviceLinks,
-    contact,
+    contact: dataContact,
     about,
     paymentPartner,
-    socials,
+    socials: dataSocials,
     copyright,
     bottomLinks,
   } = footerData;
+
+  const { contact: appContact, socialLinks } = APP_SETTINGS;
+  
+  // Use appContact/socialLinks to override or supplement data from JSON
+  const displayContact = {
+    ...dataContact,
+    phone: {
+      number: appContact.phone,
+      link: `tel:${appContact.phone}`
+    },
+    email: {
+      address: appContact.email,
+      link: `mailto:${appContact.email}`
+    }
+  };
+
+  const displaySocials = [
+    { icon: "bx bxl-facebook", link: socialLinks.facebook },
+    { icon: "bx bxl-instagram", link: socialLinks.instagram },
+    { type: "tiktok", link: socialLinks.tiktok }, // TikTok is special in Topbar, checking icon here
+    { type: "twitter-x", link: "https://twitter.com/" }, // Fallback from data if needed
+  ].filter(s => s.link); // Only show if link exists
 
   return (
     <footer className={`footer-section ${style}`}>
@@ -96,16 +120,16 @@ const Footer = ({ style }) => {
                 </div>
                 <div className="single-contact d-flex align-items-center gap-2">
                   <Phone size={18} color="white" />
-                  <a href={contact.phone.link}>{contact.phone.number}</a>
+                  <a href={displayContact.phone.link}>{displayContact.phone.number}</a>
                 </div>
                 <div className="single-contact d-flex align-items-center gap-2">
                   <Mail size={18} color="white" />
-                  <a href={contact.email.link} style={{ display: "block" }}>
-                    {contact.email.address}
+                  <a href={displayContact.email.link} style={{ display: "block" }}>
+                    {displayContact.email.address}
                   </a>
                 </div>
                 <div className="single-contact">
-                  {contact.addresses.map((address, index) => (
+                  {displayContact.addresses.map((address, index) => (
                     <div key={index} className="d-flex align-items-start gap-2">
                       <MapPin size={18} color="white" className="mt-1" />
                       <a href={address.link} style={{ display: "block" }}>
@@ -143,11 +167,13 @@ const Footer = ({ style }) => {
           <div className="row">
             <div className="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
               <ul className="social-list">
-                {socials.map((social, index) => (
+                {displaySocials.map((social, index) => (
                   <li key={index}>
-                    <a href={social.link}>
+                    <a href={social.link} target="_blank" rel="noopener noreferrer">
                       {social.type === "twitter-x" ? (
                         <TwitterXIcon />
+                      ) : social.type === "tiktok" ? (
+                        <i className="bi bi-tiktok" />
                       ) : (
                         <i className={social.icon} />
                       )}

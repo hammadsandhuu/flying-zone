@@ -4,10 +4,6 @@ import React, { useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import Link from "next/link";
-import Footer from "@/components/footer/Footer";
-import Newslatter from "@/components/common/Newslatter";
-import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import hajjUmrahData from "@/data/hajj-and-umrah.json";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
