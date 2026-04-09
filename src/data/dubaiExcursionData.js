@@ -3,15 +3,21 @@ export const dubaiExcursionData = [
     id: 1,
     slug: "burj-khalifa-at-the-top",
     images: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-1.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-2.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-3.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-4.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-5.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-01.jpg",
+    img: "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-1.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-2.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-3.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-4.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-5.png",
+      "/assets/images/dubai-local-excursions/burj-khalifa-at-the-top/burj-khalifa-at-the-top-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Burj Khalifa: At the Top",
@@ -49,15 +55,21 @@ export const dubaiExcursionData = [
     id: 2,
     slug: "the-view-at-the-palm",
     images: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-1.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-2.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-3.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-4.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-5.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-02.jpg",
+    img: "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-1.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-2.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-3.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-4.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-5.png",
+      "/assets/images/dubai-local-excursions/the-view-at-the-palm/the-view-at-the-palm-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "The View at The Palm",
@@ -95,15 +107,21 @@ export const dubaiExcursionData = [
     id: 3,
     slug: "dubai-frame",
     images: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-1.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-2.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-3.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-4.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-5.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-03.jpg",
+    img: "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-1.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-2.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-3.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-4.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-5.png",
+      "/assets/images/dubai-local-excursions/dubai-frame/dubai-frame-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Dubai Frame: The World’s Largest Picture Frame",
@@ -141,15 +159,21 @@ export const dubaiExcursionData = [
     id: 4,
     slug: "museum-of-the-future",
     images: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-1.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-2.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-3.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-4.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-5.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-04.jpg",
+    img: "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-1.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-2.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-3.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-4.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-5.png",
+      "/assets/images/dubai-local-excursions/museum-of-the-future/museum-of-the-future-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Museum of the Future: A Gateway to 2071",
@@ -187,15 +211,21 @@ export const dubaiExcursionData = [
     id: 5,
     slug: "dubai-dolphinarium",
     images: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-1.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-2.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-3.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-4.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-5.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-05.jpg",
+    img: "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-1.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-2.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-3.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-4.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-5.png",
+      "/assets/images/dubai-local-excursions/dubai-dolphinarium/dubai-dolphinarium-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Dubai Dolphinarium: Interactive Dolphin & Seal Show",
@@ -233,15 +263,21 @@ export const dubaiExcursionData = [
     id: 6,
     slug: "dubai-miracle-garden",
     images: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-1.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-2.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-3.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-4.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-5.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-06.jpg",
+    img: "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-1.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-2.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-3.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-4.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-5.png",
+      "/assets/images/dubai-local-excursions/dubai-miracle-garden/dubai-miracle-garden-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Dubai Miracle Garden: The World’s Largest Natural Flower Garden",
@@ -279,15 +315,21 @@ export const dubaiExcursionData = [
     id: 7,
     slug: "helicopter-tour-dubai",
     images: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-1.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-2.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-3.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-4.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-5.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-01.jpg",
+    img: "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-1.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-2.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-3.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-4.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-5.png",
+      "/assets/images/dubai-local-excursions/helicopter-tour-dubai/helicopter-tour-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Dubai Helicopter Tour: The Ultimate Aerial Perspective",
@@ -325,15 +367,21 @@ export const dubaiExcursionData = [
     id: 8,
     slug: "skydive-dubai",
     images: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-1.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-2.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-3.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-4.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-5.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-02.jpg",
+    img: "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-1.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-2.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-3.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-4.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-5.png",
+      "/assets/images/dubai-local-excursions/skydive-dubai/skydive-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Skydive Dubai: The Ultimate Adrenaline Rush",
@@ -371,15 +419,21 @@ export const dubaiExcursionData = [
     id: 9,
     slug: "xline-dubai-marina",
     images: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-1.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-2.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-3.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-4.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-5.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-03.jpg",
+    img: "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-1.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-2.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-3.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-4.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-5.png",
+      "/assets/images/dubai-local-excursions/xline-dubai-marina/xline-dubai-marina-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "XLine Dubai Marina: The World’s Longest Urban Zipline",
@@ -417,15 +471,21 @@ export const dubaiExcursionData = [
     id: 10,
     slug: "madame-tussauds-dubai",
     images: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-1.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-2.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-3.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-4.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-5.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-04.jpg",
+    img: "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-1.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-2.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-3.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-4.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-5.png",
+      "/assets/images/dubai-local-excursions/madame-tussauds-dubai/madame-tussauds-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Madame Tussauds Dubai",
@@ -463,15 +523,21 @@ export const dubaiExcursionData = [
     id: 11,
     slug: "ferrari-world-abu-dhabi",
     images: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-05.jpg",
+    img: "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/ferrari-world-abu-dhabi/ferrari-world-abu-dhabi-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Ferrari World Abu Dhabi",
@@ -509,15 +575,21 @@ export const dubaiExcursionData = [
     id: 12,
     slug: "warner-bros-world-abu-dhabi",
     images: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-06.jpg",
+    img: "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/warner-bros-world-abu-dhabi/warner-bros-world-abu-dhabi-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Warner Bros. World Abu Dhabi",
@@ -555,15 +627,21 @@ export const dubaiExcursionData = [
     id: 13,
     slug: "seaworld-abu-dhabi",
     images: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-01.jpg",
+    img: "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-1.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-2.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-3.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-4.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-5.png",
+      "/assets/images/dubai-local-excursions/seaworld-abu-dhabi/seaworld-abu-dhabi-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "SeaWorld Abu Dhabi",
@@ -601,15 +679,21 @@ export const dubaiExcursionData = [
     id: 14,
     slug: "img-worlds-of-adventure",
     images: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-1.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-2.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-3.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-4.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-5.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-02.jpg",
+    img: "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-1.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-2.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-3.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-4.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-5.png",
+      "/assets/images/dubai-local-excursions/img-worlds-of-adventure/img-worlds-of-adventure-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "IMG Worlds of Adventure",
@@ -647,15 +731,21 @@ export const dubaiExcursionData = [
     id: 15,
     slug: "real-madrid-world",
     images: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-1.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-2.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-3.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-4.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-5.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-03.jpg",
+    img: "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg"
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-1.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-2.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-3.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-4.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-5.png",
+      "/assets/images/dubai-local-excursions/real-madrid-world/real-madrid-world-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Real Madrid World",
@@ -693,15 +783,21 @@ export const dubaiExcursionData = [
     id: 16,
     slug: "dhow-cruise-dinner-dubai",
     images: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-1.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-2.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-3.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-4.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-5.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-04.jpg",
+    img: "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg"
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-1.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-2.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-3.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-4.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-5.png",
+      "/assets/images/dubai-local-excursions/dhow-cruise-dinner-dubai/dhow-cruise-dinner-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Traditional Dhow Cruise Dinner",
@@ -739,15 +835,21 @@ export const dubaiExcursionData = [
     id: 17,
     slug: "jet-ski-adventure-dubai",
     images: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-1.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-2.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-3.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-4.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-5.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-05.jpg",
+    img: "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-05.jpg",
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg"
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-1.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-2.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-3.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-4.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-5.png",
+      "/assets/images/dubai-local-excursions/jet-ski-adventure-dubai/jet-ski-adventure-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Dubai Jet Ski Adventure",
@@ -785,15 +887,21 @@ export const dubaiExcursionData = [
     id: 18,
     slug: "luxury-yacht-charter-dubai",
     images: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-1.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-2.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-3.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-4.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-5.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-06.jpg",
+    img: "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg",
-      "/assets/img/innerpage/room-img-02.jpg"
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-1.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-2.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-3.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-4.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-5.png",
+      "/assets/images/dubai-local-excursions/luxury-yacht-charter-dubai/luxury-yacht-charter-dubai-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Private Luxury Yacht Charter",
@@ -831,15 +939,21 @@ export const dubaiExcursionData = [
     id: 19,
     slug: "premium-desert-safari",
     images: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-1.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-2.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-3.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-4.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-5.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-01.jpg",
+    img: "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-01.jpg",
-      "/assets/img/innerpage/room-img-03.jpg",
-      "/assets/img/innerpage/room-img-05.jpg"
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-1.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-2.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-3.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-4.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-5.png",
+      "/assets/images/dubai-local-excursions/premium-desert-safari/premium-desert-safari-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Premium Desert Safari: Dune Bashing & Sunset Views",
@@ -877,15 +991,21 @@ export const dubaiExcursionData = [
     id: 20,
     slug: "arabian-night-desert-dinner",
     images: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-1.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-2.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-3.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-4.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-5.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-6.png"
     ],
-    img: "/assets/img/innerpage/room-img-02.jpg",
+    img: "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-1.png",
     gallery: [
-      "/assets/img/innerpage/room-img-02.jpg",
-      "/assets/img/innerpage/room-img-06.jpg",
-      "/assets/img/innerpage/room-img-04.jpg"
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-1.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-2.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-3.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-4.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-5.png",
+      "/assets/images/dubai-local-excursions/arabian-night-desert-dinner/arabian-night-desert-dinner-6.png"
     ],
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     title: "Arabian Night: Cultural Dinner & Live Entertainment",

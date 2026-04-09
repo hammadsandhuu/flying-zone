@@ -1,6 +1,5 @@
 "use client";
 import React, { useMemo } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
     Autoplay,
     EffectFade,
@@ -9,7 +8,6 @@ import SwiperCore, {
 } from "swiper";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Link from "next/link";
 
 import { dubaiExcursionData } from "@/data/dubaiExcursionData";
 import ExcursionCard from "@/components/excursionComponents/ExcursionCard";
@@ -38,7 +36,11 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Dubai Excursions" pagetitle="Dubai Excursions" />
+            <Breadcrumb 
+                pagename="Dubai Excursions" 
+                pagetitle="Dubai Excursions" 
+                bgImage="/assets/images/Banners/dubai-local-excursions.png"
+            />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">
                     <div className="row g-lg-4 gy-5">

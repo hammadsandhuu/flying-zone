@@ -6,7 +6,7 @@ const VisaCard = ({ visa, className = "" }) => {
   return (
     <div className={`package-card4 ${className}`}>
       <Link href={`/visas/${visa.slug}`} className="package-card-img">
-        <img src={visa.img} alt={visa.title} />
+        <img src={visa.img} alt={visa.title} style={{ height: "100%", width: "100%", objectFit: "cover" }} />
       </Link>
       <div className="package-card-content d-flex flex-column">
         <div className="card-content-top flex-grow-1 mb-3">

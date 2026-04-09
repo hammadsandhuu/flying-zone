@@ -58,11 +58,11 @@ const ExcursionCard = ({ excursion, settings }) => {
                   <span>{excursion.distance}</span>
                 </li>
               </ul>
-              
+
               <p className="mt-3 mb-3 text-muted" style={{ fontSize: "15px", lineHeight: "1.6" }}>
                 {excursion.description}
               </p>
-              
+
               <ul className="facilisis mb-0">
                 {excursion.features.map((feature, idx) => (
                   <li key={idx} style={{ display: "inline-flex", alignItems: "center" }}>
@@ -72,7 +72,7 @@ const ExcursionCard = ({ excursion, settings }) => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="content-bottom mt-4">
               <div className="book-btn w-100">
                 <Link href={`/services/dubai-excursions/${excursion.slug}`} className="primary-btn2 w-100 text-center">

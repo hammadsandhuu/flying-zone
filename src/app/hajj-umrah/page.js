@@ -36,7 +36,7 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Hajj & Umrah Packages" pagetitle="Hajj & Umrah" />
+            <Breadcrumb pagename="Hajj & Umrah Packages" pagetitle="Hajj & Umrah" bgImage="/assets/images/Banners/hajj-umrah.png" />
             <div className="package-category-nav-section">
                 <div className="container">
                     <div className="row">
@@ -96,7 +96,7 @@ const Page = () => {
                                             <Link href={pkg.detailsLink} className="card-img">
                                                 <img src={pkg.img} alt={pkg.title} />
                                             </Link>
-                                            <div className="batch">
+                                            {/* <div className="batch">
                                                 <span className="date">{pkg.duration}</span>
                                                 <div className="location">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 18 18">
@@ -108,7 +108,7 @@ const Page = () => {
                                                         ))}
                                                     </ul>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="package-card-content">
                                             <div className="card-content-top">

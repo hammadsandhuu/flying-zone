@@ -50,7 +50,7 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/zip-lining-01.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Hajj and Umrah.png)",
                           }}
                         />
                       </SwiperSlide>
@@ -59,37 +59,7 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/zip-lining-02.jpg)",
-                          }}
-                        />
-                      </SwiperSlide>
-                    </div>
-                  </Swiper>
-                  <div className="swiper-pagination5 pagination1" />
-                </div>
-              </li>
-              <li>
-                <div className="slider-area">
-                  <Swiper
-                    {...settings}
-                    className="swiper activities-img-slider"
-                  >
-                    <div className="swiper-wrapper">
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="slide-img"
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/bungee-jump-01.jpg)",
-                          }}
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="slide-img"
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/bungee-jump-02.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Hajj and Umrah.png)",
                           }}
                         />
                       </SwiperSlide>
@@ -110,7 +80,7 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/rafting-01.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Flight Tickets.png)",
                           }}
                         />
                       </SwiperSlide>
@@ -119,37 +89,7 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/rafting-02.jpg)",
-                          }}
-                        />
-                      </SwiperSlide>
-                    </div>
-                  </Swiper>
-                  <div className="swiper-pagination5 pagination1" />
-                </div>
-              </li>
-              <li>
-                <div className="slider-area">
-                  <Swiper
-                    {...settings}
-                    className="swiper activities-img-slider"
-                  >
-                    <div className="swiper-wrapper">
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="slide-img"
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/paragliding-01.jpg)",
-                          }}
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide className="swiper-slide">
-                        <div
-                          className="slide-img"
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/paragliding-02.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Flight Tickets.png)",
                           }}
                         />
                       </SwiperSlide>
@@ -170,7 +110,7 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/ski-touring-01.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Visit Visa.png)",
                           }}
                         />
                       </SwiperSlide>
@@ -179,7 +119,67 @@ const Home2Activities = () => {
                           className="slide-img"
                           style={{
                             backgroundImage:
-                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/ski-touring-02.jpg)",
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Visit Visa.png)",
+                          }}
+                        />
+                      </SwiperSlide>
+                    </div>
+                  </Swiper>
+                  <div className="swiper-pagination5 pagination1" />
+                </div>
+              </li>
+              <li>
+                <div className="slider-area">
+                  <Swiper
+                    {...settings}
+                    className="swiper activities-img-slider"
+                  >
+                    <div className="swiper-wrapper">
+                      <SwiperSlide className="swiper-slide">
+                        <div
+                          className="slide-img"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Tour Packages.png)",
+                          }}
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide className="swiper-slide">
+                        <div
+                          className="slide-img"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Tour Packages.png)",
+                          }}
+                        />
+                      </SwiperSlide>
+                    </div>
+                  </Swiper>
+                  <div className="swiper-pagination5 pagination1" />
+                </div>
+              </li>
+              <li>
+                <div className="slider-area">
+                  <Swiper
+                    {...settings}
+                    className="swiper activities-img-slider"
+                  >
+                    <div className="swiper-wrapper">
+                      <SwiperSlide className="swiper-slide">
+                        <div
+                          className="slide-img"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Local Excursions.png)",
+                          }}
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide className="swiper-slide">
+                        <div
+                          className="slide-img"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(/assets/images/about-us/Our Special Services (About US)/Local Excursions.png)",
                           }}
                         />
                       </SwiperSlide>

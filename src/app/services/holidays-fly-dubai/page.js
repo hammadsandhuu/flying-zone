@@ -37,7 +37,7 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Holidays Fly Dubai" pagetitle="Holidays Fly Dubai" />
+            <Breadcrumb pagename="Holidays Fly Dubai" pagetitle="Holidays Fly Dubai" bgImage="/assets/images/Banners/holidays-by-flydubai.png" />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">
                     <div className="row g-lg-4 gy-5">

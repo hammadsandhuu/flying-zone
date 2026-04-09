@@ -35,7 +35,7 @@ const HotelSuitsDetailPage = () => {
 
   return (
     <>
-      <Breadcrumb pagename={packageItem.title} pagetitle="Hotel Details" />
+      <Breadcrumb pagename={packageItem.title} pagetitle="Hotel Details" bgImage={packageItem.img || packageItem.images?.[0] || "/assets/img/innerpage/inner-banner-bg.png"} />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container one">
           <div className="row">

@@ -138,8 +138,8 @@ const Home2About = () => {
               <div className="about-img-wrap">
                 <div className="about-img">
                   <img
-                    src="/assets/img/home2/home2-about-img1.png"
-                    alt=""
+                    src="/assets/images/about-us/We Provide Unforgettable Travel Experiences (About US).png"
+                    alt="We Provide Unforgettable Travel Experiences"
                     className="about-img"
                   />
                 </div>

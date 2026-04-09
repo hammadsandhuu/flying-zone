@@ -35,7 +35,7 @@ const FlightTicketDetailPage = () => {
 
     return (
         <>
-            <Breadcrumb pagename={packageItem.title} pagetitle="Flight Details" />
+            <Breadcrumb pagename={packageItem.title} pagetitle="Flight Details" bgImage={packageItem.img || packageItem.images?.[0] || "/assets/img/innerpage/inner-banner-bg.png"} />
             <div className="package-details-area pt-120 mb-120 position-relative">
                 <div className="container one">
                     <div className="row">

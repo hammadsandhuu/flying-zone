@@ -82,8 +82,8 @@ const Home2Team = () => {
                         <img src="/assets/img/home2/teams-card-bg.png" alt="" />
                         <div className="teams-img">
                           <img
-                            src="/assets/img/home2/teams-card-img1.png"
-                            alt=""
+                            src="/assets/images/about-us/Our Team/Naeed Naz.png"
+                            alt="Muhammad Naveed Naz"
                           />
                         </div>
                         <div className="teams-content">
@@ -128,8 +128,8 @@ const Home2Team = () => {
                         <img src="/assets/img/home2/teams-card-bg.png" alt="" />
                         <div className="teams-img">
                           <img
-                            src="/assets/img/home2/teams-card-img2.png"
-                            alt=""
+                            src="/assets/images/about-us/Our Team/Muhammad ahmad.png"
+                            alt="Muhammad Ahmed"
                           />
                         </div>
                         <div className="teams-content">
@@ -174,8 +174,8 @@ const Home2Team = () => {
                         <img src="/assets/img/home2/teams-card-bg.png" alt="" />
                         <div className="teams-img">
                           <img
-                            src="/assets/img/home2/teams-card-img3.png"
-                            alt=""
+                            src="/assets/images/about-us/Our Team/Muhammad Yaseen.png"
+                            alt="Muhammad Yaseen"
                           />
                         </div>
                         <div className="teams-content">
@@ -220,8 +220,8 @@ const Home2Team = () => {
                         <img src="/assets/img/home2/teams-card-bg.png" alt="" />
                         <div className="teams-img">
                           <img
-                            src="/assets/img/home2/teams-card-img4.png"
-                            alt=""
+                            src="/assets/images/about-us/Our Team/Wasim Sajjad.png"
+                            alt="Wasim Sajjad"
                           />
                         </div>
                         <div className="teams-content">

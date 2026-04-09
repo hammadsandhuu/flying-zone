@@ -33,7 +33,7 @@ const Page = () => {
 
   return (
     <>
-      <Breadcrumb pagename={destination.name} pagetitle="Destination Details" />
+      <Breadcrumb pagename={destination.name} pagetitle="Destination Details" bgImage={destination.img || destination.images?.[0] || "/assets/img/innerpage/inner-banner-bg.png"} />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container one">
           <div className="row">

@@ -15,7 +15,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Breadcrumb pagename="About Us" pagetitle="About Us" />
+      <Breadcrumb pagename="About Us" pagetitle="About Us" bgImage="/assets/images/Banners/about.png" />
       <Home2About />
       <Home2WhyChoose />
       <Home2Activities />

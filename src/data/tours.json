@@ -3,20 +3,23 @@
     "id": 1,
     "title": "Thailand Trail: Islands, Cities & Culture",
     "slug": "thailand-trail-islands-cities-culture",
-    "img": "/assets/img/home3/package-card3-img1.png",
+    "img": "/assets/images/tours/thailand-trail-islands-cities-culture/8.png",
     "duration": "9 Days, 8 Nights",
     "countries": "1 Country",
     "rating": "4.8 / 5.0",
-    "price": "$850",
     "tag": "Popular",
     "locations": [
       "Phuket",
       "Pattaya"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img2.png",
-      "/assets/img/home3/package-card3-img3.png"
+      "/assets/images/tours/thailand-trail-islands-cities-culture/2.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/3.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/4.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/5.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/6.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/7.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/8.png"
     ],
     "description": "Embark on a comprehensive journey through Thailand’s most iconic landscapes. From the high-energy streets of the city to the tranquil vibes of tropical islands, this trail offers the perfect balance of adventure and relaxation.",
     "inclusions": [
@@ -60,7 +63,7 @@
     "id": 2,
     "title": "Phuket & Krabi: 5 Days of Paradise in Thailand",
     "slug": "phuket-krabi-paradise-escape",
-    "img": "/assets/img/home3/package-card3-img2.png",
+    "img": "/assets/images/tours/phuket-krabi-paradise-escape/8.png",
     "duration": "5 Days, 4 Nights",
     "countries": "1 Country",
     "rating": "4.9 / 5.0",
@@ -71,9 +74,13 @@
       "Krabi"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img2.png",
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img3.png"
+      "/assets/images/tours/phuket-krabi-paradise-escape/2.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/3.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/4.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/5.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/6.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/7.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/8.png"
     ],
     "description": "Double the paradise with this twin-island escape. Relax in the luxury of Fishermen’s Harbour in Phuket and the trendy Glow Ao Nang in Krabi. Explore crystal-clear lagoons and Maya Bay.",
     "inclusions": [
@@ -117,7 +124,7 @@
     "id": 3,
     "title": "Let’s Go Almaty: The Heart of Kazakhstan",
     "slug": "lets-go-almaty-kazakhstan",
-    "img": "/assets/img/home3/package-card3-img3.png",
+    "img": "/assets/images/tours/lets-go-almaty-kazakhstan/8.png",
     "duration": "5 Days, 4 Nights",
     "countries": "1 Country",
     "rating": "4.7 / 5.0",
@@ -127,9 +134,13 @@
       "Almaty"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img3.png",
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img2.png"
+      "/assets/images/tours/lets-go-almaty-kazakhstan/2.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/3.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/4.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/5.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/6.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/7.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/8.png"
     ],
     "description": "Discover the stunning mountain scenery and modern charm of Almaty. From snow-capped peaks to vibrant city parks, Kazakhstan’s largest city is a hidden gem waiting to be explored.",
     "inclusions": [
@@ -173,7 +184,7 @@
     "id": 4,
     "title": "Yerevan: Culture, Mountains & Magic",
     "slug": "yerevan-armenia-culture-magic",
-    "img": "/assets/img/home3/package-card3-img1.png",
+    "img": "/assets/images/tours/yerevan-armenia-culture-magic/1.png",
     "duration": "5 Days, 4 Nights",
     "countries": "1 Country",
     "rating": "4.8 / 5.0",
@@ -183,9 +194,13 @@
       "Yerevan"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img2.png",
-      "/assets/img/home3/package-card3-img3.png"
+      "/assets/images/tours/yerevan-armenia-culture-magic/2.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/3.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/4.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/5.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/6.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/7.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/8.png"
     ],
     "description": "Step into one of the world's oldest cities. Yerevan is a city of 'pink stone,' ancient history, and majestic views of Mount Ararat. Experience Armenian culture and cuisine.",
     "inclusions": [
@@ -229,7 +244,7 @@
     "id": 5,
     "title": "Thailand Trio: Phuket, Pattaya & Bangkok",
     "slug": "thailand-trio-phuket-pattaya-bangkok",
-    "img": "/assets/img/home3/package-card3-img2.png",
+    "img": "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/8.png",
     "duration": "7 Days, 6 Nights",
     "countries": "1 Country",
     "rating": "5.0 / 5.0",
@@ -241,9 +256,13 @@
       "Bangkok"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img2.png",
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img3.png"
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/2.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/3.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/4.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/5.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/6.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/7.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/8.png"
     ],
     "description": "The ultimate Thailand experience. This tour covers the sun-soaked shores of Phuket, the coastal energy of Pattaya, and the bustling metropolitan charm of Bangkok.",
     "inclusions": [
@@ -287,7 +306,7 @@
     "id": 6,
     "title": "Pattaya Escape: 5 Days of Family Fun & Seaside Bliss",
     "slug": "pattaya-escape-family-fun",
-    "img": "/assets/img/home3/package-card3-img3.png",
+    "img": "/assets/images/tours/pattaya-escape-family-fun/8.png",
     "duration": "5 Days, 4 Nights",
     "countries": "1 Country",
     "rating": "4.6 / 5.0",
@@ -297,9 +316,13 @@
       "Pattaya"
     ],
     "gallery": [
-      "/assets/img/home3/package-card3-img3.png",
-      "/assets/img/home3/package-card3-img1.png",
-      "/assets/img/home3/package-card3-img2.png"
+      "/assets/images/tours/pattaya-escape-family-fun/2.png",
+      "/assets/images/tours/pattaya-escape-family-fun/3.png",
+      "/assets/images/tours/pattaya-escape-family-fun/4.png",
+      "/assets/images/tours/pattaya-escape-family-fun/5.png",
+      "/assets/images/tours/pattaya-escape-family-fun/6.png",
+      "/assets/images/tours/pattaya-escape-family-fun/7.png",
+      "/assets/images/tours/pattaya-escape-family-fun/8.png"
     ],
     "description": "A dedicated 5-day retreat in Thailand’s favorite seaside city. Perfect for families and couples, this package focuses on sun-soaked beaches and relaxation.",
     "inclusions": [

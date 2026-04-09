@@ -28,18 +28,18 @@ const VisaDetailsPage = () => {
 
   return (
     <>
-      <Breadcrumb pagename="Visa Details" pagetitle={displayVisa.title || "Visa Details"} />
+      <Breadcrumb pagename="Visa Details" pagetitle={displayVisa.title || "Visa Details"} bgImage={displayVisa.img || "/assets/img/innerpage/inner-banner-bg.png"} />
       <div className="visa-details-pages pt-120 mb-120">
         <div className="container one">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
-              <div className="visa-thumb">
+              {/* <div className="visa-thumb">
                 <img src={displayVisa.img2 || "/assets/img/innerpage/visa-bt-img.jpg"} alt={displayVisa.title} />
-              </div>
+              </div> */}
               <div className="visa-title">
                 <h3>{displayVisa.title}</h3>
               </div>
-              
+
               {/* Added Dynamic Description */}
               <div className="visa-description mb-40">
                 <p>{displayVisa.description || `Get your ${displayVisa.title} with our professional assistance. We provide end-to-end support for your visa application processing.`}</p>

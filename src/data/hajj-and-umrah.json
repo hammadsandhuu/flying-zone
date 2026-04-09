@@ -132,12 +132,12 @@
         "Madinah",
         "Jeddah"
       ],
-      "img": "/assets/img/home1/package-card-img4.png",
+      "img": "/assets/images/umrah/umrah-by-bus-executive/5.png",
       "gallery": [
-        "/assets/img/home1/package-card-img4.png",
-        "/assets/img/home1/package-card-img4.png",
-        "/assets/img/home1/package-card-img4.png",
-        "/assets/img/home1/package-card-img4.png"
+        "/assets/images/umrah/umrah-by-bus-executive/2.png",
+        "/assets/images/umrah/umrah-by-bus-executive/3.png",
+        "/assets/images/umrah/umrah-by-bus-executive/4.png",
+        "/assets/images/umrah/umrah-by-bus-executive/1.png"
       ],
       "videoUrl": "https://www.youtube.com/watch?v=UmrahBus",
       "startingPrice": "850",
@@ -229,12 +229,12 @@
         "Madinah",
         "Jeddah"
       ],
-      "img": "/assets/img/home1/package-card-img5.png",
+      "img": "/assets/images/umrah/umrah-by-air-standard/5.png",
       "gallery": [
-        "/assets/img/home1/package-card-img5.png",
-        "/assets/img/home1/package-card-img5.png",
-        "/assets/img/home1/package-card-img5.png",
-        "/assets/img/home1/package-card-img5.png"
+        "/assets/images/umrah/umrah-by-air-standard/2.png",
+        "/assets/images/umrah/umrah-by-air-standard/2.png",
+        "/assets/images/umrah/umrah-by-air-standard/3.png",
+        "/assets/images/umrah/umrah-by-air-standard/1.png"
       ],
       "videoUrl": "https://www.youtube.com/watch?v=UmrahAirStandard",
       "startingPrice": "1,350",
@@ -321,12 +321,12 @@
         "Madinah",
         "Jeddah"
       ],
-      "img": "/assets/img/home1/package-card-img6.png",
+      "img": "/assets/images/umrah/umrah-by-air-premium/5.png",
       "gallery": [
-        "/assets/img/home1/package-card-img6.png",
-        "/assets/img/home1/package-card-img6.png",
-        "/assets/img/home1/package-card-img6.png",
-        "/assets/img/home1/package-card-img6.png"
+        "/assets/images/umrah/umrah-by-air-premium/2.png",
+        "/assets/images/umrah/umrah-by-air-premium/3.png",
+        "/assets/images/umrah/umrah-by-air-premium/4.png",
+        "/assets/images/umrah/umrah-by-air-premium/1.png"
       ],
       "videoUrl": "https://www.youtube.com/watch?v=UmrahAirPremium",
       "startingPrice": "2,250",
