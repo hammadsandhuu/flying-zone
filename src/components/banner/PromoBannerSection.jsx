@@ -4,7 +4,7 @@ import HurryUpLeftIcon from "../icons/HurryUpLeftIcon";
 import HurryUpRightIcon from "../icons/HurryUpRightIcon";
 import data from "../../data/promotions.json";
 
-const Home1Banner2 = () => {
+const PromoBannerSection = () => {
   const { sectionTitle, banner1, banner2, banner3, banner4 } = data;
 
   return (
@@ -102,4 +102,4 @@ const Home1Banner2 = () => {
   );
 };
 
-export default Home1Banner2;
+export default PromoBannerSection;

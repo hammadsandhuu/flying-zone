@@ -17,8 +17,8 @@
             "icon": "GuidedToursIcon",
             "videoClass": "",
             "images": {
-                "img1": "/assets/img/home1/zip-landing-01.jpg",
-                "img2": "/assets/img/home1/zip-landing-02.jpg"
+                "img1": "/assets/images/home/services/group-tours-1.png",
+                "img2": "/assets/images/home/services/group-tours-2.png"
             }
         },
         {
@@ -34,8 +34,8 @@
             "icon": "TourIcon",
             "videoClass": "video3",
             "images": {
-                "img1": "/assets/img/home1/ski-touring-01.jpg",
-                "img2": "/assets/img/home1/ski-touring-02.jpg"
+                "img1": "/assets/images/home/services/solo-trips-1.png",
+                "img2": "/assets/images/home/services/solo-trips-2.png"
             }
         },
         {
@@ -51,8 +51,8 @@
             "icon": "GuestIcon",
             "videoClass": "video1",
             "images": {
-                "img1": "/assets/img/home1/bungee-jump-01.jpg",
-                "img2": "/assets/img/home1/bungee-jump-02.jpg"
+                "img1": "/assets/images/home/services/honeymoon-trips-1.png",
+                "img2": "/assets/images/home/services/honeymoon-trips-2.png"
             }
         },
         {
@@ -68,8 +68,8 @@
             "icon": "MissionVisionIcon",
             "videoClass": "video3",
             "images": {
-                "img1": "/assets/img/home1/paragliding-01.jpg",
-                "img2": "/assets/img/home1/paragliding-02.jpg"
+                "img1": "/assets/images/home/services/corporate-tours-1.png",
+                "img2": "/assets/images/home/services/corporate-tours-2.png"
             }
         },
         {
@@ -85,8 +85,8 @@
             "icon": "CalendarIcon",
             "videoClass": "video2",
             "images": {
-                "img1": "/assets/img/home1/rafting-01.jpg",
-                "img2": "/assets/img/home1/rafting-02.jpg"
+                "img1": "/assets/images/home/services/holiday-trips-1.png",
+                "img2": "/assets/images/home/services/holiday-trips-2.png"
             }
         },
         {
@@ -102,8 +102,8 @@
             "icon": "HistoricalIcon",
             "videoClass": "video5",
             "images": {
-                "img1": "/assets/img/home1/surfing-01.jpg",
-                "img2": "/assets/img/home1/surfing-02.jpg"
+                "img1": "/assets/images/home/services/other-trips-1.png",
+                "img2": "/assets/images/home/services/other-trips-2.png"
             }
         }
     ]

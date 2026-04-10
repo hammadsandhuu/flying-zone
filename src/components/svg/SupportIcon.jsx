@@ -1,10 +1,10 @@
 import React from "react";
 
-const SupportIcon = (props) => (
+const SupportIcon = ({ width = 70, height = 70, ...props }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={65}
-        height={65}
+        width={width}
+        height={height}
         viewBox="0 0 70 70"
         {...props}
     >

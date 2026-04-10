@@ -7,7 +7,7 @@ import HappyTravelerIcon from "@/components/svg/HappyTravelerIcon";
 import ToursSuccessIcon from "@/components/svg/ToursSuccessIcon";
 import PositiveReviewsIcon from "@/components/svg/PositiveReviewsIcon";
 
-const Home6Feature = () => {
+const HighlightsSection = () => {
     const {
         subtitle,
         title,
@@ -126,4 +126,4 @@ const Home6Feature = () => {
     );
 };
 
-export default Home6Feature;
+export default HighlightsSection;

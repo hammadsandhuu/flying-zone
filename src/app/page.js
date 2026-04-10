@@ -1,15 +1,14 @@
-import Home1Activities from "@/components/activities/Home1Activities";
-import Home1Banner2 from "@/components/banner/Home1Banner2";
-import Home3Features from "@/components/feature/Home3Features";
-import HomeVissa from "@/components/visaComponents/HomeVissa";
-import Home4Testimonail from "@/components/testimonial/Home4Testimonail";
-import HomeAbout from "@/components/about/HomeAbout";
-import Home6Feature from "@/components/feature/Home6Feature";
+import HomeActivitiesSection from "@/components/activities/HomeActivitiesSection";
+import PromoBannerSection from "@/components/banner/PromoBannerSection";
+import FeaturesSection from "@/components/feature/FeaturesSection";
+import VisaServicesSection from "@/components/visaComponents/VisaServicesSection";
+import TestimonialSection from "@/components/testimonial/TestimonialSection";
+import HomeAboutSection from "@/components/about/HomeAboutSection";
+import HighlightsSection from "@/components/feature/HighlightsSection";
 import Destinations from "@/components/destinationSlider/Destinations";
-import Home3DestinationSlide from "@/components/destinationSlider/Home3DestinationSlide";
-import Home3Team from "@/components/team/Home3Team";
-import HomeBanner from "@/components/banner/HomeBanner";
-import Home2Team from "@/components/team/Home2Team";
+import DestinationShowcaseSlider from "@/components/destinationSlider/DestinationShowcaseSlider";
+import HeroBanner from "@/components/banner/HeroBanner";
+import TeamSection from "@/components/team/TeamSection";
 
 export const metadata = {
   title: "Flying-Zone - Tour & Travel Agency  NextJs Template",
@@ -22,17 +21,17 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HomeBanner />
-      <HomeAbout />
+      <HeroBanner />
+      <HomeAboutSection />
       <Destinations />
-      <HomeVissa />
-      <Home6Feature />
-      <Home3Features />
-      <Home3DestinationSlide />
-      <Home1Activities />
-      <Home4Testimonail />
-      <Home1Banner2 />
-      <Home2Team />
+      <VisaServicesSection />
+      <HighlightsSection />
+      <FeaturesSection />
+      <DestinationShowcaseSlider />
+      <HomeActivitiesSection />
+      <TestimonialSection />
+      <PromoBannerSection />
+      <TeamSection />
     </>
   );
 }

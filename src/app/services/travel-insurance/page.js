@@ -12,7 +12,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Breadcrumb pagename="Transport" pagetitle="Transport" bgImage="/assets/images/Banners/travel-insurance.png" />
+      <Breadcrumb pagename="Transport" pagetitle="Transport" bgImage="/assets/images/banners/travel-insurance.png" />
       <div className="transport-page pt-120 mb-120">
         <div className="container">
           <div className="row g-lg-4 gy-5">

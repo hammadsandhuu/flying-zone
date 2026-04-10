@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import CountUp from "react-countup";
-const Home3Features = () => {
+const FeaturesSection = () => {
   return (
     <>
       <div className="feature-with-content-section mb-120 pt-120">
@@ -254,4 +254,4 @@ const Home3Features = () => {
   );
 };
 
-export default Home3Features;
+export default FeaturesSection;

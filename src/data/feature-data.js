@@ -60,7 +60,7 @@ export const featureSectionData = {
         starIcon: "/assets/img/home2/icon/tripadvisor-star.svg"
     },
     images: {
-        main: "/assets/img/home6/feature-img1.jpg",
-        secondary: "/assets/img/home6/feature-img2.jpg"
+        main: "/assets/images/home/highlights/main.png",
+        secondary: "/assets/images/home/highlights/secondary.png"
     }
 };

@@ -14,7 +14,7 @@ import LongArrowIcon from "../svg/LongArrowIcon";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const HomeVissa = () => {
+const VisaServicesSection = () => {
   const allVisas = [...visaData.uaeVisa, ...visaData.globalVisa];
 
   const settings = useMemo(() => {
@@ -102,4 +102,4 @@ const HomeVissa = () => {
   );
 };
 
-export default HomeVissa;
+export default VisaServicesSection;

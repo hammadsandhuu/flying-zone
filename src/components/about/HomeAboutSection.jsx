@@ -2,12 +2,12 @@
 import React, { useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
 import CountUp from "react-countup";
-import { aboutSectionData } from "@/data/about-data";
+import aboutPage from "@/data/about.json";
 import PlaneIcon from "@/components/svg/PlaneIcon";
 import SparkleIcon from "@/components/svg/SparkleIcon";
 import VideoIcon from "@/components/svg/VideoIcon";
 
-const HomeAbout = () => {
+const HomeAboutSection = () => {
   const [isOpen, setOpen] = useState(false);
   useEffect(() => {
     const elements = document.querySelectorAll(".badge__char");
@@ -25,10 +25,11 @@ const HomeAbout = () => {
     facilities,
     counter,
     badgeText,
-    videoId,
-    videoImg,
-    aboutImg
-  } = aboutSectionData;
+    modalVideo,
+    videoCover,
+    mainImage,
+    watchTourLabel,
+  } = aboutPage.homeAbout;
 
   return (
     <>
@@ -85,14 +86,14 @@ const HomeAbout = () => {
                           </div>
                         </div>
                         <div className="video-wrapper">
-                          <img src={videoImg} alt="about-video" />
+                          <img src={videoCover.src} alt={videoCover.alt} />
                           <a
                             style={{ cursor: "pointer" }}
                             onClick={() => setOpen(true)}
                             className="video-area video5"
                           >
                             <VideoIcon />
-                            <h6>Watch Tour</h6>
+                            <h6>{watchTourLabel}</h6>
                           </a>
                         </div>
                       </div>
@@ -102,7 +103,7 @@ const HomeAbout = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="about-section-img">
-                      <img src={aboutImg} alt="about-img" />
+                      <img src={mainImage.src} alt={mainImage.alt} />
                     </div>
                   </div>
                 </div>
@@ -112,11 +113,11 @@ const HomeAbout = () => {
         </div>
         <React.Fragment>
           <ModalVideo
-            channel="youtube"
+            channel={modalVideo.channel}
             isOpen={isOpen}
-            animationSpeed={350}
-            videoId={videoId}
-            ratio="16:9"
+            animationSpeed={modalVideo.animationSpeed}
+            videoId={modalVideo.videoId}
+            ratio={modalVideo.ratio}
             onClose={() => setOpen(false)}
           />
         </React.Fragment>
@@ -125,4 +126,4 @@ const HomeAbout = () => {
   );
 };
 
-export default HomeAbout;
+export default HomeAboutSection;

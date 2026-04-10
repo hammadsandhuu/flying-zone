@@ -1,36 +1,49 @@
-[
-  {
-    "id": "1",
-    "backgroundImage": "assets/img/home/slider/flying-tickets.png",
-    "location": "Worldwide Destinations",
-    "heading": "Book Your Dream Flight Tickets",
-    "headingTag": "h1",
-    "description": "Discover unbeatable deals on flight tickets to destinations worldwide. Whether you're planning a business trip, family vacation, or romantic getaway, we offer competitive prices, flexible booking options, and 24/7 customer support. Experience seamless travel with our trusted airline partners and secure payment system.",
-    "buttonText": "Explore Flights",
-    "buttonUrl": "/flights",
-    "rating": "4.8/5.0"
+{
+  "overlayGradient": "linear-gradient(180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%)",
+  "swiper": {
+    "speed": 1500,
+    "autoplayDelay": 2500
   },
-  {
-    "id": "2",
-    "backgroundImage": "assets/img/home/slider/hajj-and-umrah.png",
-    "location": "Makkah & Madinah, Saudi Arabia",
-    "heading": "Sacred Journey: Hajj & Umrah Packages",
-    "headingTag": "h1",
-    "description": "Embark on your spiritual journey with our comprehensive Hajj and Umrah packages. We provide fully guided tours, comfortable accommodations near the Holy Mosques, visa assistance, and round-the-clock support. Choose from budget-friendly to premium packages, all designed to make your pilgrimage a memorable and blessed experience.",
-    "buttonText": "View Packages",
-    "buttonUrl": "/umrah",
-    "rating": "4.9/5.0"
+  "modalVideo": {
+    "channel": "youtube",
+    "videoId": "r4KpWiK08vM",
+    "ratio": "16:9",
+    "animationSpeed": 350
   },
-  {
-    "id": "3",
-    "backgroundImage": "assets/img/home/slider/tours-and-travels.png",
-    "location": "Explore the World",
-    "heading": "Unforgettable Tours & Travel Experiences",
-    "headingTag": "h1",
-    "description": "Create lasting memories with our carefully curated tour packages to breathtaking destinations around the globe. From exotic beach getaways to cultural city tours, adventure expeditions to luxury escapes, we offer personalized itineraries, expert guides, and all-inclusive packages that cater to every traveler's dream.",
-    "buttonText": "Discover Tours",
-    "buttonUrl": "/tours",
-    "rating": "4.7/5.0"
-  }
-]
-
+  "bookTripLabel": "Book a Trip",
+  "watchTourLabel": "Watch Tour",
+  "slides": [
+    {
+      "id": 1,
+      "tag": "Hajj & Umrah",
+      "title": "<span>Spiritual Journeys</span> with Premium <span>Umrah Packages</span>",
+      "image": "/assets/images/home/slider/premium-umrah-packages.png",
+      "buttonUrl": "/hajj-umrah",
+      "videoClass": ""
+    },
+    {
+      "id": 2,
+      "tag": "Flight Tickets",
+      "title": "<span>Best International Fares</span> and Global <span>Bookings</span>",
+      "image": "/assets/images/home/slider/international-fares.png",
+      "buttonUrl": "/services/flight-tickets",
+      "videoClass": "video1"
+    },
+    {
+      "id": 3,
+      "tag": "Visit Visa",
+      "title": "<span>Quick Visa Processing</span> for Every <span>Destination</span>",
+      "image": "/assets/images/home/slider/quick-visa-processing.png",
+      "buttonUrl": "/visas/global",
+      "videoClass": "video2"
+    },
+    {
+      "id": 4,
+      "tag": "Tour Packages",
+      "title": "<span>Explore the World</span> with Custom <span>Holidays</span>",
+      "image": "/assets/images/home/slider/custom-holidays.png",
+      "buttonUrl": "/services/tour-packages",
+      "videoClass": "video3"
+    }
+  ]
+}

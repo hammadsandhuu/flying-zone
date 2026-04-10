@@ -39,7 +39,7 @@ const Page = () => {
             <Breadcrumb 
                 pagename="Dubai Excursions" 
                 pagetitle="Dubai Excursions" 
-                bgImage="/assets/images/Banners/dubai-local-excursions.png"
+                bgImage="/assets/images/banners/dubai-local-excursions.png"
             />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">

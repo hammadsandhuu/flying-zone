@@ -38,7 +38,7 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Flight Tickets" pagetitle="Flight Tickets" bgImage="/assets/images/Banners/flight-tickets.png" />
+            <Breadcrumb pagename="Flight Tickets" pagetitle="Flight Tickets" bgImage="/assets/images/banners/flight-tickets.png" />
             <div className="room-suits-page pt-120 mb-120">
                 <div className="container one">
                     <InquiryForms defaultTab="flight" showTabs={false} />

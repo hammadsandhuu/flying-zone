@@ -9,7 +9,7 @@ const page = () => {
     <>
       <Breadcrumb
         pagename="Package Top Search"
-        pagetitle="Package Top Search" bgImage="/assets/images/Banners/tour-packages.png" />
+        pagetitle="Package Top Search" bgImage="/assets/images/banners/tour-packages.png" />
 
 
       <div className="package-top-search-section pt-120 mb-120">

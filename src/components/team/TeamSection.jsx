@@ -7,54 +7,58 @@ import SwiperCore, {
   Navigation,
   Pagination,
 } from "swiper";
+import aboutPage from "@/data/about.json";
 import HurryUpLeftIcon from "../icons/HurryUpLeftIcon";
 import HurryUpRightIcon from "../icons/HurryUpRightIcon";
+import TwitterXIcon from "../svg/TwitterXIcon";
+
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const Home2Team = () => {
+const SocialLink = ({ network, url }) => {
+  if (network === "twitter") {
+    return (
+      <a href={url}>
+        <TwitterXIcon width={18} height={18} />
+      </a>
+    );
+  }
+  const iconClass = {
+    instagram: "bx bxl-instagram",
+    pinterest: "bx bxl-pinterest-alt",
+    facebook: "bx bxl-facebook",
+  }[network];
+  if (!iconClass) return null;
+  return (
+    <a href={url}>
+      <i className={iconClass} />
+    </a>
+  );
+};
+
+const TeamSection = () => {
+  const { section, cardBackground, nav, members } = aboutPage.team;
+
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
       speed: 1500,
       spaceBetween: 25,
-      // autoplay: {
-      // 	delay: 2500, // Autoplay duration in milliseconds
-      // 	disableOnInteraction: false,
-      // },
       navigation: {
         nextEl: ".teams-card-next",
         prevEl: ".teams-card-prev",
       },
-
       breakpoints: {
-        280: {
-          slidesPerView: 1,
-        },
-        386: {
-          slidesPerView: 1,
-        },
-        576: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 15,
-        },
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 15,
-        },
-        1400: {
-          slidesPerView: 4,
-        },
+        280: { slidesPerView: 1 },
+        386: { slidesPerView: 1 },
+        576: { slidesPerView: 2, spaceBetween: 15 },
+        768: { slidesPerView: 2, spaceBetween: 15 },
+        992: { slidesPerView: 3, spaceBetween: 15 },
+        1200: { slidesPerView: 4, spaceBetween: 15 },
+        1400: { slidesPerView: 4 },
       },
     };
   }, []);
+
   return (
     <>
       <div className="teams-section mb-120">
@@ -64,10 +68,10 @@ const Home2Team = () => {
               <div className="section-title text-center mb-60">
                 <span>
                   <HurryUpLeftIcon />
-                  Our Team
+                  {section.tag}
                   <HurryUpRightIcon />
                 </span>
-                <h2>Meet Our Team</h2>
+                <h2>{section.title}</h2>
               </div>
             </div>
           </div>
@@ -77,328 +81,27 @@ const Home2Team = () => {
               <div className="col-lg-12">
                 <Swiper {...settings} className="swiper teams-card-slider">
                   <div className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/images/about-us/Our Team/Naeed Naz.png"
-                            alt="Muhammad Naveed Naz"
-                          />
+                    {members.map((member, index) => (
+                      <SwiperSlide className="swiper-slide" key={`${member.name}-${index}`}>
+                        <div className="teams-card">
+                          <img src={cardBackground} alt="" />
+                          <div className="teams-img">
+                            <img src={member.photo} alt={member.photoAlt} />
+                          </div>
+                          <div className="teams-content">
+                            <h4>{member.name}</h4>
+                            <span>{member.role}</span>
+                          </div>
+                          <ul className="social-list">
+                            {member.social.map((link, i) => (
+                              <li key={`${link.network}-${i}`}>
+                                <SocialLink network={link.network} url={link.url} />
+                              </li>
+                            ))}
+                          </ul>
                         </div>
-                        <div className="teams-content">
-                          <h4>Muhammad Naveed Naz</h4>
-                          <span>Group Chairman</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/images/about-us/Our Team/Muhammad ahmad.png"
-                            alt="Muhammad Ahmed"
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Muhammad Ahmed</h4>
-                          <span>Chief Executive Officer (CEO)</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/images/about-us/Our Team/Muhammad Yaseen.png"
-                            alt="Muhammad Yaseen"
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Muhammad Yaseen</h4>
-                          <span>Managing Director</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/images/about-us/Our Team/Wasim Sajjad.png"
-                            alt="Wasim Sajjad"
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Wasim Sajjad</h4>
-                          <span>Managing Director</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/img/home2/teams-card-img5.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Malik Asad</h4>
-                          <span>Sales Officer</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/img/home2/teams-card-img6.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Asad</h4>
-                          <span>Umrah Operations Officer</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="teams-card">
-                        <img src="/assets/img/home2/teams-card-bg.png" alt="" />
-                        <div className="teams-img">
-                          <img
-                            src="/assets/img/home2/teams-card-img7.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="teams-content">
-                          <h4>Rimsha Naeem</h4>
-                          <span>Customer Service Executive</span>
-                        </div>
-                        <ul className="social-list">
-                          <li>
-                            <a href="https://www.instagram.com/">
-                              <i className="bx bxl-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.pinterest.com/">
-                              <i className="bx bxl-pinterest-alt" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={18}
-                                height={18}
-                                fill="currentColor"
-                                className="bi bi-twitter-x"
-                                viewBox="0 0 16 16"
-                              >
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.facebook.com/">
-                              <i className="bx bxl-facebook" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
+                      </SwiperSlide>
+                    ))}
                   </div>
                 </Swiper>
               </div>
@@ -409,10 +112,10 @@ const Home2Team = () => {
                   <div className="slider-btn-grp3">
                     <div className="slider-btn teams-card-prev">
                       <i className="bi bi-arrow-left" />
-                      <span>PREV</span>
+                      <span>{nav.prevLabel}</span>
                     </div>
                     <div className="slider-btn teams-card-next">
-                      <span>NEXT</span>
+                      <span>{nav.nextLabel}</span>
                       <i className="bi bi-arrow-right" />
                     </div>
                   </div>
@@ -426,4 +129,4 @@ const Home2Team = () => {
   );
 };
 
-export default Home2Team;
+export default TeamSection;

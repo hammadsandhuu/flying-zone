@@ -36,7 +36,7 @@ const Page = () => {
 
     return (
         <>
-            <Breadcrumb pagename="Hajj & Umrah Packages" pagetitle="Hajj & Umrah" bgImage="/assets/images/Banners/hajj-umrah.png" />
+            <Breadcrumb pagename="Hajj & Umrah Packages" pagetitle="Hajj & Umrah" bgImage="/assets/images/banners/hajj-umrah.png" />
             <div className="package-category-nav-section">
                 <div className="container">
                     <div className="row">

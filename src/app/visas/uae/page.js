@@ -14,7 +14,7 @@ const UAEVisaPage = () => {
 
   return (
     <>
-      <Breadcrumb pagename="UAE Visa" pagetitle="UAE Visa Services" bgImage="/assets/images/Banners/visa.png" />
+      <Breadcrumb pagename="UAE Visa" pagetitle="UAE Visa Services" bgImage="/assets/images/banners/visa.png" />
 
       <div className="visa-with-sidebar-section pt-120 mb-120">
         <div className="container one">

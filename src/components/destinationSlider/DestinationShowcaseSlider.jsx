@@ -7,7 +7,7 @@ import PackageCard from "../packageComponents/PackageCard";
 
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 
-const Home3DestinationSlide = () => {
+const DestinationShowcaseSlider = () => {
   const settings = useMemo(() => {
     return {
       slidesPerView: 3,
@@ -91,4 +91,4 @@ const Home3DestinationSlide = () => {
   );
 };
 
-export default Home3DestinationSlide;
+export default DestinationShowcaseSlider;

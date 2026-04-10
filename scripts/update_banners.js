@@ -5,7 +5,7 @@ const mappings = [
   { file: 'src/app/about/page.js', image: 'about.png' },
   { file: 'src/app/contact/page.js', image: 'contact.png' },
   { file: 'src/app/services/flight-tickets/page.js', image: 'flight-tickets.png' },
-  { file: 'src/app/visas/global/page.js', image: 'global-Visa.png' },
+  { file: 'src/app/visas/global/page.js', image: 'global-visa.png' },
   { file: 'src/app/hajj-umrah/page.js', image: 'hajj-umrah.png' },
   { file: 'src/app/services/holidays-fly-dubai/page.js', image: 'holidays-by-flydubai.png' },
   { file: 'src/app/services/hotel-suits/page.js', image: 'hotel-reservations.png' },
@@ -17,7 +17,7 @@ const mappings = [
 mappings.forEach(({ file, image }) => {
   if (fs.existsSync(file)) {
     let content = fs.readFileSync(file, 'utf8');
-    const bannerPath = `/assets/images/Banners/${image}`;
+    const bannerPath = `/assets/images/banners/${image}`;
     
     // Better regex with [\s\S]*? to handle new lines
     content = content.replace(/(<Breadcrumb\s+pagename="[^"]+"[\s\S]*?pagetitle="[^"]+")([\s\S]*?)\/?>/g, (match, prefix, rest) => {

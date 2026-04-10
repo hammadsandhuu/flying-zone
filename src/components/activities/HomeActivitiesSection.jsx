@@ -23,7 +23,7 @@ const iconComponents = {
   HistoricalIcon,
 };
 
-const Home1Activities = () => {
+const HomeActivitiesSection = () => {
   const [isOpen, setOpen] = useState(false);
   const { section, activities } = activitiesData;
 
@@ -114,7 +114,7 @@ const Home1Activities = () => {
                             className={`video-area ${item.videoClass}`}
                           >
                             <div className="icon">
-                              <PlayCircleIcon />
+                              <PlayCircleIcon width={51} height={51} />
                               <i className="bi bi-play" />
                             </div>
                             <h6>Watch Adventure</h6>
@@ -152,4 +152,4 @@ const Home1Activities = () => {
   );
 };
 
-export default Home1Activities;
+export default HomeActivitiesSection;

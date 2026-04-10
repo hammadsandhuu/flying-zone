@@ -14,7 +14,7 @@ const GlobalVisaPage = () => {
 
   return (
     <>
-      <Breadcrumb pagename="Global Visa" pagetitle="Global Visa Services" bgImage="/assets/images/Banners/global-Visa.png" />
+      <Breadcrumb pagename="Global Visa" pagetitle="Global Visa Services" bgImage="/assets/images/banners/global-visa.png" />
 
       <div className="visa-with-sidebar-section pt-120 mb-120">
         <div className="container one">
