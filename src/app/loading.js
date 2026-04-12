@@ -4,13 +4,8 @@ import React, { useState, useEffect } from "react";
 const Preloader = ({ onClose }) => {
   const [isPreloaderVisible, setIsPreloaderVisible] = useState(true);
   const [isPreloaderClosed, setIsPreloaderClosed] = useState(false);
-  const handleCloseClick = () => {
-    setIsPreloaderClosed(true); // Set a state variable to track that the preloader is closed
-    onClose(); // Call the onClose function passed from the parent component
-  };
 
   useEffect(() => {
-    // Hide the preloader after a delay (1600 milliseconds)
     const timeoutId = setTimeout(() => {
       setIsPreloaderVisible(false);
     }, 3000);
@@ -26,11 +21,6 @@ const Preloader = ({ onClose }) => {
   return (
     isPreloaderVisible && (
       <div className={preloaderClassNames}>
-        <div className="preloader-close-btn" onClick={handleCloseClick}>
-          <span>
-            <i className="bi bi-x-lg" /> Close
-          </span>
-        </div>
         <div className="container">
           <div className="row d-flex justify-content-center">
             <div className="col-6">

@@ -1,9 +1,330 @@
 "use client";
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
+import travelInsuranceFormData from "@/data/travelInsuranceForm.json";
 
 const TicketInquiryForm = ({ defaultTab = "flight", showTabs = true }) => {
   const [activeTab, setActiveTab] = useState(defaultTab);
   const [tripType, setTripType] = useState("round-trip");
+  const [insuranceDeparture, setInsuranceDeparture] = useState("");
+  const [insuranceReturn, setInsuranceReturn] = useState("");
+  const [preExisting, setPreExisting] = useState("no");
+
+  const insuranceTripDuration = useMemo(() => {
+    if (!insuranceDeparture || !insuranceReturn) return "";
+    const start = new Date(insuranceDeparture);
+    const end = new Date(insuranceReturn);
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime()) || end < start) {
+      return "";
+    }
+    const days = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+    return days === 0 ? "1 day" : `${days + 1} days (inclusive)`;
+  }, [insuranceDeparture, insuranceReturn]);
+
+  if (defaultTab === "travelInsurance") {
+    return (
+      <div className="inquiry-form-wrapper mb-80">
+        <div className="form-content-box p-4 p-lg-5 shadow-lg rounded bg-white">
+          <form className="travel-insurance-inquiry-form" onSubmit={(e) => e.preventDefault()}>
+            <div className="row g-4">
+              <div className="col-12 mb-2">
+                <h6 className="form-section-title">1. Basic Personal Information</h6>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-fullName">Full Name</label>
+                <input id="ti-fullName" name="fullName" type="text" className="form-control" placeholder="As on passport" required />
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-email">Email Address</label>
+                <input id="ti-email" name="email" type="email" className="form-control" placeholder="your@email.com" required />
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-phone">Phone Number</label>
+                <input id="ti-phone" name="phone" type="tel" className="form-control" placeholder="+971 50 XXXXXXX" required />
+              </div>
+              <div className="col-12">
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" id="ti-whatsappPreferred" name="whatsappPreferred" />
+                  <label className="form-check-label" htmlFor="ti-whatsappPreferred">WhatsApp preferred for contact</label>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <label className="form-label" htmlFor="ti-nationality">Nationality</label>
+                <input id="ti-nationality" name="nationality" type="text" className="form-control" placeholder="Country" required />
+              </div>
+              <div className="col-md-6">
+                <label className="form-label" htmlFor="ti-residence">City / Country of Residence</label>
+                <input id="ti-residence" name="residence" type="text" className="form-control" placeholder="e.g. Dubai, UAE" required />
+              </div>
+
+              <div className="col-12 mt-4 mb-2">
+                <h6 className="form-section-title">2. Travel Details</h6>
+              </div>
+              <div className="col-12">
+                <label className="form-label" htmlFor="ti-destinations">Destination Country / Countries</label>
+                <div className="input-with-icon">
+                  <i className="bi bi-globe2" />
+                  <input id="ti-destinations" name="destinations" type="text" className="form-control" placeholder="e.g. United Kingdom, France" required />
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-departure">Departure Date</label>
+                <input
+                  id="ti-departure"
+                  name="departureDate"
+                  type="date"
+                  className="form-control"
+                  value={insuranceDeparture}
+                  onChange={(e) => setInsuranceDeparture(e.target.value)}
+                  required
+                />
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-return">Return Date</label>
+                <input
+                  id="ti-return"
+                  name="returnDate"
+                  type="date"
+                  className="form-control"
+                  value={insuranceReturn}
+                  onChange={(e) => setInsuranceReturn(e.target.value)}
+                  required
+                />
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label">Trip Duration <span className="text-muted fw-normal">(auto)</span></label>
+                <input type="text" className="form-control" readOnly value={insuranceTripDuration || "—"} placeholder="Select dates" />
+              </div>
+              <div className="col-12">
+                <label className="form-label d-block mb-2">Type of Travel</label>
+                <div className="d-flex flex-wrap gap-3">
+                  {travelInsuranceFormData.travelTypes.map((opt) => (
+                    <div key={opt.value} className="form-check custom-radio">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="travelPurpose"
+                        id={`ti-travel-${opt.value}`}
+                        value={opt.value}
+                        defaultChecked={opt.value === "tourism"}
+                      />
+                      <label className="form-check-label" htmlFor={`ti-travel-${opt.value}`}>{opt.label}</label>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="col-12 mt-4 mb-2">
+                <h6 className="form-section-title">3. Traveler Information</h6>
+              </div>
+              <div className="col-md-4">
+                <label className="form-label" htmlFor="ti-numTravelers">Number of Travelers</label>
+                <input id="ti-numTravelers" name="numTravelers" type="number" min="1" className="form-control" defaultValue="1" required />
+              </div>
+              <div className="col-md-8">
+                <label className="form-label" htmlFor="ti-ages">Age of Each Traveler (or DOB)</label>
+                <input id="ti-ages" name="travelerAges" type="text" className="form-control" placeholder="e.g. 35, 32, 8 or DD/MM/YYYY per traveler" />
+              </div>
+              <div className="col-12">
+                <label className="form-label d-block mb-2">Traveler Type</label>
+                <div className="d-flex flex-wrap gap-3">
+                  {travelInsuranceFormData.travelerTypes.map((opt) => (
+                    <div key={opt.value} className="form-check custom-radio">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="travelerType"
+                        id={`ti-tt-${opt.value}`}
+                        value={opt.value}
+                        defaultChecked={opt.value === "individual"}
+                      />
+                      <label className="form-check-label" htmlFor={`ti-tt-${opt.value}`}>{opt.label}</label>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="col-12 mt-4 mb-2">
+                <h6 className="form-section-title">4. Insurance Requirements</h6>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-coverage">Coverage Type</label>
+                <select id="ti-coverage" name="coverageType" className="form-select" required>
+                  {travelInsuranceFormData.coverageTypes.map((opt) => (
+                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="col-12">
+                <label className="form-label d-block mb-2">Pre-existing Medical Conditions?</label>
+                <div className="d-flex flex-wrap gap-3 mb-2">
+                  <div className="form-check custom-radio">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="preExisting"
+                      id="ti-pre-no"
+                      checked={preExisting === "no"}
+                      onChange={() => setPreExisting("no")}
+                    />
+                    <label className="form-check-label" htmlFor="ti-pre-no">No</label>
+                  </div>
+                  <div className="form-check custom-radio">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="preExisting"
+                      id="ti-pre-yes"
+                      checked={preExisting === "yes"}
+                      onChange={() => setPreExisting("yes")}
+                    />
+                    <label className="form-check-label" htmlFor="ti-pre-yes">Yes</label>
+                  </div>
+                </div>
+                {preExisting === "yes" && (
+                  <textarea name="preExistingDetails" className="form-control" rows="2" placeholder="Brief details (condition, medication, stable / under treatment…)" />
+                )}
+              </div>
+              <div className="col-12">
+                <label className="form-label d-block mb-2">Adventure Sports Coverage?</label>
+                <div className="d-flex flex-wrap gap-3">
+                  <div className="form-check custom-radio">
+                    <input className="form-check-input" type="radio" name="adventureSports" id="ti-adv-no" value="no" defaultChecked />
+                    <label className="form-check-label" htmlFor="ti-adv-no">No</label>
+                  </div>
+                  <div className="form-check custom-radio">
+                    <input className="form-check-input" type="radio" name="adventureSports" id="ti-adv-yes" value="yes" />
+                    <label className="form-check-label" htmlFor="ti-adv-yes">Yes</label>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 mt-4 mb-2">
+                <h6 className="form-section-title">5. Visa & Travel Purpose <span className="text-muted fw-normal">(optional)</span></h6>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-visaType">Visa Type</label>
+                <select id="ti-visaType" name="visaType" className="form-select">
+                  <option value="">— Select —</option>
+                  {travelInsuranceFormData.visaTypes.map((opt) => (
+                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label d-block mb-2">Is Insurance Required for Visa?</label>
+                <div className="d-flex flex-wrap gap-3">
+                  <div className="form-check custom-radio">
+                    <input className="form-check-input" type="radio" name="visaInsuranceRequired" id="ti-vir-no" value="no" />
+                    <label className="form-check-label" htmlFor="ti-vir-no">No</label>
+                  </div>
+                  <div className="form-check custom-radio">
+                    <input className="form-check-input" type="radio" name="visaInsuranceRequired" id="ti-vir-yes" value="yes" />
+                    <label className="form-check-label" htmlFor="ti-vir-yes">Yes</label>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 mt-4 mb-2">
+                <h6 className="form-section-title">6. Additional Information</h6>
+              </div>
+              <div className="col-12">
+                <label className="form-label" htmlFor="ti-notes">Special Requests / Notes</label>
+                <textarea id="ti-notes" name="notes" className="form-control" rows="3" placeholder="Anything else we should know" />
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <label className="form-label" htmlFor="ti-insurer">Preferred Insurance Company</label>
+                <select id="ti-insurer" name="preferredInsurer" className="form-select">
+                  {travelInsuranceFormData.preferredInsurers.map((opt) => (
+                    <option key={opt.value || "none"} value={opt.value}>{opt.label}</option>
+                  ))}
+                </select>
+              </div>
+
+              <div className="col-12 mt-5 text-center">
+                <p className="text-primary fw-bold mb-2">We will send a tailored quote shortly</p>
+                <button type="submit" className="primary-btn2 w-100 py-3 fs-5">
+                  Request Travel Insurance Quote <i className="bi bi-shield-check ms-2" />
+                </button>
+                <div className="mt-3">
+                  <a href="https://wa.me/" className="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-whatsapp me-2" /> Chat on WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <style jsx>{`
+        .inquiry-form-wrapper {
+          border-radius: 20px;
+          overflow: hidden;
+        }
+        .form-content-box {
+          background: #fff;
+          border-radius: 20px;
+        }
+        .form-section-title {
+          font-size: 1.1rem;
+          font-weight: 700;
+          color: #333;
+          border-bottom: 2px solid #eee;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+        }
+        .form-label {
+          font-weight: 600;
+          font-size: 0.9rem;
+          color: #555;
+          margin-bottom: 8px;
+        }
+        .form-control, .form-select {
+          padding: 12px 15px;
+          border-radius: 10px;
+          border: 1px solid #ddd;
+          background-color: #fcfcfc;
+        }
+        .form-control:focus, .form-select:focus {
+          border-color: var(--primary-color1, #2d3134);
+          box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.05);
+          background-color: #fff;
+        }
+        .input-with-icon {
+          position: relative;
+        }
+        .input-with-icon i {
+          position: absolute;
+          left: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #aaa;
+          z-index: 5;
+        }
+        .input-with-icon input {
+          padding-left: 40px;
+        }
+        .custom-radio .form-check-input:checked {
+          background-color: var(--primary-color1, #2d3134);
+          border-color: var(--primary-color1, #2d3134);
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background: #25D366;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: transform 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+            color: #fff;
+        }
+      `}</style>
+      </div>
+    );
+  }
 
   return (
     <div className="inquiry-form-wrapper mb-80">
