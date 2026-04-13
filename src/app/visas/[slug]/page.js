@@ -12,13 +12,9 @@ const VisaDetailsPage = () => {
   const allVisas = [...visaData.globalVisa, ...visaData.uaeVisa];
   const visa = allVisas.find((v) => v.slug === slug);
 
-  // Fallback if not found
   const displayVisa = visa || visaData.globalVisa[0];
-
-  // Dynamic FAQs: Individual Visa FAQs take priority, then fallback to category FAQs
   const faqs = displayVisa.faqs || (displayVisa.type === "uae" ? visaData.faqs.uaeVisa : visaData.faqs.globalVisa);
 
-  // Default Required Documents if not specified in JSON
   const defaultRequiredDocs = [
     "Passport Scan Copy: Clearly scanned Passport copy required. Minimum of 6 months validity required from the arrival date.",
     "Photo Specification: Passport Size Photo with White Background (clear scanned Copy required)"
@@ -33,14 +29,10 @@ const VisaDetailsPage = () => {
         <div className="container one">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
-              {/* <div className="visa-thumb">
-                <img src={displayVisa.img2 || "/assets/img/innerpage/visa-bt-img.jpg"} alt={displayVisa.title} />
-              </div> */}
               <div className="visa-title">
                 <h3>{displayVisa.title}</h3>
               </div>
 
-              {/* Added Dynamic Description */}
               <div className="visa-description mb-40">
                 <p>{displayVisa.description || `Get your ${displayVisa.title} with our professional assistance. We provide end-to-end support for your visa application processing.`}</p>
               </div>

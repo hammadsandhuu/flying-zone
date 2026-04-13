@@ -20050,6 +20050,8 @@ header.style-3 {
 ========================================*/
 .package-card4 {
   display: flex;
+  width: 100%;
+  height: 100%;
   background-image: url(../img/home4/package-card4-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -20126,9 +20128,11 @@ header.style-3 {
   }
 
   .package-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
     @include lg-down-device() {
-      display: flex;
-      flex-direction: column;
       justify-content: space-between;
     }
 
@@ -20611,6 +20615,17 @@ header.style-3 {
 }
 
 .home4-visa-application-section {
+  .package-card4-slider {
+    .swiper-wrapper {
+      align-items: stretch;
+    }
+
+    .swiper-slide {
+      height: auto;
+      display: flex;
+    }
+  }
+
   .package-card4-slider-wrapper {
     padding: 0 14%;
 

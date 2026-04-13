@@ -46,7 +46,7 @@
             {
                 "id": "2",
                 "label": "Tour Packages",
-                "link": "/services/tour-packages",
+                "link": "/tour-packages",
                 "icon": false
             },
             {
@@ -76,12 +76,6 @@
             },
             {
                 "id": "5",
-                "label": "Holidays by Fly Dubai",
-                "link": "/holidays-fly-dubai",
-                "icon": false
-            },
-            {
-                "id": "6",
                 "label": "Dubai Local Excursions",
                 "link": "/dubai-excursions",
                 "icon": false

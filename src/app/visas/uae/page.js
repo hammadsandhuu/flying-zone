@@ -6,10 +6,11 @@ import VisaCard from "@/components/visaComponents/VisaCard";
 import PlaneIcon from "@/components/svg/PlaneIcon";
 
 const UAEVisaPage = () => {
+  const uaeVisas = visaData.uaeVisa;
   const [visibleCount, setVisibleCount] = useState(6);
 
   const handleLoadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 6);
+    setVisibleCount((prevCount) => Math.min(prevCount + 6, uaeVisas.length));
   };
 
   return (
@@ -32,24 +33,25 @@ const UAEVisaPage = () => {
             <div className="col-lg-8">
               <div className="list-grid-product-wrap mb-70">
                 <div className="row gy-4">
-                  {visaData.uaeVisa.slice(0, visibleCount).map((visa) => (
+                  {uaeVisas.slice(0, visibleCount).map((visa) => (
                     <div key={visa.id} className="col-md-12 item">
                       <VisaCard visa={visa} className="four" />
                     </div>
                   ))}
                 </div>
-                {visibleCount < visaData.uaeVisa.length && (
+                {visibleCount < uaeVisas.length && (
                   <div className="row mt-50">
                     <div className="col-lg-12 d-flex justify-content-center">
                       <button
+                        type="button"
                         onClick={handleLoadMore}
                         className="apply-btn bg-transparent border-1"
                         style={{ color: 'var(--primary-color1)', borderColor: 'var(--primary-color1)' }}
                       >
                         Load More
-                        <div className="arrow">
+                        <span className="arrow">
                           <i className="bi bi-arrow-down" />
-                        </div>
+                        </span>
                       </button>
                     </div>
                   </div>

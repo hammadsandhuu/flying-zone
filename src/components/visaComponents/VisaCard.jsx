@@ -3,8 +3,9 @@ import Link from "next/link";
 import DiagonalArrowIcon from "../svg/DiagonalArrowIcon";
 
 const VisaCard = ({ visa, className = "" }) => {
+  console.log(visa);
   return (
-    <div className={`package-card4 ${className}`}>
+    <div className={`package-card4 h-100 ${className}`}>
       <Link href={`/visas/${visa.slug}`} className="package-card-img">
         <img src={visa.img} alt={visa.title} style={{ height: "100%", width: "100%", objectFit: "cover" }} />
       </Link>

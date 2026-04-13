@@ -12815,6 +12815,8 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 ========================================*/
 .package-card4 {
   display: flex;
+  width: 100%;
+  height: 100%;
   background-image: url(../img/home4/package-card4-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12912,10 +12914,14 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   }
 }
 
+.package-card4 .package-card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 @media (max-width: 991px) {
   .package-card4 .package-card-content {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
   }
 }
@@ -17200,4 +17206,13 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 
 .tour-facilites-section .nav-tabs .nav-item .nav-link.active svg {
   fill: var(--primary-color1);
+}
+
+.home4-visa-application-section .package-card4-slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.home4-visa-application-section .package-card4-slider .swiper-slide {
+  height: auto;
+  display: flex;
 }

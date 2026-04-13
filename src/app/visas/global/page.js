@@ -6,10 +6,11 @@ import VisaCard from "@/components/visaComponents/VisaCard";
 import PlaneIcon from "@/components/svg/PlaneIcon";
 
 const GlobalVisaPage = () => {
+  const globalVisas = visaData.globalVisa;
   const [visibleCount, setVisibleCount] = useState(6);
 
   const handleLoadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 6);
+    setVisibleCount((prevCount) => Math.min(prevCount + 6, globalVisas.length));
   };
 
   return (
@@ -28,26 +29,27 @@ const GlobalVisaPage = () => {
           <div className="row g-lg-4 gy-5">
             {/* Left Content Area */}
             <div className="col-lg-8">
-              <div className="list-grid-product-wrap mb-70">
+              <div className="mb-70">
                 <div className="row gy-4">
-                  {visaData.globalVisa.slice(0, visibleCount).map((visa) => (
-                    <div key={visa.id} className="col-md-12 item">
+                  {globalVisas.slice(0, visibleCount).map((visa) => (
+                    <div key={visa.id} className="col-md-12">
                       <VisaCard visa={visa} className="four" />
                     </div>
                   ))}
                 </div>
-                {visibleCount < visaData.globalVisa.length && (
+                {visibleCount < globalVisas.length && (
                   <div className="row mt-50">
                     <div className="col-lg-12 d-flex justify-content-center">
                       <button
+                        type="button"
                         onClick={handleLoadMore}
                         className="apply-btn bg-transparent border-1"
                         style={{ color: 'var(--primary-color1)', borderColor: 'var(--primary-color1)' }}
                       >
                         Load More
-                        <div className="arrow">
+                        <span className="arrow">
                           <i className="bi bi-arrow-down" />
-                        </div>
+                        </span>
                       </button>
                     </div>
                   </div>

@@ -5,7 +5,7 @@ import DiagonalArrowIcon from "../svg/DiagonalArrowIcon";
 const PackageCard = ({ tour }) => {
   return (
     <div className="package-card3 style-3 h-100 d-flex flex-column">
-      <Link href={`/services/tour-packages/${tour.slug}`} className="package-card-img">
+      <Link href={`/tour-packages/${tour.slug}`} className="package-card-img">
         <img src={tour.img} alt={tour.title} />
         {tour.tag && (
           <div className={`eg-batch ${tour.tag === "Featured" ? "green" : ""}`}>
@@ -61,18 +61,18 @@ const PackageCard = ({ tour }) => {
             <span>{tour.rating}</span>
           </div>
           <h5>
-            <Link href={`/services/tour-packages/${tour.slug}`}>{tour.title}</Link>
+            <Link href={`/tour-packages/${tour.slug}`}>{tour.title}</Link>
           </h5>
           <div className="location-area">
             <ul className="location-list">
               {tour.locations.slice(0, 3).map((loc, idx) => (
                 <li key={idx}>
-                  <Link href="/services/tour-packages">{loc}</Link>
+                  <Link href="/tour-packages">{loc}</Link>
                 </li>
               ))}
               {tour.locations.length > 3 && (
                 <li>
-                  <Link href="/services/tour-packages">+{tour.locations.length - 3} More</Link>
+                  <Link href="/tour-packages">+{tour.locations.length - 3} More</Link>
                 </li>
               )}
             </ul>
@@ -81,7 +81,7 @@ const PackageCard = ({ tour }) => {
 
         <div className="card-content-bottom mt-auto">
           <Link
-            href={`/services/tour-packages/${tour.slug}`}
+            href={`/tour-packages/${tour.slug}`}
             className="apply-btn w-100 d-flex justify-content-center align-items-center"
           >
             Explore Now <DiagonalArrowIcon className="ms-2" />
