@@ -7,7 +7,7 @@ import { APP_SETTINGS } from "@/constants/app-setting";
 
 const page = () => {
   const { contact } = APP_SETTINGS;
-  
+
   return (
     <>
       <div className="contact-page pt-120 mb-120">
@@ -26,7 +26,7 @@ const page = () => {
                     <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                   </h6>
                   <h6>
-                    <a href={`tel:${contact.phone}`}>{contact.phone}</a>
+                    <a href={`tel:${contact.phone}`}>{contact.phone2}</a>
                   </h6>
                 </div>
               </div>
